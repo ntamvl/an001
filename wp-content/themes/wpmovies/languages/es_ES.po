@@ -1,0 +1,831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Movies\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mundothemes Inc. <admin@mundothemes.com>\n"
+"Language-Team: Mundothemes Inc. <admin@mundothemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Search.."
+msgstr "Buscar.."
+
+msgid "Main"
+msgstr "Principal"
+
+msgid "Genre"
+msgstr "Género"
+
+msgid "Add movies"
+msgstr "Agregar película"
+
+msgid "All movies"
+msgstr "Todas las películas"
+
+msgid "20 Most voted"
+msgstr "Los 20 más votados"
+
+msgid "20 Most viewed"
+msgstr "Los 20 más vistos"
+
+msgid "Like us on facebook."
+msgstr "Siguenos también en facebook"
+
+msgid "Added recently"
+msgstr "Agregados recientemente"
+
+msgid "Most viewed"
+msgstr "Lo más visto"
+
+msgid "Most voted"
+msgstr "Lo más votado"
+
+msgid "News"
+msgstr "Noticias"
+
+msgid "Add new entry"
+msgstr "Agregar nueva película"
+
+msgid "Add all required fields."
+msgstr "Complete los campos requeridos"
+
+msgid "Excellent, the data has been sent."
+msgstr "Excelente, los datos han sido enviados, se publicará en breve."
+
+msgid "Your publication could not be processed"
+msgstr "Su publicación no se pudo procesar"
+
+msgid "Try again"
+msgstr "intentelo otra vez."
+
+msgid "Original title"
+msgstr "Título"
+
+msgid "Add title of the movie."
+msgstr "Agrega el título de la película."
+
+msgid "Synopsis"
+msgstr "Sinopsis"
+
+msgid ""
+"Add an abstract of no more than 1000 characters of the synopsis or plot."
+msgstr ""
+"Agrega un resumen de no más de 1000 caracteres sobre la trama de la película."
+
+msgid "Words"
+msgstr "Palabras"
+
+msgid "Characters"
+msgstr "Caracteres"
+
+msgid ""
+"Assign ID IMDb, example URL = http://www.imdb.com/title/<i>tt0120338</i>/"
+msgstr ""
+"Asignar el ID de IMDb, Ejemplo URL: http://www.imdb.com/title/<i>tt0120338</"
+"i>/"
+
+msgid "Upload poster image."
+msgstr "Cargar imagen del poster de la película."
+
+msgid "Select main genres of film."
+msgstr "Seleccionar genero principal de la película."
+
+msgid "Send content"
+msgstr "Enviar contenido"
+
+msgid "IMDb id"
+msgstr "ID IMDb"
+
+msgid "No content available"
+msgstr "Contenido no esta disponible"
+
+msgid "Results"
+msgstr "Resultados"
+
+msgid "No results available"
+msgstr "No hay ningún resultado disponible"
+
+msgid "Initial Setup"
+msgstr "Configuración inicial"
+
+msgid "Upload logo"
+msgstr "Subir logo"
+
+msgid "Upload favicon"
+msgstr "Subir favicon"
+
+msgid "Add favicon, preferably in .ico format"
+msgstr "Agregar favicon, es preferible subir la imagen en formato .ico"
+
+msgid "Movie Mode"
+msgstr "Modo Películas ON LINE"
+
+msgid "Want to activate the multiplayer to show movies online"
+msgstr "Deseas mostrar películas online en tu página Web"
+
+msgid "Active to show movies online"
+msgstr "Activa el módulo para mostrar el multi-player"
+
+msgid "Show downloads"
+msgstr "Mostrar descargas"
+
+msgid "Want to activate the downloads module?"
+msgstr "Desea activar el módulo de las descargas?"
+
+msgid "Active to display module downloads"
+msgstr "Active para mostrar módulo de descargas."
+
+msgid "Module releases"
+msgstr "Módulo Estrenos"
+
+msgid "Want to display the module releases?"
+msgstr "Desea mostrar el módulo de estrenos?"
+
+msgid "Now set the premieres category"
+msgstr "Ahora configure la categoría estrenos"
+
+msgid "Category Releases"
+msgstr "Categoría Estrenos"
+
+msgid "Numerical category ID premieres"
+msgstr "ID Categoría Estrenos"
+
+msgid "Enter the numeric ID of the category premieres or similar"
+msgstr "Ingrese el ID numerico de la categoría Estrenos."
+
+msgid "Module News"
+msgstr "Módulo Noticias"
+
+msgid "Want to turn news module?"
+msgstr "Desea mostrar el módulo de noticias?"
+
+msgid "After activating you can now post news"
+msgstr "Active el módulo para que también pudeas publicar noticias."
+
+msgid "URL Search Advanced"
+msgstr "Búsqueda avanzada"
+
+msgid "Add a link to the advanced search page"
+msgstr "Agregar el enlace de la página de Búsqueda Avanzada."
+
+msgid "Google Analytics code"
+msgstr "Código Google Analytics"
+
+msgid "Make your tracking code Google Analytics."
+msgstr "Ingrese su código de eguimiento de Google Analytics  o similar."
+
+msgid "Extra integration code"
+msgstr "Código de integración extra"
+
+msgid "Make your HTML integration with the theme code."
+msgstr "Agregue cualquier código de integración que desee."
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Google+"
+msgstr "Google+"
+
+msgid "Entries per page in categories"
+msgstr "Entradas por página en las categorías"
+
+msgid "Maximum number of entries to display in the categories"
+msgstr "Número máximo de entradas que se mostrarán en las categorías"
+
+msgid "Entries per page on search results"
+msgstr "Entradas por página en resultados de búsqueda"
+
+msgid "Maximum number of entries to display in the search results"
+msgstr ""
+"Número máximo de entradas que se mostrarán en los resultados de búsqueda"
+
+msgid "Copyright Footer Text"
+msgstr "Texto de Copyright en el pide de pagina."
+
+msgid "Powered by"
+msgstr "Impulsado por"
+
+msgid "Your license allows you to modify the copyright"
+msgstr "Su licencia le permite modificar el texto de copyright"
+
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+msgid "Remove image"
+msgstr "Eliminar imagen"
+
+msgid "Upload Image"
+msgstr "Subir imagen"
+
+msgid "Slug Taxonomies"
+msgstr "Slug taxonomías"
+
+msgid "Year"
+msgstr "Año de estreno"
+
+msgid "Quality"
+msgstr "Calidad"
+
+msgid "Directors"
+msgstr "Director"
+
+msgid "Cast"
+msgstr "Actor"
+
+msgid "Caution: once defined this field can no longer edit it again"
+msgstr "Precaución: una vez definido este campo ya no puede editarlo de nuevo"
+
+msgid "Forms / Add Movies"
+msgstr "Formularios / Agregar Película"
+
+msgid "Email report new entry"
+msgstr "Notificar por E-mail de una Nueva entrada."
+
+msgid "Want to be notified of a new entry?"
+msgstr "Quieres ser notificado por E-mail de una nueva entrada?"
+
+msgid "Active to send notification"
+msgstr "Active para enviar notificaciones."
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Exclusive to the data sent forms of theme."
+msgstr ""
+"Ingrese un e-mail a donde se le pueda enviar notificaciones de todos los "
+"formularios de la página."
+
+msgid "reCAPTCHA Public Key"
+msgstr "reCAPTCHA clave publica"
+
+msgid "reCAPTCHA Private Key"
+msgstr "reCAPTCHA clave privada"
+
+msgid "Private Key reCAPTCHA"
+msgstr "Private Key reCAPTCHA"
+
+msgid "Public Key reCAPTCHA"
+msgstr "Public Key reCAPTCHA"
+
+msgid "URL Add movie"
+msgstr "URL \"Agregar Pelicula\""
+
+msgid "Add a link to the Add movie page"
+msgstr "Ingrese el enlace de su página \"Agregar Pelicula\""
+
+msgid "Enable wordpress editor"
+msgstr "Habilitar editor de WordPress"
+
+msgid "You want to show editor WordPress?"
+msgstr "Desea mostrar en los formularios el editor de WordPress?"
+
+msgid "Enable to show"
+msgstr "Active para mostrar"
+
+msgid "Style and colors / CSS"
+msgstr "CSS / Estilo y colores"
+
+msgid "Dark Style"
+msgstr "Estilo Dark"
+
+msgid "want to activate the dark style?"
+msgstr "Deseas activar el estilo dark"
+
+msgid "Enable Dark Style"
+msgstr "Active para mostrar nuevo estilo"
+
+msgid "Allow change the main colors"
+msgstr "Cambiar los colores principales"
+
+msgid "Enable change of main colors?"
+msgstr "Deseas habilitar el cambio de los colores principales?"
+
+msgid "Active to show changes"
+msgstr "Active para mostrar cambios"
+
+msgid "Main color"
+msgstr "Color principal"
+
+msgid "Hover button"
+msgstr "Hover botón"
+
+msgid "Color input focus"
+msgstr "Color del focus de los input's"
+
+msgid "Choose a color"
+msgstr "Elige un color"
+
+msgid "Active custom CSS"
+msgstr "Activar CSS personalizado"
+
+msgid "Want to enable custom CSS code?"
+msgstr "¿Deseas mostrar el código de CSS personalizado?"
+
+msgid "Enable custom CSS code"
+msgstr "Habilitar código CSS personalizado"
+
+msgid "Add custom CSS"
+msgstr "Agregar CSS personalizado"
+
+msgid "Add only CSS code"
+msgstr "Agregue solo código CSS"
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Facebook comments"
+msgstr "Comentarios con facebook"
+
+msgid "Enable comments with facebook"
+msgstr "Habilitar comentarios con facebook"
+
+msgid "It is recommended to continue with the rest of the configuration"
+msgstr "Se recomienda continuar con el resto de la configuración"
+
+msgid "Facebook App ID"
+msgstr "ID de App Facebook"
+
+msgid "Add the ID of your facebook application"
+msgstr "Agregue el ID de la aplicación de facebook"
+
+msgid "Facebook Profile ID admin"
+msgstr "ID de perfil del Admin"
+
+msgid "Adds the id of your facebook profile to moderate comments"
+msgstr "Añade el ID de tu perfil de facebook para moderar comentarios"
+
+msgid "Facebook App language"
+msgstr "Idioma de aplicación de facebook"
+
+msgid "Add the language code you want, (es_LA, ro_RO, pt_BR)"
+msgstr "Añadir el código de idioma que desee, (es_LA, ro_RO, pt_BR)"
+
+msgid "Facebook Color Scheme"
+msgstr "Facebook Esquema de color"
+
+msgid "Choose the color for the comment block"
+msgstr "Elige la combinación de colores para el bloque de comentario"
+
+msgid "Facebook Number of Posts"
+msgstr "Numero de cometarios ha mostrar en facebook"
+
+msgid "Select number of comments to display per publication"
+msgstr "Seleccione el número de comentarios para mostrar por publicación"
+
+msgid "Manage comments Disqus"
+msgstr "Gestionar comentarios con Disqus"
+
+msgid "Enable comments Disqus"
+msgstr "Habilitar comentarios con Disqus"
+
+msgid "Remember to add the shortname of your community with disqus"
+msgstr "Recuerde agregar el Shortname de su comunidad en Disqus"
+
+msgid "Shorname Disqus"
+msgstr "Shorname Disqus"
+
+msgid "Add your community shortname Disqus"
+msgstr "Añade el shortname de tu comunidad en Disqus"
+
+msgid "Ads options"
+msgstr "Opciones de anuncios"
+
+msgid "Ads Blocks"
+msgstr "Bloques de anuncio"
+
+msgid "Block ad 728x90"
+msgstr "Anuncio de 728x90"
+
+msgid "Show block 728x90 ad"
+msgstr "Mostrar anuncio de 728x90"
+
+msgid "728x90 ad code"
+msgstr "Código: anuncio 728x90"
+
+msgid "Add HTML code"
+msgstr "Agregar código en <HTML>"
+
+msgid "Active to show ad"
+msgstr "Active para mostrar anuncio"
+
+msgid "Block ad 300x250"
+msgstr "Anuncio de 300x250"
+
+msgid "Show block 300x250 ad"
+msgstr "Mostrar anuncio de 300x250"
+
+msgid "300x250 ad code"
+msgstr "Código: anuncio 300x250"
+
+msgid "Ads Fake Player"
+msgstr "Reproductor falso"
+
+msgid "Activate fake player"
+msgstr "Activar reproductor falso"
+
+msgid "Active player to show false"
+msgstr "Active para mostrar reproductor falso"
+
+msgid "Now assign number of links you want to activate and add links"
+msgstr "Ahora asigne el número de enlaces que desea activar."
+
+msgid "Number of active links"
+msgstr "Numero de enlaces activos"
+
+msgid "Select the number of active links"
+msgstr "Seleccionar el numero de enlaces activos."
+
+msgid "Link 1"
+msgstr "Enlace 1"
+
+msgid "Link 2"
+msgstr "Enlace 2"
+
+msgid "Link 3"
+msgstr "Enlace 3"
+
+msgid "Link 4"
+msgstr "Enlace 4"
+
+msgid "Link 5"
+msgstr "Enlace 5"
+
+msgid "Link 6"
+msgstr "Enlace 6"
+
+msgid "Link 7"
+msgstr "Enlace 7"
+
+msgid "Link 8"
+msgstr "Enlace 8"
+
+msgid "Link 9"
+msgstr "Enlace 9"
+
+msgid "Link 10"
+msgstr "Enlace 10"
+
+msgid "Mega Fake page"
+msgstr "Página falsa de MEGA.co.nz"
+
+msgid "Show downloads Mega"
+msgstr "Mostrar botón Descargar con MEGA"
+
+msgid "Show button to route the fake page of Mega"
+msgstr "Mostrar el botón para redireccionar a la página falsa de Mega"
+
+msgid "Once activated the button will appear on the contents page"
+msgstr "Una vez activado el botón aparecerá en la página de contenidos"
+
+msgid "URL to redirect page"
+msgstr "URL a direccionar el boton de MEGA "
+
+msgid "Add a link to redirect to the fake page of mega"
+msgstr "Añadir un enlace para redirigir desde página falsa de Mega"
+
+msgid "Language / Edit front end text"
+msgstr "Idioma / Editar Textos Fornt-end"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Form Add Movie"
+msgstr "Fomulario \"Agregar Películas\""
+
+msgid "Single Movies"
+msgstr "Single / Películas"
+
+msgid "Download Links"
+msgstr "Descargar"
+
+msgid "View Online"
+msgstr "Ver en linea"
+
+msgid "Option"
+msgstr "Opción"
+
+msgid "Server"
+msgstr "Servidor"
+
+msgid "Audio / Language"
+msgstr "Audio / Idioma"
+
+msgid "All TV Shows"
+msgstr "Todas las Series de TV"
+
+msgid "Recommended TV Shows"
+msgstr "Series recomendadas"
+
+msgid "No Comments"
+msgstr "Sin comentarios"
+
+msgid "1 Comment"
+msgstr "1 comentario"
+
+msgid "% Comments"
+msgstr "% Comentarios"
+
+msgid "Menu home"
+msgstr "Menu Inicio"
+
+msgid "Menu sidebar left"
+msgstr "Menu Lateral izquierdo"
+
+msgid "TVShows"
+msgstr "Series"
+
+msgid "Post Type General Name"
+msgstr "Nombre general del tipo de publicación"
+
+msgid "Post Type Singular Name"
+msgstr "Nombre en singular del tipo de publicación."
+
+msgid "Add TVShow"
+msgstr "Agregar Serie"
+
+msgid "Episodes"
+msgstr "Episodios"
+
+msgid "Add Episode"
+msgstr "Agregar episodios"
+
+msgid "episodes"
+msgstr "episodios"
+
+msgid "tvshows"
+msgstr "series"
+
+msgid "Add News"
+msgstr "Agregar noticia"
+
+msgid "news"
+msgstr "noticia"
+
+msgid "Movies"
+msgstr "Películas"
+
+msgid "All Movies"
+msgstr "Todas las Películas"
+
+msgid "Add Movie"
+msgstr "Agragar Película"
+
+msgid "Add New movie"
+msgstr "Agregar nueva película"
+
+msgid "Edit Movie"
+msgstr "Editar película"
+
+msgid "Movie"
+msgstr "Película"
+
+msgid "Serie Data"
+msgstr "Datos de la Serie"
+
+msgid "New Releases"
+msgstr "Nuevos estrenos"
+
+msgid "Recommended movies"
+msgstr "Películas recomendadas"
+
+msgid "Latest movies"
+msgstr "Últimas películas agregadas"
+
+msgid "Release Year"
+msgstr "Año de lanzamiento"
+
+msgid "Latest TV Shows"
+msgstr "Últimas series agregadas"
+
+msgid "Series Title"
+msgstr "Título de la serie"
+
+msgid "Slug URL main"
+msgstr "URL Slug principal"
+
+msgid "Date posted"
+msgstr "Fecha de publicación"
+
+msgid "Seasonal number"
+msgstr "Número de tempora "
+
+msgid "Number episode"
+msgstr "Número de episodio"
+
+msgid "Trailer"
+msgstr "Trailer"
+
+msgid "Trailer / Images"
+msgstr "Trailer / Imágenes"
+
+msgid "Backdrops - Place each image url below another"
+msgstr "Imágenes - Coloque cada URL de la imagen por debajo de otro"
+
+msgid "Complete data imdb"
+msgstr "Completar datos con IMDb"
+
+msgid ""
+"Assign ID IMDb, example (http://www.imdb.com/title/tt0120338/) = "
+"<b>tt0120338</b>"
+msgstr ""
+"Asignar ID IMDb, ejemplo (http://www.imdb.com/title/tt0120338/) = "
+"<b>tt0120338</b>"
+
+msgid "Generate data from IMDb"
+msgstr "Generar datos desde IMDb.com"
+
+msgid "Movie Metadata"
+msgstr "Datos de la Película"
+
+msgid "URL Poster (optional)"
+msgstr "URL Poster (opcional)"
+
+msgid "Cover image URL (optional)"
+msgstr "URL Imagen de portada (Opcional)"
+
+msgid "Rated"
+msgstr "Calificación"
+
+msgid "Release Date"
+msgstr "Fecha de lanzamiento"
+
+msgid "Language"
+msgstr "Idioma "
+
+msgid "Runtime"
+msgstr "Duración"
+
+msgid "IMDB Rating"
+msgstr "IMDb Promedio de valoración"
+
+msgid "IMDB votes"
+msgstr "IMDb Votos"
+
+msgid "Awards"
+msgstr "Premios"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Players"
+msgstr "Reproductores"
+
+msgid "Option # 1 - HTML code"
+msgstr "Opción 1 - Embed HTML"
+
+msgid "Title Option # 1 player"
+msgstr "Título opción 1"
+
+msgid "<hr><BR><BR> Option # 2 - HTML code"
+msgstr "<hr><BR><BR> Opción 2 - Embed HTML"
+
+msgid "Title Option # 2 player"
+msgstr "Título opción 2"
+
+msgid "<hr><BR><BR> Option # 3 - HTML code"
+msgstr "<hr><BR><BR> Opción 3 - Embed HTML"
+
+msgid "Title Option # 3 player"
+msgstr "Título opción 3"
+
+msgid "<hr><BR><BR> Option # 4 - HTML code"
+msgstr "<hr><BR><BR> Opción 4 - Embed HTML"
+
+msgid "Title Option # 4 player"
+msgstr "Título opción 4"
+
+msgid "<hr><BR><BR> Option # 5 - HTML code"
+msgstr "<hr><BR><BR> Opción 5 - Embed HTML"
+
+msgid "Title Option # 5 player"
+msgstr "Título opción 5"
+
+msgid "<hr><BR><BR> Option # 6 - HTML code"
+msgstr "<hr><BR><BR> Opción 6 - Embed HTML"
+
+msgid "Title Option # 6 player"
+msgstr "Título opción 6"
+
+msgid "<hr><BR><BR> Option # 7 - HTML code"
+msgstr "<hr><BR><BR> Opción 7 - Embed HTML"
+
+msgid "Title Option # 7 player"
+msgstr "Título opción 7"
+
+msgid "<hr><BR><BR> Option # 8 - HTML code"
+msgstr "<hr><BR><BR> Opción 8 - Embed HTML"
+
+msgid "Title Option # 8 player"
+msgstr "Título opción 8"
+
+msgid "Downloads"
+msgstr "Descargas"
+
+msgid "HTML Code links downloads"
+msgstr "Enlaces de descarga en HTML"
+
+msgid "Upload logo responsive"
+msgstr "Cargar logo responsive"
+
+msgid "Infinite Scroll"
+msgstr "Scroll Infinito"
+
+msgid "Activate Infinite Scroll?"
+msgstr "Deseas activar el Scroll infinito?"
+
+msgid "check to activate"
+msgstr "Marcar para activar"
+
+msgid "Important notice Website"
+msgstr "Aviso importante de la Web"
+
+msgid "Activate module"
+msgstr "Activar Módulo"
+
+msgid "You want to activate the notices module?"
+msgstr "Deseas activar el módulo de avisos importantes?"
+
+msgid "Active to display module"
+msgstr "Active para mostrar módulo"
+
+msgid "Add notice"
+msgstr "Agregar Aviso"
+
+msgid "Add notice, this field accepts HTML"
+msgstr "Agregar aviso, este campo acepta HTML code."
+
+msgid "Notice Background color"
+msgstr "Color de fondo para el aviso"
+
+msgid "Cookie name"
+msgstr "Nombre de la Cookie"
+
+msgid "Add name cookie, rename each time you make a new notice"
+msgstr ""
+"Añadir nombre de la cookie, Recomendamos cambiar el nombre cada vez que "
+"realice un nuevo anuncio"
+
+msgid "Cookie expiration"
+msgstr "Expiración de la cookie"
+
+msgid "Select the number of days for Cookie"
+msgstr "Seleccionar dias de vida de la Cookie"
+
+msgid "Mundothemes License"
+msgstr "Licencias Mundothemes"
+
+msgid "Enter your license key"
+msgstr "Ingrese su licencia"
+
+msgid "Activate License"
+msgstr "Activar licencia"
+
+msgid "active"
+msgstr "Licencia Activa"
+
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+msgid "License Key"
+msgstr "Clave de licencia"
+
+msgid "Edit post"
+msgstr "Editar contenido"
+
+msgid "Theme Settings"
+msgstr "Ajustes del theme"
+
+msgid "License Status"
+msgstr "Licencia"
+
+msgid "Support Forums"
+msgstr "Foros de soporte"
+
+msgid "More movies"
+msgstr "Mas Películas"
+
+msgid "No sources available"
+msgstr "No hay fuentes disponibles"
+
+msgid "Share"
+msgstr "Compartir"
+
+msgid "Tweet"
+msgstr "Twittear"
+
+msgid "No links available"
+msgstr "No hay enlaces disponibles"
+
+msgid "Related movies"
+msgstr "Películas relacionadas"
+
+msgid "Go back"
+msgstr "Regresar"

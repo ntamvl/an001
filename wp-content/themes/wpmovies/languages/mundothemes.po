@@ -1,0 +1,821 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Movies\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mundothemes Inc. <admin@mundothemes.com>\n"
+"Language-Team: Mundothemes Inc. <admin@mundothemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Search.."
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Genre"
+msgstr ""
+
+msgid "Add movies"
+msgstr ""
+
+msgid "All movies"
+msgstr ""
+
+msgid "20 Most voted"
+msgstr ""
+
+msgid "20 Most viewed"
+msgstr ""
+
+msgid "Like us on facebook."
+msgstr ""
+
+msgid "Added recently"
+msgstr ""
+
+msgid "Most viewed"
+msgstr ""
+
+msgid "Most voted"
+msgstr ""
+
+msgid "News"
+msgstr ""
+
+msgid "Add new entry"
+msgstr ""
+
+msgid "Add all required fields."
+msgstr ""
+
+msgid "Excellent, the data has been sent."
+msgstr ""
+
+msgid "Your publication could not be processed"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "Original title"
+msgstr ""
+
+msgid "Add title of the movie."
+msgstr ""
+
+msgid "Synopsis"
+msgstr ""
+
+msgid ""
+"Add an abstract of no more than 1000 characters of the synopsis or plot."
+msgstr ""
+
+msgid "Words"
+msgstr ""
+
+msgid "Characters"
+msgstr ""
+
+msgid ""
+"Assign ID IMDb, example URL = http://www.imdb.com/title/<i>tt0120338</i>/"
+msgstr ""
+
+msgid "Upload poster image."
+msgstr ""
+
+msgid "Select main genres of film."
+msgstr ""
+
+msgid "Send content"
+msgstr ""
+
+msgid "IMDb id"
+msgstr ""
+
+msgid "No content available"
+msgstr ""
+
+msgid "Results"
+msgstr ""
+
+msgid "No results available"
+msgstr ""
+
+msgid "Initial Setup"
+msgstr ""
+
+msgid "Upload logo"
+msgstr ""
+
+msgid "Upload favicon"
+msgstr ""
+
+msgid "Add favicon, preferably in .ico format"
+msgstr ""
+
+msgid "Movie Mode"
+msgstr ""
+
+msgid "Want to activate the multiplayer to show movies online"
+msgstr ""
+
+msgid "Active to show movies online"
+msgstr ""
+
+msgid "Show downloads"
+msgstr ""
+
+msgid "Want to activate the downloads module?"
+msgstr ""
+
+msgid "Active to display module downloads"
+msgstr ""
+
+msgid "Module releases"
+msgstr ""
+
+msgid "Want to display the module releases?"
+msgstr ""
+
+msgid "Now set the premieres category"
+msgstr ""
+
+msgid "Category Releases"
+msgstr ""
+
+msgid "Numerical category ID premieres"
+msgstr ""
+
+msgid "Enter the numeric ID of the category premieres or similar"
+msgstr ""
+
+msgid "Module News"
+msgstr ""
+
+msgid "Want to turn news module?"
+msgstr ""
+
+msgid "After activating you can now post news"
+msgstr ""
+
+msgid "URL Search Advanced"
+msgstr ""
+
+msgid "Add a link to the advanced search page"
+msgstr ""
+
+msgid "Google Analytics code"
+msgstr ""
+
+msgid "Make your tracking code Google Analytics."
+msgstr ""
+
+msgid "Extra integration code"
+msgstr ""
+
+msgid "Make your HTML integration with the theme code."
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid "Google+"
+msgstr ""
+
+msgid "Entries per page in categories"
+msgstr ""
+
+msgid "Maximum number of entries to display in the categories"
+msgstr ""
+
+msgid "Entries per page on search results"
+msgstr ""
+
+msgid "Maximum number of entries to display in the search results"
+msgstr ""
+
+msgid "Copyright Footer Text"
+msgstr ""
+
+msgid "Powered by"
+msgstr ""
+
+msgid "Your license allows you to modify the copyright"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Remove image"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Slug Taxonomies"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Quality"
+msgstr ""
+
+msgid "Directors"
+msgstr ""
+
+msgid "Cast"
+msgstr ""
+
+msgid "Caution: once defined this field can no longer edit it again"
+msgstr ""
+
+msgid "Forms / Add Movies"
+msgstr ""
+
+msgid "Email report new entry"
+msgstr ""
+
+msgid "Want to be notified of a new entry?"
+msgstr ""
+
+msgid "Active to send notification"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Exclusive to the data sent forms of theme."
+msgstr ""
+
+msgid "reCAPTCHA Public Key"
+msgstr ""
+
+msgid "reCAPTCHA Private Key"
+msgstr ""
+
+msgid "Private Key reCAPTCHA"
+msgstr ""
+
+msgid "Public Key reCAPTCHA"
+msgstr ""
+
+msgid "URL Add movie"
+msgstr ""
+
+msgid "Add a link to the Add movie page"
+msgstr ""
+
+msgid "Enable wordpress editor"
+msgstr ""
+
+msgid "You want to show editor WordPress?"
+msgstr ""
+
+msgid "Enable to show"
+msgstr ""
+
+msgid "Style and colors / CSS"
+msgstr ""
+
+msgid "Dark Style"
+msgstr ""
+
+msgid "want to activate the dark style?"
+msgstr ""
+
+msgid "Enable Dark Style"
+msgstr ""
+
+msgid "Allow change the main colors"
+msgstr ""
+
+msgid "Enable change of main colors?"
+msgstr ""
+
+msgid "Active to show changes"
+msgstr ""
+
+msgid "Main color"
+msgstr ""
+
+msgid "Hover button"
+msgstr ""
+
+msgid "Color input focus"
+msgstr ""
+
+msgid "Choose a color"
+msgstr ""
+
+msgid "Active custom CSS"
+msgstr ""
+
+msgid "Want to enable custom CSS code?"
+msgstr ""
+
+msgid "Enable custom CSS code"
+msgstr ""
+
+msgid "Add custom CSS"
+msgstr ""
+
+msgid "Add only CSS code"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Facebook comments"
+msgstr ""
+
+msgid "Enable comments with facebook"
+msgstr ""
+
+msgid "It is recommended to continue with the rest of the configuration"
+msgstr ""
+
+msgid "Facebook App ID"
+msgstr ""
+
+msgid "Add the ID of your facebook application"
+msgstr ""
+
+msgid "Facebook Profile ID admin"
+msgstr ""
+
+msgid "Adds the id of your facebook profile to moderate comments"
+msgstr ""
+
+msgid "Facebook App language"
+msgstr ""
+
+msgid "Add the language code you want, (es_LA, ro_RO, pt_BR)"
+msgstr ""
+
+msgid "Facebook Color Scheme"
+msgstr ""
+
+msgid "Choose the color for the comment block"
+msgstr ""
+
+msgid "Facebook Number of Posts"
+msgstr ""
+
+msgid "Select number of comments to display per publication"
+msgstr ""
+
+msgid "Manage comments Disqus"
+msgstr ""
+
+msgid "Enable comments Disqus"
+msgstr ""
+
+msgid "Remember to add the shortname of your community with disqus"
+msgstr ""
+
+msgid "Shorname Disqus"
+msgstr ""
+
+msgid "Add your community shortname Disqus"
+msgstr ""
+
+msgid "Ads options"
+msgstr ""
+
+msgid "Ads Blocks"
+msgstr ""
+
+msgid "Block ad 728x90"
+msgstr ""
+
+msgid "Show block 728x90 ad"
+msgstr ""
+
+msgid "728x90 ad code"
+msgstr ""
+
+msgid "Add HTML code"
+msgstr ""
+
+msgid "Active to show ad"
+msgstr ""
+
+msgid "Block ad 300x250"
+msgstr ""
+
+msgid "Show block 300x250 ad"
+msgstr ""
+
+msgid "300x250 ad code"
+msgstr ""
+
+msgid "Ads Fake Player"
+msgstr ""
+
+msgid "Activate fake player"
+msgstr ""
+
+msgid "Active player to show false"
+msgstr ""
+
+msgid "Now assign number of links you want to activate and add links"
+msgstr ""
+
+msgid "Number of active links"
+msgstr ""
+
+msgid "Select the number of active links"
+msgstr ""
+
+msgid "Link 1"
+msgstr ""
+
+msgid "Link 2"
+msgstr ""
+
+msgid "Link 3"
+msgstr ""
+
+msgid "Link 4"
+msgstr ""
+
+msgid "Link 5"
+msgstr ""
+
+msgid "Link 6"
+msgstr ""
+
+msgid "Link 7"
+msgstr ""
+
+msgid "Link 8"
+msgstr ""
+
+msgid "Link 9"
+msgstr ""
+
+msgid "Link 10"
+msgstr ""
+
+msgid "Mega Fake page"
+msgstr ""
+
+msgid "Show downloads Mega"
+msgstr ""
+
+msgid "Show button to route the fake page of Mega"
+msgstr ""
+
+msgid "Once activated the button will appear on the contents page"
+msgstr ""
+
+msgid "URL to redirect page"
+msgstr ""
+
+msgid "Add a link to redirect to the fake page of mega"
+msgstr ""
+
+msgid "Language / Edit front end text"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Form Add Movie"
+msgstr ""
+
+msgid "Single Movies"
+msgstr ""
+
+msgid "Download Links"
+msgstr ""
+
+msgid "View Online"
+msgstr ""
+
+msgid "Option"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Audio / Language"
+msgstr ""
+
+msgid "All TV Shows"
+msgstr ""
+
+msgid "Recommended TV Shows"
+msgstr ""
+
+msgid "No Comments"
+msgstr ""
+
+msgid "1 Comment"
+msgstr ""
+
+msgid "% Comments"
+msgstr ""
+
+msgid "Menu home"
+msgstr ""
+
+msgid "Menu sidebar left"
+msgstr ""
+
+msgid "TVShows"
+msgstr ""
+
+msgid "Post Type General Name"
+msgstr ""
+
+msgid "Post Type Singular Name"
+msgstr ""
+
+msgid "Add TVShow"
+msgstr ""
+
+msgid "Episodes"
+msgstr ""
+
+msgid "Add Episode"
+msgstr ""
+
+msgid "episodes"
+msgstr ""
+
+msgid "tvshows"
+msgstr ""
+
+msgid "Add News"
+msgstr ""
+
+msgid "news"
+msgstr ""
+
+msgid "Movies"
+msgstr ""
+
+msgid "All Movies"
+msgstr ""
+
+msgid "Add Movie"
+msgstr ""
+
+msgid "Add New movie"
+msgstr ""
+
+msgid "Edit Movie"
+msgstr ""
+
+msgid "Movie"
+msgstr ""
+
+msgid "Serie Data"
+msgstr ""
+
+msgid "New Releases"
+msgstr ""
+
+msgid "Recommended movies"
+msgstr ""
+
+msgid "Latest movies"
+msgstr ""
+
+msgid "Release Year"
+msgstr ""
+
+msgid "Latest TV Shows"
+msgstr ""
+
+msgid "Series Title"
+msgstr ""
+
+msgid "Slug URL main"
+msgstr ""
+
+msgid "Date posted"
+msgstr ""
+
+msgid "Seasonal number"
+msgstr ""
+
+msgid "Number episode"
+msgstr ""
+
+msgid "Trailer"
+msgstr ""
+
+msgid "Trailer / Images"
+msgstr ""
+
+msgid "Backdrops - Place each image url below another"
+msgstr ""
+
+msgid "Complete data imdb"
+msgstr ""
+
+msgid ""
+"Assign ID IMDb, example (http://www.imdb.com/title/tt0120338/) = "
+"<b>tt0120338</b>"
+msgstr ""
+
+msgid "Generate data from IMDb"
+msgstr ""
+
+msgid "Movie Metadata"
+msgstr ""
+
+msgid "URL Poster (optional)"
+msgstr ""
+
+msgid "Cover image URL (optional)"
+msgstr ""
+
+msgid "Rated"
+msgstr ""
+
+msgid "Release Date"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Runtime"
+msgstr ""
+
+msgid "IMDB Rating"
+msgstr ""
+
+msgid "IMDB votes"
+msgstr ""
+
+msgid "Awards"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Players"
+msgstr ""
+
+msgid "Option # 1 - HTML code"
+msgstr ""
+
+msgid "Title Option # 1 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 2 - HTML code"
+msgstr ""
+
+msgid "Title Option # 2 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 3 - HTML code"
+msgstr ""
+
+msgid "Title Option # 3 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 4 - HTML code"
+msgstr ""
+
+msgid "Title Option # 4 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 5 - HTML code"
+msgstr ""
+
+msgid "Title Option # 5 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 6 - HTML code"
+msgstr ""
+
+msgid "Title Option # 6 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 7 - HTML code"
+msgstr ""
+
+msgid "Title Option # 7 player"
+msgstr ""
+
+msgid "<hr><BR><BR> Option # 8 - HTML code"
+msgstr ""
+
+msgid "Title Option # 8 player"
+msgstr ""
+
+msgid "Downloads"
+msgstr ""
+
+msgid "HTML Code links downloads"
+msgstr ""
+
+msgid "Upload logo responsive"
+msgstr ""
+
+msgid "Infinite Scroll"
+msgstr ""
+
+msgid "Activate Infinite Scroll?"
+msgstr ""
+
+msgid "check to activate"
+msgstr ""
+
+msgid "Important notice Website"
+msgstr ""
+
+msgid "Activate module"
+msgstr ""
+
+msgid "You want to activate the notices module?"
+msgstr ""
+
+msgid "Active to display module"
+msgstr ""
+
+msgid "Add notice"
+msgstr ""
+
+msgid "Add notice, this field accepts HTML"
+msgstr ""
+
+msgid "Notice Background color"
+msgstr ""
+
+msgid "Cookie name"
+msgstr ""
+
+msgid "Add name cookie, rename each time you make a new notice"
+msgstr ""
+
+msgid "Cookie expiration"
+msgstr ""
+
+msgid "Select the number of days for Cookie"
+msgstr ""
+
+msgid "Mundothemes License"
+msgstr ""
+
+msgid "Enter your license key"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "active"
+msgstr ""
+
+msgid "Deactivate License"
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "Edit post"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "License Status"
+msgstr ""
+
+msgid "Support Forums"
+msgstr ""
+
+msgid "More movies"
+msgstr ""
+
+msgid "No sources available"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Tweet"
+msgstr ""
+
+msgid "No links available"
+msgstr ""
+
+msgid "Related movies"
+msgstr ""
+
+msgid "Go back"
+msgstr ""

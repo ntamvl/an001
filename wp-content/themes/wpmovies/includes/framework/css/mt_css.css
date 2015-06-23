@@ -1,0 +1,625 @@
+::-webkit-scrollbar {
+    width: 4px;
+    padding: 3px
+}
+::-webkit-scrollbar-track {
+    padding: 3px
+}
+::-webkit-scrollbar-thumb {
+    height: 10px;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.5);
+}
+#acera-settings {
+    margin:20px 0;
+    width:980px;
+    overflow:hidden;
+    position:relative
+}
+#acera-sidebar {
+    width:250px;
+    margin-left:15px;
+    float:right;
+    background:#FFF;
+    moz-box-shadow:0px 7px 10px -7px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow:0px 7px 10px -7px rgba(0, 0, 0, 0.48);
+    box-shadow:0px 7px 10px -7px rgba(0, 0, 0, 0.48)
+}
+.acera-hide {
+    display:none
+}
+#acera-content {
+    line-height:18px;
+    font-family:'Arial', sans-serif;
+    color:#2b2b2b;
+    height:100%;
+    font-weight:normal;
+    font-size:12px;
+    padding:20px;
+    width:673px;
+    float:left;
+    background:#FFF;
+    border-right:solid 1px #D0D0D0;
+    border-left:solid 1px #D0D0D0;
+    border-top:solid 1px #D0D0D0;
+    border-bottom:solid 1px #D0D0D0
+}
+#acera-content h4 {
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:10px
+}
+#acera-meta-info {
+    padding:20px;
+    overflow:hidden
+}
+#acera-settings input, .acera-image-checkbox, .acera-image-radio, .acera-button-blue, .acera-button, #acera-settings textarea {
+    background:#F4F4F4;
+    border:1px solid #E7E7E7;
+    border-bottom:2px solid #E7E7E7;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    padding:8px 10px;
+    font-size:12px;
+    color: #000000;
+    display:block;
+    width:378px
+}
+#acera-settings select {
+    background:#F4F4F4;
+    border:1px solid #E7E7E7;
+    border-bottom:2px solid #E7E7E7;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    height:34px;
+    padding:0 0 0 5px;
+    font-size:12px;
+    min-width:150px;
+    color:#898989;
+    display:block
+}
+#acera-settings input.acera-color-picker {
+    width:70px;
+    color:#f0f0f0
+}
+#acera-settings textarea {
+    font-family:'Arial', sans-serif;
+    width:379px;
+    height:90px
+}
+#acera-settings input:focus, #acera-settings textarea:focus {
+    outline:none!important;
+    border:1px solid #d3d3d3;
+    border-bottom:2px solid #d3d3d3
+}
+#acera-settings input[type="button"], #acera-settings input[type="submit"], .acera-button-blue, .acera-button, #acera-settings input[type="reset"] {
+    display:inline;
+    padding:7px 17px;
+    text-transform:uppercase;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:11px
+}
+.acera-button, #acera-settings input[type="button"] {
+    color:#a9a9a9;
+    text-shadow:0 1px 0 white;
+    background:rgb(245, 245, 245);
+    background-image:linear-gradient(bottom, rgb(245, 245, 245) 100%, rgb(237, 237, 237) 0%);
+    background-image:-o-linear-gradient(bottom, rgb(245, 245, 245) 100%, rgb(237, 237, 237) 0%);
+    background-image:-moz-linear-gradient(bottom, rgb(245, 245, 245) 100%, rgb(237, 237, 237) 0%);
+    background-image:-webkit-linear-gradient(bottom, rgb(245, 245, 245) 100%, rgb(237, 237, 237) 0%);
+    background-image:-ms-linear-gradient(bottom, rgb(245, 245, 245) 100%, rgb(237, 237, 237) 0%);
+    background-image:-webkit-gradient(linear, left bottom, left top, color-stop(1, rgb(245, 245, 245)), color-stop(0, rgb(237, 237, 237)));
+    border:1px solid #c0c0c0;
+    box-shadow:0 1px 0 white inset
+}
+.acera-button:active, #acera-settings input[type="button"]:active {
+    background-image:linear-gradient(bottom, rgb(245, 245, 245) 0%, rgb(237, 237, 237) 100%);
+    background-image:-o-linear-gradient(bottom, rgb(245, 245, 245) 0%, rgb(237, 237, 237) 100%);
+    background-image:-moz-linear-gradient(bottom, rgb(245, 245, 245) 0%, rgb(237, 237, 237) 100%);
+    background-image:-webkit-linear-gradient(bottom, rgb(245, 245, 245) 0%, rgb(237, 237, 237) 100%);
+    background-image:-ms-linear-gradient(bottom, rgb(245, 245, 245) 0%, rgb(237, 237, 237) 100%);
+    background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(245, 245, 245)), color-stop(1, rgb(237, 237, 237)));
+    box-shadow:none
+}
+.acera-button:hover, #acera-settings input[type="button"]:hover {
+    background-image:linear-gradient(bottom, rgb(242, 242, 242) 100%, rgb(235, 235, 235) 0%);
+    background-image:-o-linear-gradient(bottom, rgb(242, 242, 242) 100%, rgb(235, 235, 235) 0%);
+    background-image:-moz-linear-gradient(bottom, rgb(242, 242, 242) 100%, rgb(235, 235, 235) 0%);
+    background-image:-webkit-linear-gradient(bottom, rgb(242, 242, 242) 100%, rgb(235, 235, 235) 0%);
+    background-image:-ms-linear-gradient(bottom, rgb(242, 242, 242) 100%, rgb(235, 235, 235) 0%);
+    background-image:-webkit-gradient(linear, left bottom, left top, color-stop(1, rgb(242, 242, 242)), color-stop(0, rgb(235, 235, 235)))
+}
+#acera-settings input[type="submit"], .acera-button-blue, #acera-settings input[type="reset"] {
+    color:white;
+    text-shadow:0 1px 0 #64994E;
+    background:#8ACD6E;
+    border:1px solid #73AD5A;
+    box-shadow:0 1px 0 #B5F49A inset;
+    width:150px;
+    margin-top: 49px;
+    margin-right:9px
+}
+#acera-settings input[type="submit"]:hover, .acera-button-blue:hover, #acera-settings input[type="reset"]:hover {
+    background:#97D27D
+}
+.save-button {
+    float:right;
+    display:inline
+}
+.acera-settings-headline {
+    font-size:14px;
+    text-transform:uppercase;
+    color:#898989;
+    font-weight:bold;
+    font-family:'Arial', sans-serif;
+    text-shadow:0 1px 0 #f5f5f5;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    margin-top:0;
+    border-bottom:1px solid #ECECEC;
+    overflow:hidden
+}
+#acera-content h2 {
+    display:inline;
+    float:left;
+    font-size:17px;
+    text-transform:none;
+    color:#5A90C1;
+    font-weight:bold;
+    font-family:'Arial', sans-serif;
+    text-shadow:0 1px 0 #f5f5f5;
+    padding-bottom:5px;
+    margin-bottom:0
+}
+#acera-meta-info h1 {
+    color:#5A90C1;
+    font-size:17px;
+    margin-top:0;
+    font-weight:bold
+}
+#acera-meta-info h2 {
+    color:#898989;
+    font-weight:normal;
+    font-size:10px;
+    margin-top:0;
+    margin-bottom:5px
+}
+#acera-content label {
+    font-size:12px;
+    color:#535356;
+    display:inline-block;
+    font-family:'Arial', sans-serif;
+    text-shadow:0 1px 0 #f5f5f5
+}
+#acera-content input[type="radio"], #acera-content input[type="checkbox"] {
+    display:inline-block;
+    width:17px
+}
+.acera-fullwidth {
+    width:389px
+}
+.separator2 {
+    border-bottom:1px solid #D2DCE4;
+    border-top:1px solid #f5f5f5;
+    margin-bottom:0;
+    padding-top:20px;
+    overflow:hidden;
+    margin:0 10px
+}
+.separator2:nth-last-child(1) {
+    border:none;
+    border-top:1px solid #f5f5f5
+}
+.separator2:nth-child(2) {
+    margin-bottom:0;
+    border:none;
+    border-bottom:1px solid #D2DCE4;
+    padding-top:0
+}
+#acera-content .label {
+    width:270px;
+    height:100%;
+    float:left;
+    margin-top:10px
+}
+#acera-content .description {
+    font-style:italic;
+    margin-top:5px;
+    margin-left:3px;
+    margin-bottom:20px;
+    color:#898989;
+    font-size:11px
+}
+#acera-main-menu p {
+    margin:0
+}
+#acera-main-menu {
+    list-style:none;
+    color:#505051;
+    font-weight:bold;
+    font-size:12px;
+    margin:0;
+    padding:0;
+    border:1px solid #D0D0D0;
+    text-shadow:1px 1px 0 #FFF
+}
+#acera-main-menu li {
+    margin-bottom:0
+}
+#acera-main-menu p {
+    line-height:45px;
+    cursor:pointer
+}
+.settings-content {
+    float:right;
+    width:379px
+}
+#acera-main-menu > li p {
+    border-bottom:1px solid #D0D0D0;
+    padding-left:20px;
+    position:relative;
+    background-color:transparent;
+    background-image:-moz-linear-gradient(#FFF 0, #EAEAEA 100%);
+    background-image:-webkit-linear-gradient(#FFF 0, #EAEAEA 100%);
+    background-image:linear-gradient(#FFF 0, #EAEAEA 100%);
+    background-repeat:repeat-x
+}
+#acera-main-menu>li:nth-last-child(1)>p {
+    border-bottom:none
+}
+#acera-main-menu a {
+    text-decoration:none;
+    color:#4A4A4A;
+    font-weight:normal
+}
+#acera-main-menu a.selected {
+color: #0096CB;
+font-weight: bold;
+}
+#acera-main-menu>li>ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    display:none
+}
+.acera_image_preview img {
+    max-width:380px;
+    margin:5px 3px 0;
+    padding: 20px;
+    background: #D2D2D2;}
+.acera_image_preview img:hover {
+    background: #22222A;
+}
+#acera-main-menu > li > ul li p:hover {
+    color:#5893E4;
+    font-weight:bold
+}
+#acera-main-menu > li > ul li p {
+    background:#FFF;
+    border-bottom:1px solid #F2F2F2;
+    padding-left:34px;
+    position:relative
+}
+#acera-main-menu > li > ul li:nth-last-child(1) p {
+    border-bottom:none
+}
+#acera-main-menu > li > ul li p:after {
+    position:absolute;
+    left:15px;
+    top:15px;
+    content:' ';
+    background:url('../images/arrow.png');
+    width:9px;
+    height:15px
+}
+.acera-button-blue, .acera-button {
+    margin:5px 2px;
+    line-height:40px
+}
+.acera-image-radio, .acera-image-checkbox {
+    margin:5px;
+    padding:5px 5px 0;
+    float:left;
+    text-align:center;
+    width:auto !important
+}
+.cOf {
+    overflow:hidden;
+    display:block
+}
+.acera-img-selected {
+    background:#558bbc;
+    border:1px solid #c1c1c1;
+    border-bottom:2px solid #c1c1c1;
+    color:white !important;
+    text-shadow:none !important
+}
+.acera-image-radio p, .acera-image-checkbox p {
+    margin:0
+}
+.centerInfo h4 {
+    font-size:12px!important;
+    font-weight:normal;
+    color:#535356;
+    text-align:center;
+    margin-top:5px !important;
+    margin-bottom:0 !important;
+    font-style:italic;
+    font-family:'Arial', sans-serif;
+    text-shadow:0 1px 0 #f5f5f5
+}
+.centerInfo img {
+    text-align:center;
+    margin:0 auto;
+    width:300px
+}
+.centerInfo {
+    width:300px;
+    margin:50px auto
+}
+.acera-image-radio-b, .acera-image-checkbox-b {
+    background:black;
+    display:none !important
+}
+#acera-main-menu > li span {
+    position:absolute;
+    left:0;
+    top:14px;
+    left:25px;
+    width:16px;
+    height:16px
+}
+.logo_acera {
+    width:89px !important;
+    margin-bottom:10px;
+    margin-left:104px !important
+}
+.acera-icon-home {
+    background:url('../images/icons/user-home.png')
+}
+.acera-icon-star {
+    background:url('../images/icons/user-bookmarks.png')
+}
+.acera-icon-down {
+    background:url('../images/icons/go-down.png')
+}
+.acera-icon-next {
+    background:url('../images/icons/go-next.png')
+}
+.acera-icon-previous {
+    background:url('../images/icons/go-previous.png')
+}
+.acera-icon-up {
+    background:url('../images/icons/go-up.png')
+}
+.acera-icon-voldown {
+    background:url('../images/icons/audio-volume-low.png')
+}
+.acera-icon-volmedium {
+    background:url('../images/icons/audio-volume-medium.png')
+}
+.acera-icon-volmuted {
+    background:url('../images/icons/audio-volume-muted.png')
+}
+.acera-icon-close {
+    background:url('../images/icons/close.png')
+}
+.acera-icon-warning {
+    background:url('../images/icons/dialog-warning.png')
+}
+.acera-icon-circlecheck {
+    background:url('../images/icons/emblem-default.png')
+}
+.acera-icon-dup {
+    background:url('../images/icons/direction-top.png')
+}
+.acera-icon-ddown {
+    background:url('../images/icons/direction-bottom.png')
+}
+.acera-icon-dleft {
+    background:url('../images/icons/direction-left.png')
+}
+.acera-icon-dright {
+    background:url('../images/icons/direction-right.png')
+}
+.acera-icon-download {
+    background:url('../images/icons/emblem-downloads.png')
+}
+.acera-icon-emblem-shared {
+    background:url('../images/icons/emblem-shared.png')
+}
+.acera-icon-folder {
+    background:url('../images/icons/folder.png')
+}
+.acera-icon-group-chat {
+    background:url('../images/icons/internet-group-chat.png')
+}
+.acera-icon-mail {
+    background:url('../images/icons/internet-mail.png')
+}
+.acera-icon-list-add {
+    background:url('../images/icons/list-add.png')
+}
+.acera-icon-calendar {
+    background:url('../images/icons/office-calendar.png')
+}
+.acera-icon-list-remove {
+    background:url('../images/icons/list-remove.png')
+}
+.acera-icon-readonly {
+    background:url('../images/icons/emblem-readonly.png')
+}
+.acera-icon-unreadable {
+    background:url('../images/icons/emblem-unreadable.png')
+}
+.acera-icon-texteditor {
+    background:url('../images/icons/accessories-text-editor.png')
+}
+.acera-icon-list {
+    background:url('../images/icons/list.png')
+}
+.acera-icon-playback-start {
+    background:url('../images/icons/media-playback-start.png')
+}
+.acera-icon-playback-pause {
+    background:url('../images/icons/media-playback-pause.png')
+}
+.acera-icon-playback-stop {
+    background:url('../images/icons/media-playback-stop.png')
+}
+.acera-icon-record {
+    background:url('../images/icons/media-record.png')
+}
+.acera-icon-grid {
+    background:url('../images/icons/grid.png')
+}
+.acera-icon-start-here {
+    background:url('../images/icons/start-here.png')
+}
+.acera-icon-search {
+    background:url('../images/icons/system-search.png')
+}
+.acera-icon-person {
+    background:url('../images/icons/person.png')
+}
+.acera-icon-tag {
+    background:url('../images/icons/tag.png')
+}
+.acera-icon-time {
+    background:url('../images/icons/time.png')
+}
+.acera-icon-trash {
+    background:url('../images/icons/user-trash.png')
+}
+.acera-icon-window {
+    background:url('../images/icons/window.png')
+}
+.acera-icon-upload {
+    background:url('../images/icons/upload.png')
+}
+.acera-icon-recycle {
+    background:url('../images/icons/recycle.png')
+}
+.acera-icon-font {
+    background:url('../images/icons/font.png')
+}
+.acera-icon-trash-full {
+    background:url('../images/icons/trash-full.png')
+}
+.acera-icon-desktop {
+    background:url('../images/icons/user-desktop.png')
+}
+.acera-icon-refresh {
+    background:url('../images/icons/view-refresh.png')
+}
+.acera-icon-recycle-full {
+    background:url('../images/icons/recycle-filled.png')
+}
+.acera-icon-info {
+    background:url('../images/icons/dialog-information.png')
+}
+.acera-icon-text-file {
+    background:url('../images/icons/text-x-generic.png')
+}
+.acera-icon-favorite {
+    background:url('../images/icons/emblem-favorite.png')
+}
+.acera-icon-volume-high {
+    background:url('../images/icons/audio-volume-high.png')
+}
+.acera-icon-audio {
+    background:url('../images/icons/audio-x-generic.png')
+}
+.acera-icon-users {
+    background:url('../images/icons/system-users.png')
+}
+.acera-icon-dialog-error {
+    background:url('../images/icons/dialog-error.png')
+}
+.acera-icon-important {
+    background:url('../images/icons/emblem-important.png')
+}
+.acera-icon-calendar12 {
+    background:url('../images/icons/x-office-calendar.png')
+}
+.acera-icon-drawing {
+    background:url('../images/icons/x-office-drawing.png')
+}
+.acera-icon-office-document {
+    background:url('../images/icons/x-office-document.png')
+}
+.acera-icon-presentation {
+    background:url('../images/icons/x-office-presentation.png')
+}
+.acera-icon-spreadsheet {
+    background:url('../images/icons/x-office-spreadsheet.png')
+}
+.acera-icon-video {
+    background:url('../images/icons/video-x-generic.png')
+}
+.acera-icon-fullscreen {
+    background:url('../images/icons/view-fullscreen.png')
+}
+.acera-icon-folder-search {
+    background:url('../images/icons/folder-saved-search.png')
+}
+.acera-icon-empty-file {
+    background:url('../images/icons/text-x-generic-template.png')
+}
+.acera-icon-script {
+    background:url('../images/icons/text-x-script.png')
+}
+.acera-icon-preference {
+    background:url('../images/icons/preferences-system.png')
+}
+.acera-icon-address {
+    background:url('../images/icons/x-office-address-book.png')
+}
+.acera-icon-image {
+    background:url('../images/icons/image-x-generic.png')
+}
+.acera-icon-rss {
+    background:url('../images/icons/internet-news-reader.png')
+}
+.acera-icon-application {
+    background:url('../images/icons/application-x-executable.png')
+}
+.acera-icon-package {
+    background:url('../images/icons/package-x-generic.png')
+}
+.acera-icon-utilities {
+    background:url('../images/icons/utilities-system-monitor.png')
+}
+img.mundothemes {
+    float:right
+}
+span.key_mt {
+    float:left;
+    margin-top: 60px;
+    font-size:13px;
+    color:#999DA3
+}
+span.key_mt a {
+    color: #000000;
+    text-decoration: none;
+}
+span.key_mt a:hover {
+    color: #5A90C1;
+}
+#code_css {
+background: #272822!important;
+color: #9AA8D7!important;
+}
+.on {
+ display: none
+}
+.off {
+display: block;
+margin: 15px 0!important;
+}
+.off p {
+
+}

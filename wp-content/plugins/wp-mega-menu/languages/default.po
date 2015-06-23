@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Mega Menu\n"
+"POT-Creation-Date: 2014-08-06 01:08+0530\n"
+"PO-Revision-Date: 2014-08-06 01:08+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: MyThemeShop\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../developer-filters.php:64
+msgid "Special Color Scheme"
+msgstr ""
+
+#: ../developer-filters.php:129 ../developer-filters.php:149
+#: ../developer-filters.php:169 ../wp-mega-menu.php:1172
+msgid "No Preview"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: ../wp-mega-menu.php:288
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: ../wp-mega-menu.php:292
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../wp-mega-menu.php:333
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../wp-mega-menu.php:342
+msgid "URL"
+msgstr ""
+
+#: ../wp-mega-menu.php:349
+msgid "Navigation Label"
+msgstr ""
+
+#: ../wp-mega-menu.php:355
+msgid "Title Attribute"
+msgstr ""
+
+#: ../wp-mega-menu.php:362
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../wp-mega-menu.php:367
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../wp-mega-menu.php:373
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../wp-mega-menu.php:379
+msgid "Description"
+msgstr ""
+
+#: ../wp-mega-menu.php:381
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../wp-mega-menu.php:390
+msgid "Icon (optional)"
+msgstr ""
+
+#: ../wp-mega-menu.php:393
+msgid "No Icon"
+msgstr ""
+
+#: ../wp-mega-menu.php:409
+msgid "Color (optional)"
+msgstr ""
+
+#: ../wp-mega-menu.php:420
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../wp-mega-menu.php:424
+msgid "Mega Menu Options"
+msgstr ""
+
+#: ../wp-mega-menu.php:429
+msgid "Show posts"
+msgstr ""
+
+#: ../wp-mega-menu.php:434
+msgid "Show posts &amp; subcategories"
+msgstr ""
+
+#: ../wp-mega-menu.php:439
+msgid "Show subcategories"
+msgstr ""
+
+#: ../wp-mega-menu.php:447
+msgid "Pagination"
+msgstr ""
+
+#: ../wp-mega-menu.php:452
+msgid "Post Meta"
+msgstr ""
+
+#: ../wp-mega-menu.php:458
+msgid "Show post thumbnails"
+msgstr ""
+
+#: ../wp-mega-menu.php:465
+msgid "Show post authors"
+msgstr ""
+
+#: ../wp-mega-menu.php:472
+msgid "Show post dates"
+msgstr ""
+
+#: ../wp-mega-menu.php:479
+msgid "Show post excerpts"
+msgstr ""
+
+#: ../wp-mega-menu.php:484
+msgid "Mega Menu Colors &amp; Background"
+msgstr ""
+
+#: ../wp-mega-menu.php:488
+msgid "Color Scheme"
+msgstr ""
+
+#: ../wp-mega-menu.php:492
+msgid "Light"
+msgstr ""
+
+#: ../wp-mega-menu.php:493
+msgid "Dark"
+msgstr ""
+
+#: ../wp-mega-menu.php:504
+msgid "Custom"
+msgstr ""
+
+#: ../wp-mega-menu.php:513
+msgid "Text Color (excerpt, post meta)"
+msgstr ""
+
+#: ../wp-mega-menu.php:519
+msgid "Link Color"
+msgstr ""
+
+#: ../wp-mega-menu.php:525
+msgid "Background Color"
+msgstr ""
+
+#: ../wp-mega-menu.php:531
+msgid "Background Image"
+msgstr ""
+
+#: ../wp-mega-menu.php:535
+msgid "Select Background"
+msgstr ""
+
+#: ../wp-mega-menu.php:539
+msgid "Remove Background"
+msgstr ""
+
+#: ../wp-mega-menu.php:552
+msgid "Repeat Background"
+msgstr ""
+
+#: ../wp-mega-menu.php:557
+msgid "Background Position"
+msgstr ""
+
+#: ../wp-mega-menu.php:560
+msgid "Top Left"
+msgstr ""
+
+#: ../wp-mega-menu.php:563
+msgid "Top Center"
+msgstr ""
+
+#: ../wp-mega-menu.php:566
+msgid "Top Right"
+msgstr ""
+
+#: ../wp-mega-menu.php:570
+msgid "Middle Left"
+msgstr ""
+
+#: ../wp-mega-menu.php:573
+msgid "Center"
+msgstr ""
+
+#: ../wp-mega-menu.php:576
+msgid "Middle Right"
+msgstr ""
+
+#: ../wp-mega-menu.php:580
+msgid "Bottom Left"
+msgstr ""
+
+#: ../wp-mega-menu.php:583
+msgid "Bottom Center"
+msgstr ""
+
+#: ../wp-mega-menu.php:586
+msgid "Bottom Right"
+msgstr ""
+
+#: ../wp-mega-menu.php:595
+msgid "Mega Menu Animation"
+msgstr ""
+
+#: ../wp-mega-menu.php:599
+msgid "Animate In"
+msgstr ""
+
+#: ../wp-mega-menu.php:602 ../wp-mega-menu.php:646
+msgid "None"
+msgstr ""
+
+#: ../wp-mega-menu.php:605
+msgid "Fade In"
+msgstr ""
+
+#: ../wp-mega-menu.php:608
+msgid "Fade in and slide up"
+msgstr ""
+
+#: ../wp-mega-menu.php:611
+msgid "Fade in and slide down"
+msgstr ""
+
+#: ../wp-mega-menu.php:614
+msgid "Fade in and slide right"
+msgstr ""
+
+#: ../wp-mega-menu.php:617
+msgid "Fade in and slide left"
+msgstr ""
+
+#: ../wp-mega-menu.php:620
+msgid "Expand from top"
+msgstr ""
+
+#: ../wp-mega-menu.php:623
+msgid "Expand horizontally from center"
+msgstr ""
+
+#: ../wp-mega-menu.php:626 ../wp-mega-menu.php:670
+msgid "Zoom in"
+msgstr ""
+
+#: ../wp-mega-menu.php:629 ../wp-mega-menu.php:673
+msgid "Zoom out"
+msgstr ""
+
+#: ../wp-mega-menu.php:632
+msgid "Fold out from front"
+msgstr ""
+
+#: ../wp-mega-menu.php:635
+msgid "Fold out from back"
+msgstr ""
+
+#: ../wp-mega-menu.php:643
+msgid "Animate Out"
+msgstr ""
+
+#: ../wp-mega-menu.php:649
+msgid "Fade out"
+msgstr ""
+
+#: ../wp-mega-menu.php:652
+msgid "Fade out and slide up"
+msgstr ""
+
+#: ../wp-mega-menu.php:655
+msgid "Fade out and slide down"
+msgstr ""
+
+#: ../wp-mega-menu.php:658
+msgid "Fade out and slide right"
+msgstr ""
+
+#: ../wp-mega-menu.php:661
+msgid "Fade out and slide left"
+msgstr ""
+
+#: ../wp-mega-menu.php:664
+msgid "Collapse from bottom"
+msgstr ""
+
+#: ../wp-mega-menu.php:667
+msgid "Collapse horizontally to center"
+msgstr ""
+
+#: ../wp-mega-menu.php:676
+msgid "Fold in to front"
+msgstr ""
+
+#: ../wp-mega-menu.php:679
+msgid "Fold in to back"
+msgstr ""
+
+#: ../wp-mega-menu.php:694
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../wp-mega-menu.php:707
+msgid "Remove"
+msgstr ""
+
+#: ../wp-mega-menu.php:708
+msgid "Cancel"
+msgstr ""
+
+#: ../wp-mega-menu.php:1151
+msgid "This taxonomy is not hierarchical. Set this mega menu to Posts."
+msgstr ""

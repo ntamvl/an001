@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1366px) {
+    .items .movie {
+        width: 18%;
+        margin-right: 1.6%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #contenedor .sidebar_right {
+        display: none;
+    }
+    #contenedor .items {
+        margin-right: 0;
+    }
+    .items .movie {
+        width: 17%;
+        margin-right: 3%;
+    }
+}
+@media only screen and (max-width: 966px) {
+    .items .movie {
+        width: 17%;
+        margin-right: 2.9%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #movie {
+        max-width: 100%;
+    }
+    #contenedor .sidebar_left {
+        display: none;
+    }
+    #largo {
+        display: none;
+    }
+    #largo .contenido {
+        width: 50px;
+    }
+    #largo .contenido .menu-movil {
+        display: block;
+    }
+    #largo .contenido .header {
+        display: none;
+    }
+    #contenedor .items {
+        margin-left: 0px;
+    }
+    #largo .contenido .bajon .normal {
+        display: none;
+    }
+    #largo .contenido .bajon .movil {
+        display: block;
+    }
+    .player-menu li {
+        width: 49%;
+        margin-right: 1%;
+        margin-bottom: 5px;
+    }
+    .header_resp {
+        display: block;
+    }
+    #contenedor .items .it_header .buscador {
+        float: left;
+        width: 100%;
+    }
+    #contenedor .items .it_header .buscador input[type='text'] {
+        width: 96%;
+        padding: 7px 2%;
+    }
+    .notes {
+        margin-top: -11px;
+    }
+    .post_nuevo form.posting fieldset .boton {
+        width: 100%;
+    }
+    #contenedor .items .it_header h1 {
+        display: none;
+    }
+    #contenedor .items .it_header span.desc {
+        display: none;
+    }
+    #paginador .paginado {
+        display: none;
+    }
+    .pages_respo {
+        display: block;
+    }
+    #contenedor .items #directorio {
+        margin-top: 70px;
+    }
+    #movie .post {
+        margin-top: 75px;
+    }
+    .menust ul.generos li a {
+        font-size: 18px;
+    }
+    .fixed-head {
+        display: block;
+    }
+}
+@media only screen and (max-width: 736px) {
+    .footer_c .brand {
+        display: none;
+    }
+    .footer_c .copy {
+        width: 100%;
+        text-align: center;
+    }
+    #commentform p.comment-form-author {
+        width: 100%;
+    }
+    #commentform p.comment-form-email {
+        width: 100%;
+    }
+    #commentform p.form-submit .submit {
+        width: 100%;
+    }
+    .captcha_s {
+        text-align: center;
+    }
+    .captcha_s .g-recaptcha {
+    }
+}
+@media only screen and (max-width: 667px) {
+}
+@media only screen and (max-width: 640px) {
+}
+@media only screen and (max-width: 604px) {
+}
+@media only screen and (max-width: 600px) {
+    .items .movie {
+        width: 22%;
+        margin-right: 2.8%;
+    }
+    #noticias .item_new {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 4%;
+    }
+    #noticias .item_new .detalles p {
+        margin-bottom: 20px;
+    }
+    .page h1 {
+        width: 94%;
+        padding: 3%;
+    }
+    .menu-admin {
+        display: none;
+    }
+}
+@media only screen and (max-width: 569px) {
+}
+@media only screen and (max-width: 540px) {
+}
+@media only screen and (max-width: 480px) {
+    .items .movie {
+        width: 22%;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .items .movie {
+        width: 29%;
+        margin-right: 4.2%;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .items .movie {
+        width: 30%;
+        margin-right: 3%;
+    }
+    #movie .post .datos .imgs {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #movie .post .datos .dataplus {
+        width: 100%;
+    }
+    .responsive .alerta {
+        display: block;
+    }
+    .responsive .contenido {
+        display: none;
+    }
+    #cssmenu ul ul li a i {
+        display: none;
+    }
+    #cssmenu ul ul li a span.datex {
+        display: none;
+    }
+    #cssmenu ul ul li a {
+        padding-left: 10px;
+    }
+    #movie .post .datos .dataplus #dato-1 p {
+        width: 92%;
+    }
+    #movie .post .datos .imgs {
+        display: none;
+    }
+    #movie .post .datos .dataplus .score {
+        width: 100%;
+    }
+    .infinito a {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .items .movie {
+        width: 29%;
+        margin-right: 4.2%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .items .movie {
+        width: 30%;
+        margin-right: 3.2%;
+    }
+    .player-menu li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .items .movie {
+        width: 30%;
+    }
+}
