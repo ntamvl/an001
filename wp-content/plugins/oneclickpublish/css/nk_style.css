@@ -1,0 +1,33 @@
+.row_selected_nk{
+    
+    background:rgb(174, 173, 177) !important;
+    
+}
+
+.draftThis{
+background: #d84800;
+background-image: linear-gradient(bottom, rgb(157,23,21) 0%, rgb(189,51,49) 33%, rgb(227,77,79) 100%);
+background-image: -o-linear-gradient(bottom, rgb(157,23,21) 0%, rgb(189,51,49) 33%, rgb(227,77,79) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(157,23,21) 0%, rgb(189,51,49) 33%, rgb(227,77,79) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(157,23,21) 0%, rgb(189,51,49) 33%, rgb(227,77,79) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(157,23,21) 0%, rgb(189,51,49) 33%, rgb(227,77,79) 100%);
+background-image: -webkit-gradient(linear,left bottom,left top, color-stop(0, rgb(157,23,21)), color-stop(0.33, rgb(189,51,49)), color-stop(1, rgb(227,77,79)) );
+border-bottom: 1px solid #522;
+width: 23%;
+z-index: 9999;
+box-shadow: 0 0 20px #ccc;
+margin-bottom:10px;
+padding:10px;
+}
+
+#nk_result{
+    font-size:16px;
+    color:#036;
+}
+
+.nk_title{
+    color:red;
+}
+.nk_type{
+    color:red;
+}

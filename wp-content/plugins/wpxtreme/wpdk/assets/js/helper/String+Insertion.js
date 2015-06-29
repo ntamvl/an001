@@ -1,0 +1,1 @@
+String.prototype.insertAt=function(b,a){return(this.valueOf().substr(0,b))+a+(this.valueOf().substr(b))};

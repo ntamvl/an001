@@ -357,6 +357,62 @@ function tvshows_ul() { ?>
 </div>
 <?php endif; ?>
 <?php }
+
+// BEGIN MOVIE EP
+function tvshows_ul_2() { ?>
+<?php if( have_rows('seasons') ): ?>
+<div id='cssmenu'>
+<ul>
+    <?php   $numerado = 1; { while( have_rows('seasons') ): the_row(); ?>
+  <li class='has-sub'><a href='#'><span><b class="icon-bars"></b> <?php if($tex = get_option('text-41')) { echo $tex; } else { _e('Episode list','mundothemes'); } ?> <?php echo $numerado; ?></span></a>
+       <ul>
+     <?php if( have_rows('episode') ): ?>
+     <?php $numerado2 = 1; { while( have_rows('episode') ): the_row(); ?>
+     <li>
+     <?php if($data = get_sub_field('url_tvshows')) { ?>
+     <a href="<?php bloginfo('url'); ?>/<?php echo get_option('episode'); ?>/<?php echo $data; ?>/" target="_blank">
+     <?php } else { ?>
+     <a>
+     <?php } ?>
+     <span class="datex"><?php echo $numerado; ?> - <?php echo $numerado2; ?></span>
+     <span class="datix"><b class="icon-chevron-right"></b>
+     <?php if($dato = get_sub_field('title_tvshows')) { ?>
+     <?php echo $dato; ?>
+     <?php } else { ?>
+     <?php if($tex = get_option('text-42')) { echo $tex; } else { _e('Episode','mundothemes'); } ?> <?php echo $numerado2; ?>
+     <?php } ?>
+     </span>
+     <i><b class="icon-query-builder"></b>
+     <?php if($dato = get_sub_field('runtime_tvshows')){ ?>
+     <?php echo $dato; ?>
+     <?php } else { ?>
+     <?php $values = get_post_custom_values("Runtime"); echo $values[0]; ?>
+     <?php } ?>
+     </i>
+     </a>
+     </li>
+     <?php $numerado2++; ?>
+     <?php endwhile; } ?>
+     <?php else : ?>
+     <li><a>
+     <span class="datex"><?php echo $numerado; ?> - 0</span>
+     <span class="datix"><b class="icon-chevron-right"></b> <?php if($tex = get_option('text-43')) { echo $tex; } else { _e('No episodes','mundothemes'); } ?></span>
+     </a></li>
+     <?php endif; ?>
+         </ul>
+     </li>
+    <?php $numerado++; ?>
+    <?php endwhile; } ?>
+</ul>
+</div>
+<?php else : ?>
+<div class="datos">
+<div class="no_link"><b class="icon-play-circle-outline play"></b> <?php if($tex = get_option('text-44')) { echo $tex; } else { _e('No seasons','mundothemes'); } ?></div>
+</div>
+<?php endif; ?>
+<?php }
+// END MOVIE EP
+
 function relacionados() { ?>
 <?php
  // Articulos Recomendados

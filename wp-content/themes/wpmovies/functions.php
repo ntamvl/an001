@@ -5,13 +5,13 @@ add_theme_support( "post-thumbnails" );
 add_image_size('home', 120, 170, true);
 }
 add_filter( 'show_admin_bar', '__return_false' ); # Admin bar deshabilitado
-# Habilitar Traduccion 
+# Habilitar Traduccion
  load_theme_textdomain( 'mundothemes', get_template_directory() . '/languages' );
  $locale = get_locale();
  $locale_file = get_template_directory() . "/languages/$locale.php";
  if ( is_readable( $locale_file ) )
  require_once( $locale_file );
- # Registrar Menu 
+ # Registrar Menu
 function register_my_menu() {
 register_nav_menu('menu1',__( 'Menu home', 'mundothemes' )); # Menu de la cabezera.
 register_nav_menu('menusidebar',__( 'Menu sidebar left', 'mundothemes' )); # Menu del Sidebar.
@@ -24,19 +24,19 @@ $year_estreno = get_option('year');
 $calidad = get_option('calidad');
 $director = get_option('director');
 $actor = get_option('actor');
-define( 'EDD_SL_STORE_URL', 'https://mundothemes.com' ); 
-define( 'EDD_SL_THEME_NAME', 'WPMovies' ); 
+define( 'EDD_SL_STORE_URL', 'https://mundothemes.com' );
+define( 'EDD_SL_THEME_NAME', 'WPMovies' );
 if ( !class_exists( 'EDD_SL_Theme_Updater' ) ) {
 	include( dirname( __FILE__ ) . '/mundothemes.php' );
 }
 function edd_sl_sample_theme_updater() {
 $test_license = trim( get_option( 'edd_sample_theme_license_key' ) );
 $edd_updater = new EDD_SL_Theme_Updater( array(
-			'remote_api_url' 	=> EDD_SL_STORE_URL, 	
-			'version' 			=> '1.0.2', 				
-			'license' 			=> $test_license, 		
-			'item_name' 		=> EDD_SL_THEME_NAME,	
-			'author'			=> 'Mundothemes'	
+			'remote_api_url' 	=> EDD_SL_STORE_URL,
+			'version' 			=> '1.0.2',
+			'license' 			=> $test_license,
+			'item_name' 		=> EDD_SL_THEME_NAME,
+			'author'			=> 'Mundothemes'
 		)
 	);
 }
@@ -99,7 +99,7 @@ add_action('admin_init', 'edd_sample_theme_register_option');
 function edd_theme_sanitize_license( $new ) {
 	$old = get_option( 'edd_sample_theme_license_key' );
 	if( $old && $old != $new ) {
-		delete_option( 'edd_sample_theme_license_key_status' ); 
+		delete_option( 'edd_sample_theme_license_key_status' );
 	}
 	return $new;
 }
@@ -127,7 +127,7 @@ add_action('admin_init', 'edd_sample_theme_activate_license');
 function edd_sample_theme_deactivate_license() {
 	if( isset( $_POST['edd_theme_license_deactivate'] ) ) {
 	 	if( ! check_admin_referer( 'edd_sample_nonce', 'edd_sample_nonce' ) )
-			return; 
+			return;
 		$license = trim( get_option( 'edd_sample_theme_license_key' ) );
 		$api_params = array(
 			'edd_action'=> 'deactivate_license',
@@ -196,7 +196,7 @@ function tvshows() {
 		'name'                => _x( 'TVShows', 'Post Type General Name', 'mundothemes' ),
 		'singular_name'       => _x( 'TVShows', 'Post Type Singular Name', 'mundothemes' ),
 		'menu_name'           => __( 'TVShows', 'mundothemes' ),
-		'add_new_item'        => __( 'Add TVShow', 'mundothemes' ),		
+		'add_new_item'        => __( 'Add TVShow', 'mundothemes' ),
 	);
 	$rewrite = array(
 		'slug'                => get_option('tvshows'),
@@ -235,7 +235,7 @@ function episodios() {
 		'name'                => _x( 'Episodes', 'Post Type General Name', 'mundothemes' ),
 		'singular_name'       => _x( 'Episodes', 'Post Type Singular Name', 'mundothemes' ),
 		'menu_name'           => __( 'Episodes', 'mundothemes' ),
-		'add_new_item'        => __( 'Add Episode', 'mundothemes' ),		
+		'add_new_item'        => __( 'Add Episode', 'mundothemes' ),
 	);
 	$rewrite = array(
 		'slug'                => get_option('episode'),
@@ -400,4 +400,25 @@ $totalj=wp_count_posts('episodios')->publish;
 if($totalj!=1){$s='s';}
 return sprintf( __("%s", "mundothemes"),$totalj,$s);
 }
+
+// function remove_post_custom_fields() {
+//   remove_meta_box( 'postcustom' , 'episodios' , 'normal' );
+// }
+// add_action( 'admin_menu' , 'remove_post_custom_fields' );
+
+/**
+ * Replace the default "_" (underscore) with "-" (hyphen) in protected custom fields for debugging purposes
+ *
+ * @param bool $protected The default value
+ * @param string $meta_key The meta key
+ * @return bool True for meta keys starting with "-" (hyphen), false otherwise
+ */
+function unprotected_meta( $protected, $meta_key ) {
+
+  $protected = ( '-' == $meta_key[0] );
+
+  return $protected;
+
+}
+add_filter( 'is_protected_meta', 'unprotected_meta', 10, 2 );
 

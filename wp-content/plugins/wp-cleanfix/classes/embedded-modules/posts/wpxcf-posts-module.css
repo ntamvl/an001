@@ -1,0 +1,21 @@
+/**
+ * CSS Style Sheet for module posts
+ *
+ * @author      =undo= <info@wpxtre.me>
+ * @copyright   Copyright (C) 2012-2014 wpXtreme Inc. All Rights Reserved.
+ * @date        2014-11-11
+ * @version			1.0.0
+ *
+ */
+
+/* Combo select for fix users */
+tr.wpxcfpostsmodulepostswithoutauthorslot td select
+{
+  width     : 100%;
+  max-width : calc(100% - 230px);
+}
+
+tr.wpxcfpostsmodulepostswithoutauthorslot td select#users_posts
+{
+  width : 200px;
+}

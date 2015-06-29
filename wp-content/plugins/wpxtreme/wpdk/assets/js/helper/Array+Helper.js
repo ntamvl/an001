@@ -1,0 +1,1 @@
+if(Array.prototype.slice==null){Array.prototype.slice=function(e,b){if(e<0){e=this.length+e}if(b==null){b=this.length}else{if(b<0){b=this.length+b}}var a=[];for(var d=0,c=e;c<b;c++){a[d++]=this[c]}return a}};

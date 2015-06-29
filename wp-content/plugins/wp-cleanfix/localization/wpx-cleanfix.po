@@ -1,0 +1,994 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CleanFix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-22 09:12+0100\n"
+"PO-Revision-Date: 2014-10-22 09:12+0100\n"
+"Last-Translator: wpXtreme, Inc. <info@wpxtre.me>\n"
+"Language-Team: wpXtreme, Inc. <info@wpxtre.me>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/admin/wpxcf-admin.php:73
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: ../classes/admin/wpxcf-admin.php:116 ../classes/admin/wpxcf-admin.php:145
+#: ../classes/admin/wpxcf-admin.php:146
+#: ../classes/admin/wpxcf-main-viewcontroller.php:40
+msgid "Clean & Fix"
+msgstr ""
+
+#: ../classes/admin/wpxcf-admin.php:138 ../classes/admin/wpxcf-admin.php:139
+msgid "CleanFix"
+msgstr ""
+
+#: ../classes/admin/wpxcf-admin.php:151
+#: ../classes/tools/wpxcf-tools-viewcontroller.php:49
+msgid "Tools"
+msgstr ""
+
+#: ../classes/admin/wpxcf-admin.php:152
+msgid "Clean & Fix Tools"
+msgstr ""
+
+#: ../classes/admin/wpxcf-admin.php:158
+msgid "Preferences"
+msgstr ""
+
+#: ../classes/admin/wpxcf-main-viewcontroller.php:112
+msgid "Refresh All"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:77
+#, php-format
+msgid "An error occourred! Code: %s Description: %s"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:114
+msgid "Method not allowed!"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:122
+msgid "Module Missing!"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:130
+msgid "Slot Missing!"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:138
+msgid "Module not allowed!"
+msgstr ""
+
+#: ../classes/core/wpxcf-ajax.php:153
+msgid "Slot not allowed!"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:38
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:57
+msgid "Comments"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:174
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:279
+msgid "Unapproved"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:174
+msgid "Comments unapproved"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:192
+#, php-format
+msgid "You have %s comment unapproved."
+msgid_plural "You have %s comments unapproved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:199
+msgid "Fix: click here to delete your unapproved comments."
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:259
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:514
+msgid "Trash"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:259
+msgid "Comments trash"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:277
+#, php-format
+msgid "You have %s comment in your trash."
+msgid_plural "You have %s comments in your trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:283
+msgid "Fix: click here to delete all comments in your trash."
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:342
+msgid "Spam"
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:342
+msgid "These comments are marked as spam."
+msgstr ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:360
+#, php-format
+msgid "You have %s comment marked as spam."
+msgid_plural "You have %s comments marked as spam."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/comments/wpxcf-comments-module.php:366
+msgid "Fix: click here to delete your SPAM comments."
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:38
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:107
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:49
+msgid "Database"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:209
+msgid "Tables"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:209
+msgid "Database table status"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:228
+#, php-format
+msgid "You have %s table to optimize. This action makes you gain %s."
+msgid_plural "You have %s tables to optimize. This action makes you gain %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:230
+msgid "Fix: click here in order to optimize your table. This action is safe."
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:473
+msgid "Engine"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:474
+msgid "Name"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:475
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:358
+msgid "Auto Increment"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:476
+msgid "Gain"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-module.php:504
+msgid "Total Gain"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-preferences-view.php:39
+msgid "Optimization"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-preferences-view.php:41
+msgid ""
+"The InnoDB tables could not be optimized on some MySQL version / Server."
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-preferences-view.php:46
+msgid "Ignore INNODB"
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-preferences-view.php:51
+msgid ""
+"Once the optimization process ends, you are able the reset the "
+"AUTO_INCREMENT index function of the tables."
+msgstr ""
+
+#: ../classes/embedded-modules/database/wpxcf-database-preferences-view.php:56
+msgid "Reset AUTO_INCREMENT"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:39
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:120
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:405
+msgid "Options"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:136
+#, php-format
+msgid "<strong>(%s ago)</strong>"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:280
+msgid "Expired Site Transients"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:280
+msgid ""
+"Transients data are temporary values stored in the options database tables. "
+"When a transient expires you can safely remove it."
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:297
+#, php-format
+msgid "You have %s expired site transient."
+msgid_plural "You have %s expired site transients."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:303
+msgid "Fix: click here to delete your expired site transients."
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:361
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:221
+msgid "Expired Transients"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:361
+msgid ""
+"Transients data are temporary values store in the options database table. "
+"When a transient is expired you can remove it in safe."
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:378
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:238
+#, php-format
+msgid "You have %s expired transient."
+msgid_plural "You have %s expired transients."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/options/wpxcf-options-module.php:384
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:244
+msgid "Fix: click here to delete your expired transients."
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:39
+msgid "Transients"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:45
+msgid "Safe mode"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:54
+msgid "Expiry date"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:56
+msgid "Today"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:57
+msgid "Daily"
+msgstr ""
+
+#: ../classes/embedded-modules/options/wpxcf-preferences-options-view.php:58
+msgid "Weekly"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:38
+msgid "Posts, Page and Custom Post Types"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:347
+msgid "Revisions"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:348
+msgid ""
+"Post in revision. WordPress auto-generates post revisions each time you save "
+"a newer version of the post. If you do not need them, you can permanently "
+"delete them to gain space in the database."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:365
+#, php-format
+msgid "You have %s post in revision."
+msgid_plural "You have %s posts in revision."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:371
+msgid "Fix: click here to delete your post revisions."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:427
+msgid "Autodraft"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:428
+msgid ""
+"Post in Auto Draft. WordPress saves an Auto Draft in the database every n "
+"seconds. The Auto draft is different from draft, however you can safely "
+"remove it to gain more space in the database."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:445
+#, php-format
+msgid "You have %s post in auto draft."
+msgid_plural "You have %s posts in auto draft."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:451
+msgid "Fix: click here to delete your auto drafted posts."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:514
+msgid "Posts in trash"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:531
+#, php-format
+msgid "You have %s post in trash."
+msgid_plural "You have %s posts in trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:537
+msgid "Fix: click here to delete your posts in trash."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:593
+msgid "Posts without author"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:610
+#, php-format
+msgid "You have %s post not correctly assigned to any author"
+msgid_plural "You have %s posts not correctly assigned to any author"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:613
+msgid ""
+"WARNING!! Be very careful: this action will assign all 'Posts without "
+"Author' to your selected author. Are you sure?"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:614
+msgid "Fix: click here to repair posts without authors."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:676
+msgid "Choose a new user"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:688
+msgid "WARNING! Please, select an user before continuing."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:736
+msgid "Orphan Post Meta"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:737
+msgid ""
+"Post Meta data not assigned to a post. These are the extra properties for a "
+"standard post type (post, page, custom post type, etc...). Sometimes, post "
+"meta records may exist without being associated with post: in this case, "
+"post meta are orphan and can be deleted."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:754
+#, php-format
+msgid "You have %s orphan post meta."
+msgid_plural "You have %s orphan post meta."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:760
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:852
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:494
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:659
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:127
+msgid "Fix: click here to safely and permanently delete them."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:828
+msgid "Temporary"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:829
+msgid ""
+"These records are stored by WordPress as temporary data. If you like you can "
+"safely delete them."
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:846
+#, php-format
+msgid "You have %s temporary post meta."
+msgid_plural "You have %s temporary post meta."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:927
+msgid "Orphan attachments"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:928
+msgid ""
+"An orphan attachment is a custom post type without a valid parent post ID "
+"assigned (it is missing). An attachment usually has a null parent post or a "
+"post ID"
+msgstr ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:945
+#, php-format
+msgid "You have %s orphan attachment."
+msgid_plural "You have %s orphan attachments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/posts/wpxcf-posts-module.php:951
+msgid "Fix: click here to remove all invalid post parents."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:44
+msgid "Terms and Taxonomies"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:114
+msgid "Consistent Terms"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:114
+msgid "These are orphan Terms and they don't exist in the taxonomy table."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:131
+#, php-format
+msgid "You have %s orphan term. This term does not extis as taxonomy."
+msgid_plural ""
+"You have %s orphan terms. These terms does not exists as taxonomy."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:134
+msgid "Fix: click here to repair terms"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:230
+msgid "Consistent Terms/Taxonomy"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:230
+msgid "These are orphan Taxonomies which are missing a valid linked term."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:247
+#, php-format
+msgid ""
+"You have %s orphan taxonomy. This is taxonomy have a not valid term id "
+"linked."
+msgid_plural ""
+"You have %s orphan taxonomies. These taxonomies have not a valid term id "
+"linked."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:250
+msgid "Fix: click here to repair terms and taxonomies."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:350
+msgid "Consistent Terms/Relationships"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:350
+msgid "Check for term_relationships table and for missing taxonomy IDs."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:367
+#, php-format
+msgid ""
+"You have %s row broken. This object ID or term taxonomy ID is not valid."
+msgid_plural ""
+"You have %s broken rows. These object ID or terms taxonomy ID are not valid."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:370
+msgid "Fix: click here to repair terms relationships."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:474
+msgid "Orphan Post Tags"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:474
+msgid "Check for unused post tags."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:491
+#, php-format
+msgid "You have %s orphan tag."
+msgid_plural "You have %s orphan tags."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:637
+msgid "Orphan Post Categories"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:637
+msgid "Check for unused post categories."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:656
+#, php-format
+msgid "You have %s orphan post category."
+msgid_plural "You have %s orphan post categories."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:786
+msgid "Orphan Terms"
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:786
+msgid "Check for unused generic terms."
+msgstr ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:803
+#, php-format
+msgid "You have %s orphan generic term"
+msgid_plural "You have %s orphan generic terms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/taxonomies/wpxcf-taxonomies-module.php:809
+msgid "Fix: click here to delete all orphan terms."
+msgstr ""
+
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:37
+msgid "Users"
+msgstr ""
+
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:104
+msgid "Orphan user meta"
+msgstr ""
+
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:104
+msgid ""
+"User Meta data not correctly assigned to a user. These are extra properties "
+"assigned to each user. It might be the case that some records are not "
+"assigned to a specific user."
+msgstr ""
+
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:121
+#, php-format
+msgid "You have %s orphan user meta data."
+msgid_plural "You have %s orphan user meta data."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-modules/users/wpxcf-users-module.php:221
+msgid ""
+"Users Transients data are extensions of the WPDK and they are temporary "
+"values stored in the user meta database table. When a transient expires you "
+"can safely remove it."
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:119
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:98
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:119
+msgid "Find or replace empty strings!"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:121
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:125
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:99
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:103
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:120
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:124
+msgid "Warning!"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:124
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:102
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:123
+msgid "Find and replace identical strings!"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:154
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:201
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:122
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:173
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:154
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:205
+msgid "No matching strings found!"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:155
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:159
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:176
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:202
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:123
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:129
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:148
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:174
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:155
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:161
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:180
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:206
+#: ../classes/preferences/wpxcf-preferences-view-controller.php:113
+msgid "Information"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:158
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:175
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:213
+#, php-format
+msgid "Searched in <strong>%s</strong> comment only"
+msgid_plural "Searched in <strong>%s</strong> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:158
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:175
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:213
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:216
+#, php-format
+msgid "Replaced <strong>%s</strong> string only"
+msgid_plural "Replaced <strong>%s</strong> strings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:158
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:175
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:213
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:160
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:179
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:216
+#, php-format
+msgid "in <strong>%s</strong> post only"
+msgid_plural "in <strong>%s</strong> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:158
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:175
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:128
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:147
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:160
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:179
+msgid "Continue ?"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:214
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:190
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:217
+msgid "Successfully replaced"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:247
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:278
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:239
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:272
+msgid "All"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:280
+msgid "Approved"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:340
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:395
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:281
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:332
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:387
+msgid "Find & Replace"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:345
+msgid ""
+"This tool will perform a search for a text string within the comments "
+"content and will replace it with another text. Be careful because this "
+"operation is irreversible."
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:350
+msgid "Comment Approved"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:359
+msgid "Comment Type"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:368
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:258
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:360
+msgid "Find"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:378
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:266
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:370
+msgid "Replace"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:389
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:275
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:381
+msgid "Clear fields"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:401
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:287
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:393
+msgid "WARNING! The find or replace fields are empty!"
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:402
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:288
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:394
+msgid ""
+"WARNING! Are you sure you want to use the find & replace function? This "
+"operation is irreversible."
+msgstr ""
+
+#: ../classes/embedded-tools/comments/wpxcf-comments-tool.php:403
+msgid "WARNING! Find and replace identical strings!"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:90
+msgid "No table name"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:104
+msgid "Wrong compacting"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:315
+msgid "Compact index"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:316
+msgid ""
+"This tool will perform a datbase table index compact on the special options "
+"tables as <code>wp_options</code>, <code>post_meta</code>..."
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:321
+msgid "Make a backup copy before compact"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:357
+msgid "Table"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:359
+msgid "Action"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:377
+msgid "Compact"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:404
+msgid "Comment Meta"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:406
+msgid "Post Meta"
+msgstr ""
+
+#: ../classes/embedded-tools/database/wpxcf-database-tool.php:407
+msgid "User Meta"
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:51
+msgid "Postmeta"
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:128
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:147
+#, php-format
+msgid "Found <strong>%s</strong> postmeta"
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:189
+#, php-format
+msgid "Replaced <strong>%s</strong> postmeta"
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:248
+msgid "Find & Replace Meta Key"
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:253
+msgid ""
+"This tool will perform a search and replace for post meta keys. Be careful "
+"because this is an irreversible operation."
+msgstr ""
+
+#: ../classes/embedded-tools/postmeta/wpxcf-postmeta-tool.php:289
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:395
+msgid "WARNING! Find and Replace strings are identical!"
+msgstr ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:59
+msgid "Posts"
+msgstr ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:160
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:179
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:216
+#, php-format
+msgid "Searched in <strong>%s</strong> post only"
+msgid_plural "Searched in <strong>%s</strong> posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:160
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:179
+#, php-format
+msgid "only the <strong>%s</strong> string will be replaced"
+msgid_plural "the <strong>%s</strong> strings will be replaced"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:337
+msgid ""
+"This tool will perform a search for a text string within the posts content "
+"and will replace it with another text. Be careful because this operation is "
+"irreversible."
+msgstr ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:342
+msgid "Post Type"
+msgstr ""
+
+#: ../classes/embedded-tools/posts/wpxcf-posts-tool.php:351
+msgid "Post Status"
+msgstr ""
+
+#: ../classes/modules/wpxcf-module-view.php:263
+msgid ""
+"WARNING!! Are you sure you want to permanently delete these data? This "
+"action is not undoable."
+msgstr ""
+
+#: ../classes/modules/wpxcf-module-view.php:298
+msgid "Refresh"
+msgstr ""
+
+#: ../classes/modules/wpxcf-module.php:333
+msgid "All works great."
+msgstr ""
+
+#: ../classes/preferences/wpxcf-preferences-view-controller.php:45
+msgid "General"
+msgstr ""
+
+#: ../classes/preferences/wpxcf-preferences-view-controller.php:61
+msgid "CleanFix preferences"
+msgstr ""
+
+#: ../classes/preferences/wpxcf-preferences-view-controller.php:119
+msgid ""
+"This preferences view can be extended by other CleanFix plugin extensions."
+msgstr ""
+
+#: ../kickstart.php:109
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>WordPress version %s</strong> (<strong>minimum requirement: "
+"%s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:110
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>PHP language version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:111
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>MySQL database version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:115
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the WordPress version "
+"to the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:116
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the PHP language "
+"version to the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:117
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the MySQL version to "
+"the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:121
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>wpXtreme framework version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:122
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the wpXtreme framework "
+"version to the minimum required version."
+msgstr ""
+
+#~ msgid "Placeholders"
+#~ msgstr "Segnaposti"
+
+#~ msgid "Environment"
+#~ msgstr "Ambienti"
+
+#~ msgid "Places"
+#~ msgstr "Posti"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Publish"
+#~ msgstr "Pubblica"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Restore"
+#~ msgstr "Repristina"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Sposta nel cestino"
+
+#~ msgid "Add New"
+#~ msgstr "Aggiungi nuovo"
+
+#~ msgid "Edit Place"
+#~ msgstr "Modifica posto"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Update"
+#~ msgstr "Aggiorna"

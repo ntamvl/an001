@@ -1,0 +1,1 @@
+(function(){tinymce.PluginManager.add("wpdk_shortcodes_button",function(b,a){b.addButton("wpdk_shortcodes_button",{icon:"wpdk-mce-button",onclick:function(){b.insertContent("WPExplorer.com is awesome!");WPDKMCE.openDialog()}})})})();

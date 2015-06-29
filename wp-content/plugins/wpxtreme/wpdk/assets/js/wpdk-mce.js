@@ -1,0 +1,1 @@
+jQuery(function(a){if(typeof(window.WPDKMCE)==="undefined"){window.WPDKMCE=(function(){var c={openDialog:b};function d(){return c}function b(){var e=new WPDKUIModalDialog("wpdk-shortcodes-dialog","WPDK Shortcode Manager","Content");e.display()}return d()})()}});

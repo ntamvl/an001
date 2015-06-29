@@ -1,0 +1,235 @@
+/**
+ * CSS Style Sheet for module database
+ *
+ * @author      =undo= <info@wpxtre.me>
+ * @copyright   Copyright (C) 2012-2013 wpXtreme Inc. All Rights Reserved.
+ * @date        2013-07-10
+ * @version			1.1.0
+ *
+ */
+
+/* =====================================================================================================================
+ * MODULES TABLE
+ * =====================================================================================================================
+ */
+
+.wpxcf-table
+{
+}
+
+.wpxcf-table .wpdk-has-tooltip
+{
+  cursor : help;
+}
+
+.wpxcf-table button.wpdk-has-tooltip
+{
+  cursor : pointer;
+}
+
+.wpxcf-table td
+{
+  padding       : 8px;
+  border-bottom : 1px solid #ccc;
+  border-top    : 1px solid #fff;
+}
+
+.wpxcf-table tr:first-child td
+{
+  border-top : none;
+}
+
+.wpxcf-table tr:last-child td
+{
+  border-bottom : none;
+}
+
+.wpxcf-table td.wpxcf-column-refresh
+{
+  width : 16px;
+}
+
+.wpxcf-table td.wpxcf-column-title span
+{
+  color          : #66a;
+  font-size      : 13px;
+  font-weight    : bold;
+  line-height    : 100%;
+  text-shadow    : 1px 1px 0 #fff;
+  vertical-align : middle;
+  width          : 140px;
+  padding-top    : 16px;
+  padding-bottom : 15px;
+  white-space    : nowrap;
+}
+
+.wpxcf-table td.wpxcf-column-status
+{
+  width : 16px;
+}
+
+.wpxcf-table td.wpxcf-column-content
+{
+  width : 70%;
+}
+
+.wpxcf-table td.wpxcf-column-actions
+{
+  width : 32px;
+}
+
+.wpxcf-table span.wpxcf-status-ok
+{
+  display          : block;
+  width            : 22px;
+  height           : 22px;
+  background-image : url(data:image/png;base64,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);
+}
+
+.wpxcf-table span.wpxcf-status-warning
+{
+  display          : block;
+  width            : 22px;
+  height           : 22px;
+  background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAADqklEQVQ4ja2VS2yUVRSAv3P/x/zzd6Yz04czpS1Y20A7tKWWplApWB/FWGGhhmDcGTUujOJGiWJCoom6sSg0PtYujDsJMSFxaUIiMT5iSGoRYoG2gaG1tJ333P+6aKi4KVP1JHdxc8758uXk3FwxxlBNfDlWU6cEDn+TXaimXlVFBUIhL+36ble19Rhj7no+6aI7c3r/lcWzI7On2qWjmp6qjDsG2o41dJrWWKfVtGPfpo/+F+NPu53RG6efWDBn08Z822my5/blx5My8J+Mx1sk1DmSfjVRn00UsgEUS/ipgjf8TNvHx6Nirde7LjiS8g9sH938cGluhls/TZL7/jJcmqT3uS2D9bXq0X8FHm+XWHq0+0jMv+nf/O0q9tAJirsnqPyaI+TO2gMvdky8UyPOhsGJ5vhT6aG6PZWZCxQXNPWPv0Z87GV00YfzUwwciN6XbPMObwh8aquVSo9seSPWkFXzl5bxtAY0YjQlU0ZfM7gyo3bs98Y/2Cx+1eB4a+2zXX1+Z2HqMmIrKrduv04hl9MsTQJnrtPfEzQmW92XqgJPpFVreu+m1/3IIsvXi0R8Ier8XVr6TiMlCPIG18vTO2i/Nb5Npe4Krt8cO9K100/lLlwhkvJwYhah8qotokg0CyoM+MDFMn290tCYtI6uC55Iq+7+keQL4dIMJh4jZOfwr2oicwZufA0rZ4i0GmpuT7UCll1gcLf7/Ilt0nMny77z0tQePdbRT6w4l6dmqYKVySIhA1GYP34IU+vQ8IfGGgYWAU9gRrO1z0R//MF6G1jbkjXjz3vsR3Y92XCQTAaZWsaeXUFqDfhghsJEJvLE379FcHAX5IBaB8SACJItsPcBZ+zDdhn9B/izLlFt2/2jTeVMjT7/J6FAQ6NANAxhFwmKhCzBFoXK/wxxBVEfXAtEYElIdVYibVusN99tFXsN7Efl0M7UyoPWxWXssIEE4FkQcuGeJKRCcDIMJ31wDSTvXc2HbSCAgsEuVtjzUDCsA/X02ozTPbWvJOqyLlYF5Qs0CMQ8qI9BXQsk9kK4ESwHSsuwOAnzLixmYD6AhTIUINntOsP3y3vAVzZA4EempqbLLTpXKXgxLJl2LctTWE45CJyMI16BwJ4RLDswxRVjdFYF+bw2eZDA1UEusEoL2sSbnYT2y9NrxrMXb3wxV9G/mAI5mTPGUoXANgWUXhatMMqs7rEAWqGCiglKChUUTaAF0QL5HMb6PRubv8bUY4BU+5luNP4CtYO1I4jUgZwAAAAASUVORK5CYII=);
+}
+
+.wpxcf-table span.wpxcf-status-error
+{
+}
+
+/* Exept */
+#wpxcfdatabasemodule td
+{
+  vertical-align : top;
+}
+
+/* =====================================================================================================================
+ * MORE INFO
+ * =====================================================================================================================
+ */
+
+.wpxcf-table #tables
+{ }
+
+.wpxcf-table-more-info
+{
+  background-color      : #fff;
+  border                : 1px solid #bbb;
+  -moz-border-radius    : 4px;
+  -webkit-border-radius : 4px;
+  border-radius         : 4px;
+  padding               : 2px;
+  font-size             : 12px;
+}
+
+.wpxcf-table-more-info thead
+{ }
+
+.wpxcf-table-more-info tbody
+{ }
+
+.wpxcf-table-more-info tfoot
+{ }
+
+.wpxcf-table-more-info td:first-child,
+.wpxcf-table-more-info th:first-child
+{
+  border-left : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info th
+{
+  background-color : #ddd;
+  color            : #444;
+}
+
+.wpxcf-table-more-info td
+{
+  border-bottom : 1px solid #ccc !important;
+}
+
+.wpxcf-table-more-info th,
+.wpxcf-table-more-info td
+{
+  padding     : 4px 8px;
+  white-space : nowrap;
+}
+
+/* Database */
+
+.wpxcf-table-more-info .wpxcf-table-more-info-column-engine
+{
+  width        : 64px;
+  min-width    : 64px;
+  text-align   : left;
+  border-right : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info .wpxcf-table-more-info-column-name
+{
+  text-align   : left;
+  border-right : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info .wpxcf-table-more-info-column-gain
+{
+  width        : 100px;
+  min-width    : 100px;
+  text-align   : right;
+  border-right : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info .wpxcf-table-more-info-column-auto-increment
+{
+  width        : 100px;
+  min-width    : 100px;
+  text-align   : right;
+  border-right : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info-body tr.optimize td
+{
+  color            : #fff;
+  background-color : #ff7658;
+  font-weight      : bold;
+}
+
+.wpxcf-table-more-info tfoot td
+{
+  background-color : #eee;
+  font-weight      : bold;
+}
+
+.wpxcf-table-more-info tfoot td:last-child
+{
+  text-align   : right;
+  border-right : 1px solid #ccc;
+}
+
+.wpxcf-table-more-info-header,
+.wpxcf-table-more-info-body,
+.wpxcf-table-more-info-footer
+{
+  width : 100%;
+}
+
+.wpxcf-table-more-info-header,
+.wpxcf-table-more-info-footer
+{
+  overflow-y : scroll;
+}
+
+.wpxcf-table-more-display-scroll {
+  overflow-y: scroll;
+}
+
+.wpxcf-table-more-info-header th:last-child
+{
+}
+
+.wpxcf-table-more-info-content
+{
+  height     : 200px;
+  overflow-y : scroll;
+}

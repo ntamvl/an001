@@ -1,0 +1,1 @@
+Boolean.prototype.XOR=function(a){var b=this.valueOf();return(b==true&&a==false)||(a==true&&b==false)};

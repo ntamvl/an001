@@ -1,0 +1,156 @@
+/**
+ * CSS Style Sheet for Backend
+ *
+ * @author      =undo= <info@wpxtre.me>
+ * @copyright   Copyright (C) 2012-2013 wpXtreme Inc. All Rights Reserved.
+ * @date        2013-04-22
+ * @version			1.0.1
+ *
+ */
+
+/* =====================================================================================================================
+ * General
+ * =====================================================================================================================
+ */
+
+#wpxcf-main-header-view.wpdk-vc-header-icon,
+#wpxcf-tools-header-view.wpdk-vc-header-icon,
+#wpxcf-preferences-header-view.wpdk-vc-header-icon,
+#cleanfix-header-view.wpdk-vc-header-icon
+{
+  background-image : url(images/logo-64x64.png);
+}
+
+/* =====================================================================================================================
+ * Overwrite WordPress Meta Box
+ * =====================================================================================================================
+ */
+
+body.wpx-cleanfix div#poststuff h3.hndle span
+{
+  font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight : bold;
+}
+
+/* =====================================================================================================================
+ * MODULES
+ * =====================================================================================================================
+ */
+tr
+{
+  -webkit-transition : opacity linear 0.2s;
+  -moz-transition    : opacity linear 0.2s;
+  -ms-transition     : opacity linear 0.2s;
+  -o-transition      : opacity linear 0.2s;
+  transition         : opacity linear 0.2s;
+}
+
+tr td.wpxcf-column-hidle
+{
+  border         : none;
+  padding        : 0;
+  width          : 0;
+  vertical-align : top;
+}
+
+tr.wpx-cleanfix-busy td
+{
+  opacity : 0.15;
+  filter  : alpha(opacity=15);
+}
+
+tr.wpx-cleanfix-busy td.wpxcf-column-hidle
+{
+  opacity : 1;
+  filter  : alpha(opacity=100);
+}
+
+tr td.wpxcf-column-hidle i.animate-spin
+{
+  margin-top  : 8px;
+  color       : #f66;
+  font-size   : 24px;
+  margin-left : 50%;
+  position    : absolute;
+  line-height : 1em;
+  visibility  : hidden;
+}
+
+tr.wpx-cleanfix-busy td.wpxcf-column-hidle i.animate-spin
+{
+  visibility : visible;
+}
+
+tr td select.wpdk-ui-control
+{
+  width: 50%;
+}
+
+/* =====================================================================================================================
+ * ASSETS
+ * =====================================================================================================================
+ */
+
+button.wpxcf-button-action
+{
+  outline               : none;
+  cursor                : pointer;
+  height                : 16px;
+  margin                : 0 auto;
+  padding               : 12px;
+  width                 : 16px;
+  border                : 1px solid #ccd;
+  -moz-border-radius    : 3px;
+  -webkit-border-radius : 3px;
+  border-radius         : 3px;
+  -moz-box-shadow       : inset 1px 1px 0 #fff;
+  -webkit-box-shadow    : inset 1px 1px 0 #fff;
+  box-shadow            : inset 1px 1px 0 #fff;
+  background            : #eee no-repeat center center;
+}
+
+button.wpxcf-button-action:hover
+{
+  background-color : #fff;
+}
+
+button.wpxcf-button-action-refresh,
+button.wpxcf-button-action-refresh-all
+{
+  background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmVJREFUeNp8k89rE0EUx7+bTRqT3fwwxhIrjbRJqVQqeMnZi+BB8CDiQfBSFQRFtODFgyiKkouCR5EeBG8qCIX+BT0UxJtYiy0Y00SbTdL9mZ3N7vpmm9g0WAc+7Lw3M2/evPddwfd9PH+3jn1GiigT84Q+vHjnwiRCfMKD7MNIJBy6Tt/PRGl4nY8ggOfvYZpYIBQxLP7OHEqgMJEtkr1MPCbE/l4+wjsB/H5WN4kX04WsmM3IMBigqC5scp6cHReVRvt+ZVM9Q+YVYnU3gBccvpEfS77kNzJPxI9GFxbzYdk7wS0WQjqRQG4Upc26+pRcFwm3n0GR3xxLSNjSBGgmg6nr6No2wgckiNEYlJaBrboJ1uk8oL2P+in3MvBvjx/NjLSMEFTdhq78csn9jFiktWWx24Vjqk2yLxNLg50IArgeznaFKDTDhWWY3Oa3POFt9Bw6zNRPvZQ3hlvZzyBvOQIc14dt6vA9//XuFpfPb/Ey/Esof7vAHA+8Gf7ermwTV/GfEeo9YdVmThAgLkncniMwRJnwB1gffMJHZlmz0XgYSVlCq7n9kNwx4g0hEnPFY+m7x4tZCIKAtY0mvn5XFvlZgUvy3qsvOZqvyemsnErGkDsookO1+FlTgwP5sRTkhIy24UHTO6hU6rweU+VrM9W+kOpcXaauvudGRJQwmk6gdCodPKutu6g2nEALlmHwLbwu1WEpf2C2fZpYYIxNaFocshwNCqUZpA3dJHFp1V5Rl4a6AJybqs3Q9LDtht5+U8zz7VakUKtHYsE/HXVwRLIxOWFoEdG7RC6u3BXgxMofAQYAtZVpZHPy1akAAAAASUVORK5CYII=);
+}
+
+button.wpxcf-button-action-refresh-all
+{
+  margin         : 0 12px 0 0;
+  vertical-align : middle;
+}
+
+button.wpxcf-button-action-clean
+{
+  background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKXSURBVDiNlZJLaJRnFIaf75uZ6EwSm9tIQpNIvNWoFCsmiwrSgotKS3aCl4WL0Y2CIvwLBV0YFwYckFIQhI7GhWBLdaEL6Y0WMS20aTQxijGNmnFGSZPJZcw/80/+//uOK0VjIfisz/twzstRR75gczjEBRGixrL31A35kfdAhzTfr22OrdqworwxpLl6dJva+l4CYHFFVLO0KsLHLbFYSHP29H6lU0nVmUqq2gUFVugcfFJ0fSPU15QRXazqqxrpBY4DSxcUiPCN65mLtwbz7kzJp6mdypWtGzfE400vgLqFBEpEAOjap07EV3L8k7bPVXNLOz2nu73pf8Zy7FSTxsglEc4nHBn/X0EqqXZprb79dHNHtK6ugX+//punVx+y/ux2atdVkR7t9+7f/UOM9b4zRo4lHMnOF+zRmmRTfWs5lyRqJl22dG9lUY0GFYVQNX5Qzr3BX/2B/t8N4v9gDCng5usTUkm1KHKOOxXNtas6Lh8Oaf0cQg1gxsBksUEez7bgzdWQyQzI45EBd2oyW9SvVkk4UvJ301V7sLGkI2VgZyEYAZMF8x9e4RmzuevMjJ0jXo3a1P5VhVZKwm81UsHP2UxaW6tQ/ggiPv6ch1eapViYoVCYRkTQ4UrST3oDlPym38wnHHnmz02PpNN3mXFjTEyMksulmcxlcN0pRIRY9TYKRc3Qg/6SMThvCQACI4f6en8p+qzGdT2KxTzWBuhwDZXxHeTdmNy6eSVvTPBlwpHM6xLfpPuM6ln9UXvb8hWtES//J2WxNejIMh4N9wRDQ33j1vJZwpGHAOF30oAxdAw9+Ot25ZKGDz+oatOjo/f84eGfAmu869ZyIOHIxDufOJ9UUi1Tij6lEOCatZxMOPJ4/txLfgdDCCiEEtoAAAAASUVORK5CYII=);
+}
+
+button.wpxcf-button-action-fix
+{
+  background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAANkE3LLaAgAAAs1JREFUeJx9U11Ik2EYPTp1ueXU5dLpMvMnsEjnJq7yB5WyMEgIlTQVRU1YA/MiVpgEilPvugjUK2mKdhFNNiy0lQOxtilp7sJkKeq+YWvCN/Sz+bP2dpNh/p3L85xznsMDDwBAIpHkRkdHX8DRCKipqbmv1+vHNBrNRwDB/01LSko6JiYmfmVlZV05zN3Z2dlLCCEURf3OzMxU/KX9AZzY1bBbW1t14+PjVgC8vea0tLQcmqaJ2+0m1dXV7bt8V1fXy6Kiogd7tb6FhYUvVCrVWwABu2R+fn4lTdPE4XAQk8m0KJVKZUqlstnj8ZC8vLzaA3UrKip6GhsbNQBYABATEyObn58nNpuNrKysEIqitmmaJmaz2R0SEpLkuz9ArVbX0jRN6uvrewAENDQ0yLlcLgDA6/WCzWb72+12tLS0dLtcrhmfw44GwK+urq6/oKAgQya7LGTWXFCp2nTLFLUYFhYmNBqNI1arVQ1gy++IAHZKcgo3NjZOSK/+wLuxyYXuvj453G5qv5C1n+DxePzBwUHtpaSk69ubGzDZdvCZnRoqPHuO/31Mpz02QCDgRKjVAzpxcko6L+gkDIZR+6Nei3PdL5wfJ04Vh0dGnl4wDg8d2lkoFEaPDI9MLy0tE6fTSSwWy6ZIFHETQCInt8kmaZ4k5W9+kozapva9PhYAiESieK1W+z4+ISERIPB6vSgtLX04Ozs3AGB1x/bFvOYbcdsbKOAkXL2WEciGxz7zaQwAWDwej6/RaPT9/a+mGGZtXSwWn6mqquoYHR1t+7fGu23bsU9/XWOJChB4in0+PS/XZ8tFO+amTFAoFI83NjaIQqF4ZjAYvsnl8teHHRcAECi4w7313C1tNpPyQZok5BbfRVlZ2ROGYQjDMESpVA5h3y8cACeqIrhYTVKfflgPjbl4AwCCsrOz5RKJpBIA91jzLkLi77G4UTkA8AemGSncz8QQ2gAAAABJRU5ErkJggg==);
+}
+
+/* Usato per elencare cose... */
+select.wpxcf-select-info
+{
+  max-width : 200px;
+  min-width : 200px;
+}
+
+/* =====================================================================================================================
+ * Overwrite Twitter Boostrap Tooltip
+ * =====================================================================================================================
+ */
+
+body.wpx-cleanfix .tooltip-inner
+{
+  font-size  : 11px;
+  text-align : left;
+  padding    : 10px;
+}

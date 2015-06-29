@@ -1,0 +1,1 @@
+jQuery(function(a){window.WPXtremePosts=(function(){var c={version:"1.1.0",init:b};function b(){return c}return b()})()});

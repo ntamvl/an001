@@ -1,0 +1,1298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpXtreme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:35+0100\n"
+"PO-Revision-Date: 2015-03-20 15:35+0100\n"
+"Last-Translator: wpXtreme, Inc. <info@wpxtre.me>\n"
+"Language-Team: wpXtreme, Inc. <info@wpxtre.me>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/admin/wpxm-admin.php:134
+msgid "Remove All"
+msgstr "Rimuovi tutto"
+
+#: ../classes/admin/wpxm-admin.php:135
+msgid ""
+"WARNING!\n"
+"\n"
+"Are you sure do you want remove all your revision posts?"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:218 ../classes/admin/wpxm-admin.php:221
+#: ../classes/admin/wpxm-admin.php:232
+msgid "About wpXtreme"
+msgstr "Informazioni su wpXtreme"
+
+#: ../classes/admin/wpxm-admin.php:229 ../classes/admin/wpxm-dashboard.php:56
+#: ../classes/framework/wpx-store-plugin-install.php:152
+msgid "wpXtreme"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:241
+#: ../classes/framework/wpx-store-plugin-install.php:866
+#: ../classes/framework/wpx-store-theme-install.php:345
+msgid "Community"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:245
+msgid "wpXtreme Community Forums"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:257
+#: ../classes/framework/wpx-reminder-dialog-beta.php:106
+msgid "Issue Report"
+msgstr "Segnala un problema"
+
+#: ../classes/admin/wpxm-admin.php:261
+msgid "Send a Issue Report to teh wpXtreme Developer team"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:273
+#: ../classes/preferences/wpxm-preferences-view-controller.php:732
+msgid "Debug"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:277
+msgid "Open internal debug"
+msgstr "Apri debug interno"
+
+#: ../classes/admin/wpxm-admin.php:299 ../classes/admin/wpxm-admin.php:433
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: ../classes/admin/wpxm-admin.php:303 ../classes/admin/wpxm-admin.php:340
+#: ../classes/preferences/wpxm-preferences-view-controller.php:50
+msgid "wpXtreme Preferences"
+msgstr "Preferenze di wpXtreme"
+
+#: ../classes/admin/wpxm-admin.php:325
+msgid "wpXtreme Version"
+msgstr "Versione wpXtreme"
+
+#: ../classes/admin/wpxm-admin.php:423
+msgid ""
+"WARNING!\n"
+"\n"
+"If you disable WPXtreme plugin, you'll no longer be able to use any of the "
+"connected plugins!\n"
+"\n"
+"Do you really want to continue?"
+msgstr ""
+
+#: ../classes/admin/wpxm-admin.php:462
+msgid "For more info and plugins visit"
+msgstr "Per più informazioni e altri plugin visita"
+
+#: ../classes/admin/wpxm-dashboard.php:124
+msgid "Breaking News"
+msgstr "Ultime notizie"
+
+#: ../classes/admin/wpxm-dashboard.php:129
+msgid "Number of feed"
+msgstr "Numero di feed"
+
+#: ../classes/admin/wpxm-dashboard.php:141
+msgid "Logs"
+msgstr ""
+
+#: ../classes/admin/wpxm-dashboard.php:146
+msgid "Enable Log"
+msgstr "Abilita Log"
+
+#: ../classes/admin/wpxm-dashboard.php:154
+msgid "Number of log"
+msgstr "Numero di Log"
+
+#: ../classes/admin/wpxm-dashboard.php:259
+msgid "Important Log"
+msgstr ""
+
+#: ../classes/admin/wpxm-dashboard.php:263
+#: ../classes/core/wpxm-debug-view.php:123
+msgid "Date"
+msgstr "Data"
+
+#: ../classes/admin/wpxm-dashboard.php:264
+#: ../classes/core/wpxm-debug-view.php:124
+msgid "Owner"
+msgstr ""
+
+#: ../classes/admin/wpxm-dashboard.php:265
+#: ../classes/core/wpxm-debug-view.php:125
+msgid "Log"
+msgstr ""
+
+#: ../classes/admin/wpxm-dashboard.php:306
+msgid "Breaking News from blog"
+msgstr "Ultime notizie dal blog"
+
+#: ../classes/core/wpxm-ajax.php:240
+msgid "Software Failure! Guru Meditation: 0x8000C000"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:275
+msgid "Software Failure! Guru Meditation: 0x8000C001"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:322
+msgid "Error: wrong parameter"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:326
+msgid "Error: no parameter"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:347
+msgid "Warning: can't send the report without your name!"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:356
+msgid "Warning: your email address is invalid. Can't send the issue report."
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:365
+msgid "Warning: can't send your report without a title for the Issue!"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:374
+msgid "Warning: the report seems to be empty! Please, repeat the process."
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:420
+msgid ""
+"Thank you! Your Issue Report has been successfully sent to wpXtreme Team!"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:421
+msgid "These are the main data sent:"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:422
+#: ../classes/issue-report/wpxm-issue-report.php:565
+msgid "Name"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:423
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: ../classes/core/wpxm-ajax.php:424
+#: ../classes/issue-report/wpxm-issue-report.php:749
+#: ../classes/issue-report/wpxm-issue-report.php:750
+msgid "Issue Title"
+msgstr "Titolo del problema"
+
+#: ../classes/core/wpxm-ajax.php:425
+#: ../classes/issue-report/wpxm-issue-report.php:761
+#: ../classes/issue-report/wpxm-issue-report.php:762
+msgid "Issue Description"
+msgstr "Descrizione del problema"
+
+#: ../classes/core/wpxm-ajax.php:456
+msgid "Warning: Can not send the report to server!"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:457
+msgid "Unprocessable request:"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:463
+msgid "Warning: Can't send the report to server!"
+msgstr ""
+
+#: ../classes/core/wpxm-ajax.php:464
+msgid "Status code"
+msgstr "Codice di stato"
+
+#: ../classes/core/wpxm-ajax.php:473
+msgid ""
+"Warning: Can't send the report to server! The Server response is malformat."
+msgstr ""
+
+#: ../classes/core/wpxm-debug-view.php:122
+msgid "!"
+msgstr ""
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:130
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:204
+msgid "Clone"
+msgstr ""
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:204
+msgid "Create a Draft copy"
+msgstr ""
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:360
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:525
+msgid "Published"
+msgstr "Pubblicato"
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:369
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:533
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:615
+msgid "Author"
+msgstr "Autore"
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:373
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:536
+msgid "Order"
+msgstr "Ordine"
+
+#: ../classes/enhancers/appearance/wpxm-enhancer-post.php:620
+msgid "Icon"
+msgstr "Icona"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:91
+msgid "Last login"
+msgstr "Ultimo login"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:92
+msgid "Last logout"
+msgstr "Ultimo logout"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:93
+msgid "# Login"
+msgstr ""
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:94
+msgid "# Wrong"
+msgstr "# Errori"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:95
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:134
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:260
+msgid "Filter by Role"
+msgstr "Filtra per ruolo"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:289
+msgid "Filter by Capability"
+msgstr "Filtra per capability"
+
+#: ../classes/enhancers/users/wpxm-enhancer-user.php:294
+msgid "None"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:284
+msgid "Country"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:285
+msgid "Continent"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:286
+msgid "Zone"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:287
+msgid "Currency"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:288
+msgid "Symbol"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:289
+msgid "ISO Code"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:290
+msgid "Code"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:291
+msgid "Tax"
+msgstr ""
+
+#: ../classes/framework/wpx-countries.php:292
+msgid "Status"
+msgstr "Stato"
+
+#: ../classes/framework/wpx-countries.php:339
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../classes/framework/wpx-countries.php:340
+#: ../classes/framework/wpx-countries.php:370
+msgid "Restore"
+msgstr "Ripristina"
+
+#: ../classes/framework/wpx-countries.php:341
+#: ../classes/framework/wpx-countries.php:371
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../classes/framework/wpx-countries.php:342
+msgid "Trash"
+msgstr "Cestina"
+
+#: ../classes/framework/wpx-countries.php:372
+msgid "Move to trash"
+msgstr "Sposta nel cestino"
+
+#: ../classes/framework/wpx-countries.php:581
+msgid "VAT"
+msgstr "IVA"
+
+#: ../classes/framework/wpx-countries.php:589
+msgid "Select a country"
+msgstr "Seleziona una nazione"
+
+#: ../classes/framework/wpx-logs.php:134
+msgid "Somebody write an empty log!"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:70
+msgid "Reminder"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:108
+msgid ""
+"Remember that the Issue Report can be started from wpXtreme menu or in "
+"footer admin area"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:111
+#: ../classes/framework/wpx-store.php:554
+msgid "No, Thanks"
+msgstr "No, Grazie"
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:115
+msgid "Yes, Send"
+msgstr "Si, invia"
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:139
+#, php-format
+msgid "Hi, you have installed %s v%s as beta product %s ago"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:140
+msgid ""
+"Please, feel free to give us any your comments, suggestions or feedback?"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:141
+msgid ""
+"If you get any issue run the Issue Report Tool by clicking the button below "
+"in order to send to us all information debug"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:147
+msgid "You feedback..."
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:174
+msgid "Please, write something..."
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:191
+msgid "Feedback for"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:218
+msgid ""
+"Thank you very much! Your feedback has been successfully sent to wpXtreme "
+"Team!"
+msgstr ""
+
+#: ../classes/framework/wpx-reminder-dialog-beta.php:222
+msgid "Warning: Can't send your feedback to server! Retry later..."
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:149
+#: ../classes/preferences/wpxm-preferences-view-controller.php:44
+msgid "WPX Store"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:611
+#: ../classes/framework/wpx-store-plugin-install.php:627
+#: ../classes/framework/wpx-store-plugin-install.php:654
+#: ../classes/framework/wpx-store-plugin-install.php:669
+msgid "This view is enhanced by wpXtreme plugin."
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:612
+#: ../classes/framework/wpx-store-plugin-install.php:628
+#: ../classes/framework/wpx-store-plugin-install.php:655
+#: ../classes/framework/wpx-store-plugin-install.php:670
+#: ../classes/framework/wpx-store-plugin-install.php:685
+#: ../classes/framework/wpx-store-plugin-install.php:708
+#: ../classes/framework/wpx-store.php:464
+msgid "Information"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:684
+msgid ""
+"This view is enhanced by wpXtreme plugin. Here you can find the latest "
+"wpXtreme plugins."
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:707
+msgid "This is the list of wpXtreme plugins"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:837
+msgid "Adding wpXtreme Plugins"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:849
+msgid ""
+"Please, visit the <a href=\"https://wpxtre.me\">wpXtreme web site</a> and "
+"contact us."
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:862
+#: ../classes/framework/wpx-store-theme-install.php:341
+msgid "wpXtreme information:"
+msgstr "Informazioni wpXtreme:"
+
+#: ../classes/framework/wpx-store-plugin-install.php:864
+#: ../classes/framework/wpx-store-theme-install.php:343
+msgid "wpXtreme Web Site"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:865
+#: ../classes/framework/wpx-store-theme-install.php:344
+msgid "WPDK Docs"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugin-install.php:867
+#: ../classes/framework/wpx-store-theme-install.php:346
+msgid "FAQ"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugins.php:206
+msgid "Warning"
+msgstr "Attenzione"
+
+#: ../classes/framework/wpx-store-plugins.php:212
+msgid ""
+"Please, update your system and retry. If you still receive this message "
+"contact the support team."
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugins.php:274
+msgid "WPXtreme"
+msgstr ""
+
+#: ../classes/framework/wpx-store-plugins.php:289
+msgid "Detail"
+msgstr "Dettagli"
+
+#: ../classes/framework/wpx-store-plugins.php:331
+#, php-format
+msgid "More information about %s"
+msgstr "Informazioni su %s"
+
+#: ../classes/framework/wpx-store-plugins.php:331
+msgid "Open Details"
+msgstr "Apri dettagli"
+
+#: ../classes/framework/wpx-store-theme-install.php:315
+msgid "Adding wpXtreme Themes"
+msgstr ""
+
+#: ../classes/framework/wpx-store-theme-install.php:327
+msgid "Mail Custom Post Type can be used for various purposes."
+msgstr ""
+
+#: ../classes/framework/wpx-store-theme-install.php:328
+msgid ""
+"For example, when a user is locked for some reason, a mail may be sent to "
+"the web master or any other email address."
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:65
+#: ../classes/framework/wpx-store-user-bar-view.php:87
+#: ../classes/framework/wpx-store.php:525
+#: ../classes/preferences/wpxm-preferences-view-controller.php:140
+msgid "Warning!"
+msgstr "Attenzione!"
+
+#: ../classes/framework/wpx-store-user-bar-view.php:66
+#: ../classes/framework/wpx-store-user-bar-view.php:88
+msgid "You are not logged in WPX Store, please"
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:66
+#: ../classes/framework/wpx-store-user-bar-view.php:88
+msgid "Signin by Preferences"
+msgstr "Accedi dalle Preferenze"
+
+#: ../classes/framework/wpx-store-user-bar-view.php:75
+msgid "You have to login"
+msgstr "Tu devi accedere"
+
+#: ../classes/framework/wpx-store-user-bar-view.php:120
+msgid "Edit your Profile"
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:124
+msgid "User from"
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:129
+msgid "No active Subscription found"
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:130
+msgid "Get Subscription"
+msgstr "Ottieni una sottoscrizione"
+
+#: ../classes/framework/wpx-store-user-bar-view.php:133
+msgid "Membership"
+msgstr ""
+
+#: ../classes/framework/wpx-store-user-bar-view.php:134
+msgid "expires in"
+msgstr ""
+
+#: ../classes/framework/wpx-store.php:473
+msgid ""
+"You are signout from WPX Store. Please checkout your wpXtreme Preferences."
+msgstr ""
+
+#: ../classes/framework/wpx-store.php:559
+msgid "Renew"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:341
+msgid "[unable to get Web Server info]"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:513
+msgid "How the wpXtreme Issue Report works"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:514
+msgid ""
+"If you find any bug or if you want to notice an issue about your wpXtreme "
+"experience to our team, here is the right place."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:516
+msgid ""
+"First of all, <strong>start the Issue Report Mode</strong> by clicking the "
+"button below. By enabling Issue Report Mode, you will start to collect and "
+"record ALL EVENTUAL debug messages in a single log file. This log file will "
+"be used by our team in order to properly reproduce and fix the issue you "
+"have detected"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:517
+msgid ""
+"Then, <strong>properly reproduce</strong> your environment behavior that "
+"causes the issue you want to signal to our team. To properly reproduce means "
+"to navigate your environment in order to replay all the stuffs that cause "
+"the issue: entering pages, filling text fields, clicking buttons or links, "
+"etc."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:518
+msgid ""
+"When the behavior that causes the issue has been exactly reproduced, return "
+"to this page, disable Issue Report Mode and follow the instructions"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:523
+msgid "Start Recording"
+msgstr "Inizia a Registrare"
+
+#: ../classes/issue-report/wpxm-issue-report.php:533
+msgid "Ready to stop recording of debug messages!"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:534
+#: ../classes/issue-report/wpxm-issue-report.php:709
+msgid ""
+"Your WordPress environment has now enabled the wpXtreme Issue Report Mode. "
+"It means that you are now collecting and recording ALL EVENTUAL debug "
+"messages in a log file, that will be used by our team in order to properly "
+"reproduce and fix the issue you indicated."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:535
+msgid ""
+"If you have just reproduced the behaviour that causes the issue, click the "
+"Stop Recording button below, and follow the instructions."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:536
+msgid ""
+"If you did not, please close this window with Close button below, and come "
+"back to <strong>properly reproduce</strong> your environment behavior that "
+"causes the issue you want to signal to our team."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:540
+msgid "Stop Recording"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:555
+msgid "Ready to send report! Please, fill out the form below."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:556
+msgid ""
+"Your issue information has been successfully collected. Your WordPress "
+"environment is back now to your default reporting mode."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:568
+msgid ""
+"wpXtreme team will use this name in all interactions with you related to "
+"this issue."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:576
+msgid "Email"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:577
+msgid ""
+"Our team will use this email address in all interactions with you about this "
+"issue. PLEASE ENTER HERE A VALID EMAIL ADDRESS."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:586
+msgid "Issue title"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:589
+msgid "Enter a short text that describes the issue you want to signal."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:597
+msgid "Your own description"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:598
+msgid ""
+"Enter a detailed description of the issue you want to signal. This field is "
+"not mandatory; however, we strongly recommend you to add detailed "
+"information to your report."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:605
+msgid "Report (for your privacy, you can cut any info you want)"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:606
+msgid ""
+"We collect here the smallest and safe information we need about your "
+"WordPress environment, in order to reproduce and fix your issue. You can cut "
+"any private information you don't want to share with us; simply remember "
+"that the more info you cut from this report, the harder the issue will be "
+"analyzed, reproduced and fixed."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:632
+msgid "Please read very carefully the instructions below"
+msgstr "Leggi attentamente le istruzioni qui sotto"
+
+#: ../classes/issue-report/wpxm-issue-report.php:635
+msgid "Clear logs and cancel sending"
+msgstr "Elimina lob e cancella invio"
+
+#: ../classes/issue-report/wpxm-issue-report.php:636
+msgid "Send report!"
+msgstr "Spedisci il report!"
+
+#: ../classes/issue-report/wpxm-issue-report.php:639
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../classes/issue-report/wpxm-issue-report.php:654
+msgid "Ready"
+msgstr "Pronto"
+
+#: ../classes/issue-report/wpxm-issue-report.php:655
+msgid "Recording..."
+msgstr "Registrazione..."
+
+#: ../classes/issue-report/wpxm-issue-report.php:657
+msgid "Ready to send"
+msgstr "Pronto ad inviare"
+
+#: ../classes/issue-report/wpxm-issue-report.php:670
+msgid "Report Console"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:678
+msgid ""
+"If you found a bug, a notice, or if you want to send an issue to wpXtreme "
+"team about your wpXtreme experience, here is the right place."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:680
+msgid ""
+"Before continuing, please <strong>read very carefully</strong> the "
+"instructions below:"
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:682
+msgid ""
+"First of all, enable the Issue Report Mode and click the Update button. By "
+"enabling Issue Report Mode, you start to collect ALL EVENTUAL PHP debug "
+"messages in a single log file. This log file will be used from wpXtreme Team "
+"in order to properly reproduce and fix the issue you signal."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:684
+msgid ""
+"After enabling Issue Report Mode, please <strong>reproduce</strong> your "
+"environment behaviour that causes the issue you want to signal to our team. "
+"To properly reproduce means to navigate your environment in order to replay "
+"all the stuffs that cause the issue: entering pages, filling text fields, "
+"clicking buttons or links, etc..."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:686
+#: ../classes/issue-report/wpxm-issue-report.php:713
+msgid ""
+"When the behaviour that causes the issue has been exactly reproduced, return "
+"to this page, disable Issue Report Mode, and click the Update button. This "
+"operation returns your WordPress environment to your default standard "
+"behaviour."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:688
+msgid ""
+"Once the Issue Report Mode is disabled and updated, the console will show "
+"you a global report of your issue. This report will be sent to our team in "
+"order to examine the issue and eventually fix it; it will contain all basic "
+"information about your WordPress environment like software versions, PHP log "
+"messages, the list of your plugins, etc... Please read very carefully this "
+"report; we collect all the information we need related to your WordPress "
+"environment, and moreover you can modify or cut any private information you "
+"do not want to share with us. Simply remember that if you cut too much info "
+"from the report, it will be harder to fix the issue."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:692
+msgid "Enable Issue Report Mode."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:711
+msgid ""
+"Now it's time to <strong>properly reproduce</strong> your environment "
+"behavior that causes the issue you want to signal to our team. To properly "
+"reproduce means to navigate your environment in order to replay all the "
+"stuffs that cause the issue: entering pages, filling text fields, clicking "
+"buttons or links, etc..."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:716
+msgid "Disable Issue Report Mode and return to default WordPress behaviour."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:733
+msgid ""
+"The information about your issue has been successfully collected. Now your "
+"Wordpress environment is working with your default error reporting mode."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:735
+msgid ""
+"You can read below all information related to your issue. These information "
+"will be sent to or team, in order to open an internal issue and start to "
+"resolve your problem."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:737
+msgid ""
+"Please <strong>read very carefully</strong> this report; we collect all the "
+"information we need related to your WordPress environment, and moreover you "
+"can modify or cut any private information you do not want to share with us. "
+"Simply remember that if you cut too much info from the report, it will be "
+"harder to fix the issue."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:739
+msgid ""
+"Please <strong>insert an issue title and a detailed description</strong> in "
+"order to complete this report."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:741
+msgid ""
+"The log file and any debug messages will be deleted from your environment "
+"after the delivery of this report."
+msgstr ""
+
+#: ../classes/issue-report/wpxm-issue-report.php:795
+#: ../classes/issue-report/wpxm-issue-report.php:796
+msgid "Issue Log"
+msgstr "Log del problema"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:45
+msgid "Appearance"
+msgstr "Apparenza"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:46
+msgid "List Table"
+msgstr "Lista tabelle"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:47
+msgid "Core"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:113
+msgid "WordPress Integration"
+msgstr "Integrazione con WordPress"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:114
+msgid ""
+"From here, you can manage wpXtreme products integration with WordPress "
+"repository"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:119
+msgid "Display Profile"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:127
+msgid "Plugins Integration"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:132
+msgid "WPX Store ID"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:141
+msgid ""
+"Sign in with your wpXtreme credentials in order to access and display your "
+"wpXtreme plugins. Use the <strong>API SECRET KEY</strong> we sent you by "
+"email. You can recover it from your profile."
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:144
+msgid ""
+"Congratulations! You have logged in the WPX Store. You can change your "
+"<strong>API SECRET KEY</strong> any time from your wpXtreme profile."
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:149
+msgid "API SECRET KEY"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:150
+msgid "Your account API secret key"
+msgstr "La tua chiave API segreta"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:159
+msgid "Username"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:160
+msgid "Your WPX Store ID"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:168
+msgid "Password"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:217
+msgid "Improvements"
+msgstr "Miglioramenti"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:219
+#: ../classes/preferences/wpxm-preferences-view-controller.php:337
+msgid "These settings apply only to your current user"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:224
+msgid "Display Ajax Loader"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:234
+msgid "Toolbars"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:244
+msgid "Input Fields"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:254
+msgid "Tables & List Tables"
+msgstr "Tabelle"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:265
+msgid "Table action links"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:275
+msgid "Quick Edit Layout"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:285
+msgid "\"Remove All Revisions\" Button"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:336
+msgid "Media"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:342
+msgid "Enable preview on the Media thumbnails"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:351
+#: ../classes/preferences/wpxm-preferences-view-controller.php:363
+#: ../classes/preferences/wpxm-preferences-view-controller.php:384
+msgid "Enable Author gravatar thumbnails"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:357
+msgid "Pages"
+msgstr "Pagine"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:358
+#: ../classes/preferences/wpxm-preferences-view-controller.php:379
+msgid "These settings are applied to your user only"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:372
+#: ../classes/preferences/wpxm-preferences-view-controller.php:393
+msgid "Enable Publish/Draft Swipe button"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:378
+msgid "Posts"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:463
+#: ../classes/preferences/wpxm-preferences-view-controller.php:481
+msgid "Import"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:475
+msgid "Select a <code>.wpx</code> export file"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:485
+#: ../classes/preferences/wpxm-preferences-view-controller.php:492
+msgid "Export"
+msgstr "Esporta"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:493
+msgid "Export all wpXtreme settings"
+msgstr "Esporta tutte le impostazioni"
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:737
+msgid "Enbale Debug Console - see admin bar menu after enabling"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:745
+msgid "Improve debug with more information as backtrace"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:750
+msgid "WPDK Framework"
+msgstr ""
+
+#: ../classes/preferences/wpxm-preferences-view-controller.php:755
+msgid "Watchdog Log"
+msgstr ""
+
+#: ../classes/welcome_tour/wpxm-welcome-tour-modal-dialog.php:38
+msgid "Welcome"
+msgstr ""
+
+#: ../defines.php:36
+msgid ""
+"<p>If the problem persist, please contact our <a href=\"mailto:"
+"support@wpxtre.me\">support team</a></p>"
+msgstr ""
+
+#: ../kickstart.php:109
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>WordPress version %s</strong> (<strong>minimum requirement: "
+"%s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:110
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>PHP language version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:111
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>MySQL database version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:115
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the WordPress version "
+"to the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:116
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the PHP language "
+"version to the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:117
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the MySQL version to "
+"the minimum required version."
+msgstr ""
+
+#: ../kickstart.php:121
+#, php-format
+msgid ""
+"<strong>%s</strong> cannot be used because is not compatible with your "
+"current <strong>wpXtreme framework version %s</strong> (<strong>minimum "
+"requirement: %s</strong>)"
+msgstr ""
+
+#: ../kickstart.php:122
+#, php-format
+msgid ""
+"To continue using <strong>%s</strong>, please upgrade the wpXtreme framework "
+"version to the minimum required version."
+msgstr ""
+
+#~ msgid "Congratulations!"
+#~ msgstr "Congratulazioni!"
+
+#~ msgid "Start a tour"
+#~ msgstr "Inizia il tour"
+
+#~ msgid "Control Panel"
+#~ msgstr "Pannello di Controllo"
+
+#~ msgid "Themes"
+#~ msgstr "Temi"
+
+#~ msgid "More"
+#~ msgstr "Più"
+
+#~ msgid "About"
+#~ msgstr "Informazioni"
+
+#~ msgid "Download and Install free and pro plugins in two clicks"
+#~ msgstr "Scarica e installa plugin gratuiti e a pagamento in due click"
+
+#~ msgid "Download and Install free and pro themes in two clicks"
+#~ msgstr "Scarica e installa temi gratuiti e a pagamento in due click"
+
+#~ msgid "Status undefined"
+#~ msgstr "Stato non definito"
+
+#~ msgid "Installed Plugins"
+#~ msgstr "Plugin installati"
+
+#~ msgid "All"
+#~ msgstr "Tutti"
+
+#~ msgid "Active"
+#~ msgstr "Attivi"
+
+#~ msgid "Linked"
+#~ msgstr "Con Link"
+
+#~ msgid "Deactive"
+#~ msgstr "Deattiva"
+
+#~ msgid "Updating from WPX Store"
+#~ msgstr "Aggiornamento dal WPX Store"
+
+#~ msgid "plugin to update"
+#~ msgid_plural "plugins to update"
+#~ msgstr[0] "plugin da aggiornare"
+#~ msgstr[1] "plugin da aggiornare"
+
+#~ msgid "Connection Failure"
+#~ msgstr "Connessione Fallita"
+
+#~ msgid "Error code %s : %s"
+#~ msgstr "Codice Errore %s : %s"
+
+#~ msgid "Seems that your Server is configured to avoid outgoing connection!"
+#~ msgstr ""
+#~ "Sembrerebbe che il tuo Server sia configurato per bloccare le connessioni "
+#~ "in uscita!"
+
+#~ msgid ""
+#~ "Please, contact your system administrator and verify that the %s domain "
+#~ "is allowed!"
+#~ msgstr ""
+#~ "Contatta l'amministratore del sistema e verifica che il dominio %s sia "
+#~ "permesso!"
+
+#~ msgid "You have %s Extension to update"
+#~ msgid_plural "You have %s Extensions to update"
+#~ msgstr[0] "Hai una estensione da aggiornare"
+#~ msgstr[1] "Hai %s estensioni da aggiornare"
+
+#~ msgid "Could not access filesystem."
+#~ msgstr "Non posso accedere al filesystem"
+
+#~ msgid "Download failed."
+#~ msgstr "Download fallito."
+
+#~ msgid "Deactivating the plugin&#8230;"
+#~ msgstr "Deattivazione del plugin&#8230;"
+
+#~ msgid "Activate this plugin"
+#~ msgstr "Attiva questo plugin"
+
+#~ msgid "Back to WPX Store Plugins"
+#~ msgstr "Ritorna allo WPX Store dei Plugin"
+
+#~ msgid "Back to WPX Store Themes"
+#~ msgstr "Ritorna allo WPX Store dei Temi"
+
+#~ msgid "Activate"
+#~ msgstr "Attiva"
+
+#~ msgid "Reset to default"
+#~ msgstr "Ripristina predefiniti"
+
+#~ msgid "Welcome to WPX Store"
+#~ msgstr "Benvenuto nello WPX Store"
+
+#~ msgid "Coming..."
+#~ msgstr "In arrivo…"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Remember that you can do this update from WPX Store too."
+#~ msgstr ""
+#~ "C'è un aggiornamento alla versione %s per %s. Ricorda che puoi eseguire "
+#~ "questo aggiornamento anche dal WPX Plugin Store."
+
+#~ msgid ""
+#~ "Please confirm before unlock this form field.\n"
+#~ "Do you want unlock this form field?"
+#~ msgstr ""
+#~ "Devi confermare prima di sbloccare questo campo.\n"
+#~ "Vuoi bloccare questo campo?"
+
+#~ msgid "Choose Time"
+#~ msgstr "Scegli un orario"
+
+#~ msgid "Time"
+#~ msgstr "Orario"
+
+#~ msgid "Hour"
+#~ msgstr "Ora"
+
+#~ msgid "Minute"
+#~ msgstr "Minuto"
+
+#~ msgid "Seconds"
+#~ msgstr "Secondi"
+
+#~ msgid "Now"
+#~ msgstr "Adesso"
+
+#~ msgid "Su,Mo,Tu,We,Th,Fr,Sa"
+#~ msgstr "Do,Lu,Ma,Me,Gi,Ve,Sa"
+
+#~ msgid ""
+#~ "January,February,March,April,May,June,July,August,September,October,"
+#~ "November,December"
+#~ msgstr ""
+#~ "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,"
+#~ "Ottobre,Novembre,Dicembre"
+
+#~ msgid "mm/dd/yy"
+#~ msgstr "dd/mm/yy"
+
+#~ msgid ""
+#~ "The <strong>%s</strong> settings were restored to defaults values "
+#~ "successfully!"
+#~ msgstr ""
+#~ "Le impostazioni <strong>%s</strong> sono state ripristinate con successo!"
+
+#~ msgid "The <strong>%s</strong> settings values were updated successfully!"
+#~ msgstr ""
+#~ "Le impostazioni <strong>%s</strong> sono state aggiornate con successo!"
+
+#~ msgid "Login not allowed because this user is disabled."
+#~ msgstr "Il login non è permesso perché l'utente è disabilitato."
+
+#~ msgid "Login not allowed because this user is locked."
+#~ msgstr "Il login non è permesso perché l'utente è bloccato."
+
+#~ msgid "Extra fields"
+#~ msgstr "Campi aggiuntivi"
+
+#~ msgid "m/d/Y"
+#~ msgstr "d/m/Y"
+
+#~ msgid "Remember"
+#~ msgstr "Ricorda"
+
+#~ msgid "Signup"
+#~ msgstr "Registrati"
+
+#~ msgid "m/d/Y H:i"
+#~ msgstr "d/m/Y H:i"
+
+#~ msgid "Last name"
+#~ msgstr "Cognome"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Add a new empty row"
+#~ msgstr "Aggiungi una riga vuota"
+
+#~ msgid "Delete entire row"
+#~ msgstr "Elimina l'intera riga"
+
+#~ msgid "Dismiss"
+#~ msgstr "Dismetti"
+
+#~ msgid "Next"
+#~ msgstr "Prossimo"
+
+#~ msgid "Guide"
+#~ msgstr "Guida"
+
+#~ msgid "Update"
+#~ msgstr "Aggiorna"
+
+#~ msgid "Last wrong login"
+#~ msgstr "Ultimo login sbagliato"
+
+#~ msgid "# wrong login"
+#~ msgstr "# Login sbagliati"
+
+#~ msgid "Locked"
+#~ msgstr "Bloccato"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Save settings"
+#~ msgstr "Salva impostazioni"
