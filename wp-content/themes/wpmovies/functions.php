@@ -423,7 +423,7 @@ function unprotected_meta( $protected, $meta_key ) {
 add_filter( 'is_protected_meta', 'unprotected_meta', 10, 2 );
 
 
-// remove licence seo
+// fixed seo
 add_action('admin_init', function() {
   global $wp_filter, $yoast_woo_seo;
 
@@ -435,3 +435,5 @@ add_action('admin_init', function() {
     }
   }
 });
+
+// remove_filter('wp_title', array($wpseo_front, 'title'), 10, 3);

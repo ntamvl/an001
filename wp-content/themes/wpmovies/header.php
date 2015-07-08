@@ -3,7 +3,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title><?php wp_title( '-', true, 'right' ); ?> <?php bloginfo('name'); ?></title>
+  <title><?php wp_title( '-', true, 'right' ); ?> <?php //bloginfo('name'); ?></title>
   <?php $favicon = get_option('general-favicon'); if (!empty($favicon)) { ?>
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" type="image/x-icon" />
   <?php } ?>
