@@ -47,14 +47,14 @@ if (have_posts()): ?>
     <!-- enlaces -->
     <?php
         tvshows_ul_2(); ?>
-    <div class="datos">
+    <div class="datos hide">
     <div class="responsive">
     <div class="alerta"><b class="icon-screen-rotation"></b></div>
     <div class="contenido">
     <?php
-        enalces_verenlinea(); ?>
+        // enalces_verenlinea(); ?>
     <?php
-        enlaces_descargas(); ?>
+        // enlaces_descargas(); ?>
     </div>
     </div>
     </div>

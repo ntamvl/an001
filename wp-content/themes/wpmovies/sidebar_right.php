@@ -11,17 +11,17 @@
 <?php #include_once 'includes/funciones/mas_votados.php'; # top mas votados ?>
 <?php include_once 'includes/funciones/mas_vistos.php'; # top mas vistos ?>
 
-<div class="links">
+<!-- <div class="links">
 <h3><?php if($tex = get_option('text-48')) { echo $tex; } else { _e('Release Year','mundothemes'); } ?> <span class="icon-sort"></span></h3>
 <ul class="scrolling years">
 <?php
 $cc = date('Y');
-$cd = date('Y')-50; 
+$cd = date('Y')-50;
 foreach (range($cc, $cd) as $número) { ?>
 <li><a class="ito" HREF="<?php bloginfo('url'); ?>/<?php echo $year_estreno; ?>/<?php echo $número; ?>"><?php echo $número; ?></a></li>
 <?php } ?>
 </ul>
-</div>
+</div> -->
 
 
 <div class="footer">

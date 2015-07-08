@@ -364,8 +364,9 @@ function tvshows_ul_2() { ?>
 <div id='cssmenu'>
 <ul>
     <?php   $numerado = 1; { while( have_rows('seasons') ): the_row(); ?>
-  <li class='has-sub'><a href='#'><span><b class="icon-bars"></b> <?php if($tex = get_option('text-41')) { echo $tex; } else { _e('Episode list','mundothemes'); } ?> <?php echo $numerado; ?></span></a>
-       <ul>
+  <li class='has-sub' id="ep_ul">
+    <a href='#'><span><b id="ep_icon_single" class="icon-bars"></b> <?php if($tex = get_option('text-41')) { echo $tex; } else { _e('Episode list','mundothemes'); } ?> <?php //echo $numerado; ?></span></a>
+     <ul>
      <?php if( have_rows('episode') ): ?>
      <?php $numerado2 = 1; { while( have_rows('episode') ): the_row(); ?>
      <li>

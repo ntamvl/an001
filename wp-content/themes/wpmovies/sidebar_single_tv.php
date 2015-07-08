@@ -5,7 +5,7 @@
 </div>
 <?php } else { echo "<br>"; }?>
 <div class="links">
-<h3><?php if($tex = get_option('text-45')) { echo $tex; } else { _e('More TV Shows','mundothemes'); } ?></h3>
+<h3><?php if($tex = get_option('text-45')) { echo $tex; } else { _e('More Videos','mundothemes'); } ?></h3>
 <?php relacionados_tv(); ?>
 </div>
 <div class="footer">

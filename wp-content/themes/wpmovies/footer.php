@@ -1,6 +1,7 @@
 </div>
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 <script>
 <?php $activar = get_option('activar-is'); if ($activar== "true") { ?>
 var ias = $.ias({

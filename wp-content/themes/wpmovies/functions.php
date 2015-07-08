@@ -422,3 +422,16 @@ function unprotected_meta( $protected, $meta_key ) {
 }
 add_filter( 'is_protected_meta', 'unprotected_meta', 10, 2 );
 
+
+// remove licence seo
+add_action('admin_init', function() {
+  global $wp_filter, $yoast_woo_seo;
+
+  if (!empty($wp_filter['admin_notices'][10])) {
+    foreach ($wp_filter['admin_notices'][10] as $hook_key => $hook) {
+      if (is_array($hook['function']) && $hook['function'][0] instanceof \Yoast_Plugin_License_Manager && $hook['function'][1] == 'display_admin_notices') {
+        unset($wp_filter['admin_notices'][10][$hook_key]);
+      }
+    }
+  }
+});
