@@ -13,5 +13,10 @@ $(function() {
 
       $(this).contents().find('body').css({'width' : '550px'});
   });
+  // embed
+  $('#player-container').find('embed').each(function(){
+    $(this).attr("width", "550");
+    $(this).attr("height", "320");
+  });
 
 });
