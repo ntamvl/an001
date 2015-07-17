@@ -29,7 +29,7 @@ foreach (range($cc, $cd) as $número) { ?>
 
 <ul class="totales">
 <li><i><?php echo total_peliculas(); ?></i> <span><?php _e('Movies','mundothemes'); ?></span></li>
-<li><i><?php echo total_series(); ?></i> <span><?php _e('TVShows','mundothemes'); ?></span></li>
+<!-- <li><i><?php echo total_series(); ?></i> <span><?php _e('TVShows','mundothemes'); ?></span></li> -->
 <li><i><?php echo total_episodios(); ?></i> <span><?php _e('Episodes','mundothemes'); ?></span></li>
 </ul>
 
