@@ -401,7 +401,7 @@ a.agregar-movie:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 340px;
+    width: 240px;
     z-index: 3;
     background: #f2f2f2;
     box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.2)
@@ -503,11 +503,13 @@ a.agregar-movie:hover {
     position: relative;
     height: 100%;
     overflow: hidden;
-    overflow-y: scroll;
-    margin-left: 240px;
-    margin-right: 340px;
+    /*overflow-y: scroll;*/
+    /*margin-left: 240px;
+    margin-right: 340px;*/
     z-index: 2;
-    box-sizing: border-box
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #contenedor .items #directorio {
