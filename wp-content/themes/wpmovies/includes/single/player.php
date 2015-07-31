@@ -2,7 +2,7 @@
 $activar = get_option('activar-pelicula');
 if ($activar == "true") {
 ?>
-<div id="player-container">
+<div id="player-container" class="hide">
 <?php
     if (get_post_custom_values("embed_pelicula")) {
 ?>

@@ -1,6 +1,6 @@
 <div class="header_slider">
 <span class="titulo_2"><?php
-_e('Related movies', 'mundothemes'); ?></span>
+_e('Related animes & cartoons', 'mundothemes'); ?></span>
 <div class="customNavigation">
 <a class="btn prev"><b class="icon-chevron-left2"></b></a>
 <a class="btn next"><b class="icon-chevron-right2"></b></a>

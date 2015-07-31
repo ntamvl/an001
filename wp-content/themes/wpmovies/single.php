@@ -46,7 +46,7 @@ include_once 'sidebar_left.php'; ?>
             include_once 'includes/single/backdrops.php'; ?>
             <!-- enlaces -->
             <?php // tvshows_ul_2(); ?>
-
+            <div class="row" style="clear: both; height: 20px;">&nbsp;</div>
             <?php wp_reset_query(); ?>
             <?php $tags =  get_the_tags();
                 $list_tags = array();
@@ -63,7 +63,6 @@ include_once 'sidebar_left.php'; ?>
                 );
                 $episode_query = new WP_Query($args);
             ?>
-
             <div class="table table-striped datos">
                 <table class="table table-bordered">
                   <thead>
