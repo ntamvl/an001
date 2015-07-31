@@ -516,7 +516,7 @@ a.agregar-movie:hover {
 
 #contenedor .items #directorio {
     padding: 3%;
-    width: 94%
+    width: 100%
 }
 
 #contenedor .items .it_header {
@@ -1645,7 +1645,7 @@ a.regresar {
 
 .comentarios {
     float: left;
-    width: 94%;
+    width: 100%;
     padding: 0 3%;
     padding-top: 15px;
     margin-bottom: 20px;
@@ -3213,9 +3213,9 @@ span.original {
     font-size: 14px;
     font-weight: 300;
     width: 100%;
-    height: 20px;
+    height: 40px;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow: hidden
 }
 

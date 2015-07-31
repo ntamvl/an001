@@ -68,7 +68,7 @@ include_once 'sidebar_left.php'; ?>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th class="col-md-1">#</th>
+                      <th class="col-md-1 text-center">Ep [#]</th>
                       <th>Episode</th>
                     </tr>
                   </thead>
@@ -77,7 +77,7 @@ include_once 'sidebar_left.php'; ?>
                     if( $episode_query->have_posts() ) {
                     while ($episode_query->have_posts()) : $episode_query->the_post(); ?>
                     <tr>
-                      <th scope="row"><?php echo $ep_index; ?></th>
+                      <th scope="row" class="text-center"><?php echo get_field('episodio_serie'); ?></th>
                       <td>
                         <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
                             <?php the_title(); ?>

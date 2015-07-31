@@ -14,7 +14,7 @@ include_once 'sidebar_left.php'; ?>
                 echo $tex;
             }
             else {
-                _e('All movies', 'mundothemes');
+                _e('All animes & cartoons', 'mundothemes');
             } ?></h1>
             <div class="buscador">
                 <?php
