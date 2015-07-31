@@ -650,9 +650,9 @@ a.agregar-movie:hover {
     font-size: 14px;
     font-weight: 300;
     width: 100%;
-    height: 20px;
+    height: 32px;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow: hidden
 }
 

@@ -283,6 +283,7 @@ function wpshed_meta_box_save($post_id) {
     if (isset($_POST['fecha_serie'])) update_post_meta($post_id, 'fecha_serie', esc_attr($_POST['fecha_serie']));
     if (isset($_POST['temporada_serie'])) update_post_meta($post_id, 'temporada_serie', esc_attr($_POST['temporada_serie']));
     if (isset($_POST['episodio_serie'])) update_post_meta($post_id, 'episodio_serie', esc_attr($_POST['episodio_serie']));
+    if (isset($_POST['poster_url'])) update_post_meta($post_id, 'poster_url', esc_attr($_POST['poster_url']));
     if (isset($_POST['cover_url'])) update_post_meta($post_id, 'cover_url', esc_attr($_POST['cover_url']));
 }
 add_action('save_post', 'wpshed_meta_box_save');
@@ -349,3 +350,11 @@ add_action('admin_init', function () {
 });
 
 // remove_filter('wp_title', array($wpseo_front, 'title'), 10, 3);
+
+function filter_search($query) {
+    if ($query->is_search) {
+  $query->set('post_type', array('post', 'episodios'));
+    };
+    return $query;
+};
+add_filter('pre_get_posts', 'filter_search');

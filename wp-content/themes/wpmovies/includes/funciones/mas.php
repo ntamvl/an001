@@ -22,6 +22,10 @@
                 <td><input type="text" name="episodio_serie" id="episodio_serie" value="<?php echo wpshed_get_custom_field( 'episodio_serie' ); ?>" style="width: 50px;" /></td>
             </tr>
             <tr>
+                <th style="width:20%;"><label for="poster_url"><?php _e( 'Poster url', 'mundothemes' ); ?></label></th>
+                <td><input type="text" name="poster_url" id="poster_url" value="<?php echo wpshed_get_custom_field( 'poster_url' ); ?>" style="width: 100%;" /></td>
+            </tr>
+            <tr>
                 <th style="width:20%;"><label for="cover_url"><?php _e( 'Cover url', 'mundothemes' ); ?></label></th>
                 <td><input type="text" name="cover_url" id="cover_url" value="<?php echo wpshed_get_custom_field( 'cover_url' ); ?>" style="width: 100%;" /></td>
             </tr>
