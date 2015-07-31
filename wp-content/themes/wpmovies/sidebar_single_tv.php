@@ -27,7 +27,7 @@
         while ($episode_query->have_posts()) : $episode_query->the_post();
     ?>
     <li>
-      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+      <a href="<?php the_permalink() ?>" rel="bookmark" title="Free anime & cartoon link to <?php the_title_attribute(); ?>">
         <?php the_title(); ?></a>
     </li>
     <?php $ep_index++; endwhile; } ?>
