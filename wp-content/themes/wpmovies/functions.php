@@ -204,7 +204,7 @@ add_action('init', 'tvshows', 0);
 function episodios() {
     $labels = array('name' => _x('Episodes', 'Post Type General Name', 'mundothemes'), 'singular_name' => _x('Episodes', 'Post Type Singular Name', 'mundothemes'), 'menu_name' => __('Episodes', 'mundothemes'), 'add_new_item' => __('Add Episode', 'mundothemes'),);
     $rewrite = array('slug' => get_option('episode'), 'with_front' => true, 'pages' => true, 'feeds' => true,);
-    $args = array('label' => __('episodes', 'mundothemes'), 'description' => __('Post Type Description', 'mundothemes'), 'labels' => $labels, 'supports' => array('title', 'editor', 'thumbnail', 'comments', 'custom-fields'), 'taxonomies' => array(), 'hierarchical' => false, 'public' => true, 'show_ui' => true, 'show_in_menu' => true, 'show_in_nav_menus' => true, 'show_in_admin_bar' => true, 'menu_position' => 5, 'menu_icon' => 'dashicons-controls-play', 'can_export' => true, 'has_archive' => true, 'exclude_from_search' => false, 'publicly_queryable' => true, 'rewrite' => $rewrite, 'capability_type' => 'page',);
+    $args = array('label' => __('episodes', 'mundothemes'), 'description' => __('Post Type Description', 'mundothemes'), 'labels' => $labels, 'supports' => array('title', 'editor', 'thumbnail', 'comments', 'custom-fields', 'tags'), 'taxonomies' => array('post_tag'), 'hierarchical' => false, 'public' => true, 'show_ui' => true, 'show_in_menu' => true, 'show_in_nav_menus' => true, 'show_in_admin_bar' => true, 'menu_position' => 5, 'menu_icon' => 'dashicons-controls-play', 'can_export' => true, 'has_archive' => true, 'exclude_from_search' => false, 'publicly_queryable' => true, 'rewrite' => $rewrite, 'capability_type' => 'page',);
     register_post_type('episodios', $args);
 }
 
@@ -213,7 +213,7 @@ add_action('init', 'episodios', 0);
 //## Noticias
 // Registrar taxonomia
 function news_taxonomy() {
-    register_taxonomy('news_categories', array('news',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => get_option('news-category')),));
+    register_taxonomy('news_categories', array('news',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => get_option('news-category')), ));
 }
 add_action('init', 'news_taxonomy', 0);
 function theme_prefix_rewrite_flush() {

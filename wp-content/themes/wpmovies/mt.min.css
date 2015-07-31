@@ -179,7 +179,7 @@ a:hover.tooltips span.tip {
     background: rgba(0, 0, 0, 0.25) url(images/search.png) 10px 50% no-repeat;
     color: #FFF;
     width: 178px;
-    height: 20px;
+    /*height: 20px;*/
     line-height: 21px;
     text-indent: 20px;
     padding: 6px 10px;
@@ -555,7 +555,7 @@ a.agregar-movie:hover {
     border: solid 1px #C0C0C0;
     color: #777;
     width: 128px;
-    height: 20px;
+    /*height: 20px;*/
     line-height: 21px;
     text-indent: 20px;
     padding: 7px 10px;
@@ -1209,7 +1209,7 @@ span.screen-reader-text {
 
 #movie .post .datos {
     float: left;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.03);
     background: #fff;
@@ -1360,7 +1360,7 @@ span.screen-reader-text {
 
 #player-container {
     float: left;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     margin-bottom: 25px;
     background: #FFF
