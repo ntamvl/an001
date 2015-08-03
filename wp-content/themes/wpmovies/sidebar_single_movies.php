@@ -7,7 +7,38 @@
 
 <div class="links">
 <h3><?php if($tex = get_option('text-46')) { echo $tex; } else { _e('More movies','mundothemes'); } ?></h3>
-<?php relacionados(); ?>
+<?php //relacionados(); ?>
+  <ul>
+    <?php
+        $cat = get_the_category();
+        $cat = $cat[0];
+        $cat = $cat->cat_ID;
+        $tags =  get_the_tags();
+        $list_tags = array();
+        foreach($tags as $tag) {
+            array_push($list_tags, $tag->term_id);
+        }
+        $args=array(
+            // 'tag__in' => $list_tags,
+            'cat' => $cat,
+            'post__not_in' => array($post->ID),
+            'post_type' => 'post',
+            'showposts' => 20,
+            // 'order' => 'DESC',
+            // 'orderby' => 'meta_value',
+            // 'meta_key' => 'episodio_serie'
+        );
+        $episode_query = new WP_Query($args);
+        $ep_index = 1;
+        if( $episode_query->have_posts() ) {
+        while ($episode_query->have_posts()) : $episode_query->the_post();
+    ?>
+    <li>
+      <a href="<?php the_permalink() ?>" rel="bookmark" title="Free anime & cartoon link to <?php the_title_attribute(); ?>">
+        <?php the_title(); ?></a>
+    </li>
+    <?php $ep_index++; endwhile; } ?>
+    </ul>
 </div>
 
 

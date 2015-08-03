@@ -19,7 +19,8 @@
             'post_type' => 'episodios',
             'order' => 'DESC',
             'orderby' => 'meta_value',
-            'meta_key' => 'episodio_serie'
+            'meta_key' => 'episodio_serie',
+            'showposts' => 20
         );
         $episode_query = new WP_Query($args);
         $ep_index = 1;

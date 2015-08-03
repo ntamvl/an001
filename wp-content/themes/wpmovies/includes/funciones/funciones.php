@@ -437,7 +437,7 @@ $imgsrc = $imgsrc[0];
 } elseif (preg_match('/<img [^>]*src=["|\']([^"|\']+)/i', get_the_content(), $match) != FALSE) {
 $imgsrc = $match[1];
 } else {
-$imgsrc = get_template_directory_uri() . '/images/noimagen_single.png';
+$imgsrc = get_template_directory_uri() . '/images/no_image.png';
 } ?>
 <a href="<?php the_permalink() ?>">
 <div class="movie-r">
