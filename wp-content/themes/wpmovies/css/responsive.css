@@ -8,6 +8,11 @@
     #contenedor .sidebar_right {
         display: none;
     }
+
+    #contenedor .items {
+        width: 80%;
+    }
+
     #contenedor .items {
         margin-right: 0;
     }
@@ -21,8 +26,16 @@
         width: 17%;
         margin-right: 2.9%;
     }
+
+    #contenedor .items {
+        width: 75%;
+    }
 }
 @media only screen and (max-width: 768px) {
+    #contenedor .items {
+        width: 70%;
+    }
+
     #movie {
         max-width: 100%;
     }

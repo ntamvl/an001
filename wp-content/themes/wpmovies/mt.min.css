@@ -55,11 +55,14 @@ img {
 }
 
 #contenedor .sidebar_left {
+    background: #343c48 none repeat scroll 0 0;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 240px;
+    /*width: 240px;*/
+    width: 20%;
+    min-width: 210px;
     z-index: 3
 }
 
@@ -68,12 +71,13 @@ img {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 240px;
-    overflow: hidden
+    /*width: 240px;*/
+    overflow: hidden;
+    width: 100%;
 }
 
 #largo .contenido {
-    width: 240px;
+    /*width: 240px;*/
     height: 100%;
     background: #343C48
 }
@@ -90,7 +94,7 @@ img {
 }
 
 #largo .contenido .bajon .normal {
-    width: 240px
+    width: 100%;
 }
 
 #largo .contenido .bajon .movil {
@@ -111,7 +115,8 @@ img {
     top: 0px;
     margin: 0;
     padding: 0;
-    width: 240px;
+    /*width: 240px;*/
+    width: 100%;
     z-index: 1
 }
 
@@ -211,7 +216,7 @@ a:hover.tooltips span.tip {
 }
 
 #largo .contenido .header .logo {
-    width: 240px;
+    /*width: 240px;*/
     padding: 5px 0;
     text-align: center;
     margin-top: 10px;
@@ -231,7 +236,7 @@ a:hover.tooltips span.tip {
 }
 
 #largo .contenido .header .data {
-    width: 240px
+    /*width: 240px;*/
 }
 
 a.agregar-movie {
@@ -401,7 +406,8 @@ a.agregar-movie:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 240px;
+    /*width: 240px;*/
+    width: 20%;
     z-index: 3;
     background: #f2f2f2;
     box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.2)
@@ -510,7 +516,8 @@ a.agregar-movie:hover {
 
     z-index: 2;
     box-sizing: border-box;
-    width: 800px;
+    /*width: 800px;*/
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -2066,7 +2073,7 @@ p.must-log-in a {
 
 .header_resp {
     padding: 10px 5%;
-    width: 90%;
+    width: 100%;
     display: none;
     float: left;
     font-size: 24px;
@@ -3519,4 +3526,10 @@ ul.veo_last li a {}
 
 .menu-admin li.right {
     float: right
+}
+
+@media only screen and (max-width: 740px) {
+    #contenedor .items {
+        width: 100%;
+    }
 }
