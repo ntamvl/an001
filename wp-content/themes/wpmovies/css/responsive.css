@@ -33,7 +33,7 @@
 }
 @media only screen and (max-width: 768px) {
     #contenedor .items {
-        width: 70%;
+        width: 100%;
     }
 
     #movie {
