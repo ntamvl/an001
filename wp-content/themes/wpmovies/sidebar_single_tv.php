@@ -18,7 +18,7 @@
             'post__not_in' => array($post->ID),
             'post_type' => 'episodios',
             'order' => 'DESC',
-            'orderby' => 'meta_value',
+            'orderby' => 'meta_value_num',
             'meta_key' => 'episodio_serie',
             'showposts' => 20
         );

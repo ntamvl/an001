@@ -53,12 +53,13 @@ include_once 'sidebar_left.php'; ?>
                 foreach($tags as $tag) {
                     array_push($list_tags, $tag->term_id);
                 }
-                $args=array(
+                $args = array(
                     'tag__in' => $list_tags,
                     'post__not_in' => array($post->ID),
                     'post_type' => array('episodios'),
                     'order' => 'DESC',
-                    'orderby' => 'meta_value',
+                    'posts_per_page' => 1000,
+                    'orderby' => 'meta_value_num',
                     'meta_key' => 'episodio_serie'
                 );
                 $episode_query = new WP_Query($args);
