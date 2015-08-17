@@ -2,9 +2,13 @@
 $activar = get_option('activar-pelicula');
 if ($activar == "true") { ?>
 <div id="player-container">
+<div class="play-c">
+    <?php echo do_shortcode( '[videojs mp4="' . get_post_meta($post->ID, 'video_source')[0] . '"]' ); ?>
+    <?php // echo do_shortcode( '[videojs mp4="' . get_post_meta($post->ID, 'tvplayer_0_video_source')[0] . '"]' ); ?>
+</div>
 <?php
     if (have_rows('tvplayer')): ?>
-<div class="play-c">
+<div class="play-c hide">
 <?php
         $numerado = 1; {
             while (have_rows('tvplayer')):
@@ -24,21 +28,22 @@ if ($activar == "true") { ?>
  </div>
 <?php
     else: ?>
-<div class="no_link">
-<p><b class="icon-play-circle-outline bigtext"></b></p>
-<p><?php
-        if ($tex = get_option('text-38')) {
-            echo $tex;
-        }
-        else {
-            _e('No sources available', 'mundothemes');
-        } ?></p>
+<div class="no_link hide">
+    <p><b class="icon-play-circle-outline bigtext"></b></p>
+    <p><?php
+            if ($tex = get_option('text-38')) {
+                echo $tex;
+            }
+            else {
+                _e('No sources available', 'mundothemes');
+            } ?></p>
 </div>
 <?php
     endif; ?>
 <?php
     if (have_rows('tvplayer')): ?>
-<ul class="player-menu">
+<ul class="player-menu hide">
+<li><a href="#play-0"></a></li>
 <?php
         $numerado = 1; {
             while (have_rows('tvplayer')):

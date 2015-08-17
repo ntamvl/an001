@@ -358,3 +358,7 @@ function filter_search($query) {
     return $query;
 };
 add_filter('pre_get_posts', 'filter_search');
+
+// http://167.160.168.77:84/
+update_option('siteurl','http://www.cartoon2watch.com');
+update_option('home','http://www.cartoon2watch.com');

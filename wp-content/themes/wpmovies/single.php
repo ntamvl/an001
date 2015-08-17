@@ -56,7 +56,7 @@ include_once 'sidebar_left.php'; ?>
                 $args=array(
                     'tag__in' => $list_tags,
                     'post__not_in' => array($post->ID),
-                    'post_type' => 'episodios',
+                    'post_type' => array('episodios'),
                     'order' => 'DESC',
                     'orderby' => 'meta_value',
                     'meta_key' => 'episodio_serie'
