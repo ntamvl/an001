@@ -12,7 +12,7 @@ function buscador_form() { ?>
 <?php }
 # Funcion de ennumerado de categorias.
 function categorias() {
-$args = array('hide_empty' => FALSE, 'title_li'=> __( '' ), 'show_count'=> 1, 'echo' => 0 );
+$args = array('hide_empty' => FALSE, 'title_li'=> __( '' ), 'show_count'=> 1, 'echo' => 0, 'exclude' => 1 );
 $links = wp_list_categories($args);
 $links = str_replace('</a> (', '</a> <i>', $links);
 $links = str_replace(')', '</i>', $links);

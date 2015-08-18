@@ -4,7 +4,7 @@ get_header(); ?>
 include_once 'includes/header-tv.php'; ?>
 <!-- sidebar -->
 <?php
-include_once 'sidebar_left_tv.php'; ?>
+include_once 'sidebar_left.php'; ?>
 <div class="items ptts">
 <!-- single -->
 <div id="movie">
