@@ -540,7 +540,8 @@ a.agregar-movie:hover {
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
-    color: #8C8C9C
+    color: #8C8C9C;
+    margin-top: 5px;
 }
 
 #contenedor .items .it_header span.desc {

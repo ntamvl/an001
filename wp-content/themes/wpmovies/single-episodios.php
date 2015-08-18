@@ -75,12 +75,12 @@ $nextid = $ids[$thisindex - 1];
 ?>
 <div class="datos">
   <div class="responsive">
-    <div class="col-md-5">
+    <div class="col-md-6 col-xs-6">
       <?php if (!empty($previd)){ ?>
       <a rel="prev" href="<?php echo get_permalink($previd) ?>">Previous: <?php echo get_the_title( $previd ); ?></a>
       <?php } ?>
     </div>
-    <div class="col-md-5 text-right pull-right">
+    <div class="col-md-6 col-xs-6 text-right pull-right">
       <?php if (!empty($nextid)){ ?>
       <a rel="next" href="<?php echo get_permalink($nextid) ?>">Next: <?php echo get_the_title( $nextid ); ?></a>
       <?php } ?>
