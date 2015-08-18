@@ -89,6 +89,9 @@ $nextid = $ids[$thisindex - 1];
 </div>
 <!-- End to get next previous link by tag name -->
 
+<!-- Related  movies -->
+<?php include_once 'includes/single/relacionados_ep.php'; ?>
+
 <div class="datos hide">
     <div class="responsive">
         <div class="alerta"><b class="icon-screen-rotation"></b></div>
