@@ -1,0 +1,110 @@
+/**
+* This file contains global Admin UI CSS that's used across all WP Cube Plugins,
+* regardless of whether they are Free (Donation), Free (w/ Pro) or Pro.
+*
+* If an Admin UI element is used in the majority of our plugins, then include its CSS
+* here.
+*
+* If an Admin UI element is used in one or a minority of our plugins, include its CSS
+* in its own admin.css file.
+*/
+
+/**
+* Titles
+*/
+h2.wpcube { background: url(../images/logo.png) 100% 60% no-repeat; }
+
+/* Admin Settings UI */
+.option { padding: 6px 10px 8px 10px; border-width: 1px 0; border-style: solid; border-top-color: #fff; border-bottom-color: #dfdfdf; background-color: #f5f5f5; }
+.option:nth-child(odd) { background: #fcfcfc; }
+.option p { margin: 0; padding: 0; line-height: 30px; }
+.option p strong { display: inline-block; width: 130px; vertical-align: top; padding: 0 !important; }
+.option p strong.full { width: 100%; }
+.option p textarea { line-height: 1em; height: 80px; }
+.option p.description { line-height: 1.2em; }
+.option span.description { clear: both; display: block; margin: 0 0 0 135px; line-height: 1.3em; }
+
+/* Red Button */
+.wp-core-ui .button-red {
+	background-color: #9B2124;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C5292E), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #C5292E, #9B2124);
+	background-image:    -moz-linear-gradient(top, #C5292E, #9B2124);
+	background-image:     -ms-linear-gradient(top, #C5292E, #9B2124);
+	background-image:      -o-linear-gradient(top, #C5292E, #9B2124);
+	background-image:   linear-gradient(to bottom, #C5292E, #9B2124);
+	border-color: #9B2124;
+	border-bottom-color: #8D1F21;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+.wp-core-ui .button-red.hover,
+.wp-core-ui .button-red:hover,
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+	background-color: #B72629;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D22E30), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #D22E30, #9B2124);
+	background-image:    -moz-linear-gradient(top, #D22E30, #9B2124);
+	background-image:     -ms-linear-gradient(top, #D22E30, #9B2124);
+	background-image:      -o-linear-gradient(top, #D22E30, #9B2124);
+	background-image:   linear-gradient(to bottom, #D22E30, #9B2124);
+	border-color: #7F1C1F;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+	border-color: #500F0E;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+}
+.wp-core-ui .button-red.active,
+.wp-core-ui .button-red.active:hover,
+.wp-core-ui .button-red.active:focus,
+.wp-core-ui .button-red:active {
+	background: #7F1C1F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9B2124), to(#B72629));
+	background-image: -webkit-linear-gradient(top, #9B2124, #B72629);
+	background-image:    -moz-linear-gradient(top, #9B2124, #B72629);
+	background-image:     -ms-linear-gradient(top, #9B2124, #B72629);
+	background-image:      -o-linear-gradient(top, #9B2124, #B72629);
+	background-image:   linear-gradient(to bottom, #9B2124, #B72629);
+	border-color: #601312 #AE2426 #AE2426 #AE2426;
+	color: rgba(255,255,255,0.95);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+ 	box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+.wp-core-ui .button-red[disabled],
+.wp-core-ui .button-red:disabled,
+.wp-core-ui .button-red-disabled {
+	color: #E79496 !important;
+	background: #BA292B !important;
+	border-color: #7F1C1F !important;
+	-webkit-box-shadow: none !important;
+	box-shadow:         none !important;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1) !important;
+	cursor: default;
+}
+
+/* Admin Settings UI - Tabs */
+h2.nav-tab-wrapper.needs-js,
+h3.nav-tab-wrapper.needs-js { display: none; }
+#poststuff h3.nav-tab-wrapper { padding-bottom: 0; }
+
+/* Admin Settings UI - Sidebar */
+.postbox-container .option p strong { width: 80px; }
+.postbox-container .option span.description { margin: 0; }
+
+/* Licensing Key */
+.success { background-color: #93dc85 !important; border-color: #70c060 !important; }
+.option input.license-key { min-width: 50%; }
+ 
+/* Taxonomy Term Checkboxes */
+.tax-selection .tabs-panel { height: 70px; overflow: auto; padding: .5em .9em; border: 1px solid #dfdfdf; background: #fff; }

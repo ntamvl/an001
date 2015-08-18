@@ -1,0 +1,175 @@
+# Copyright (C) 2015 Image Lazy Load (Unveil.js)
+# This file is distributed under the same license as the Image Lazy Load (Unveil.js) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Lazy Load (Unveil.js) 1.0.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/image-lazy-load\n"
+"POT-Creation-Date: 2015-03-26 11:33:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: _modules/dashboard/views/dashboard-nodata.php:14
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard-nodata.php:15
+#: _modules/dashboard/views/dashboard.php:40
+msgid "Visit WP Cube"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:18
+msgid ""
+"Thanks for using our plugins - why not check out some of our other amazing "
+"Premium WordPress Plugins below?"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:33
+msgid "Visit the WP Cube Web Site"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "Why not visit"
+msgstr ""
+
+#: _modules/dashboard/views/dashboard.php:39
+msgid "and check out some of our other amazing Premium WordPress Plugins?"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:5
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+#: _modules/dashboard/views/sidebar-pro.php:23
+#: _modules/dashboard/views/sidebar-pro.php:30
+msgid "Support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:16
+msgid "Access to one on one email support"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+#: _modules/dashboard/views/sidebar-pro.php:28
+msgid "Documentation"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:17
+msgid "Detailed documentation on how to install and configure the plugin"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid "Updates"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:18
+msgid ""
+"Receive one click update notifications, right within your WordPress "
+"Adminstration panel"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Seamless Upgrade"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:19
+msgid "Retain all current settings when upgrading to Pro"
+msgstr ""
+
+#: _modules/dashboard/views/footer-upgrade.php:25
+msgid "Upgrade Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:10
+#: _modules/dashboard/views/sidebar-pro.php:10
+msgid "About"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:13
+msgid ""
+"Found this plugin useful? Donations to help with support and development are "
+"appreciated."
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:30
+msgid "Donate Now"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:40
+#: _modules/dashboard/views/sidebar-upgrade.php:10
+msgid "Keep Updated"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:43
+#: _modules/dashboard/views/sidebar-upgrade.php:13
+msgid ""
+"Subscribe to the newsletter and receive updates on our WordPress Plugins"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:49
+#: _modules/dashboard/views/sidebar-upgrade.php:19
+msgid "Email"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-donate.php:55
+#: _modules/dashboard/views/sidebar-upgrade.php:25
+msgid "Subscribe"
+msgstr ""
+
+#: _modules/dashboard/views/sidebar-pro.php:14
+msgid "Version"
+msgstr ""
+
+#: image-lazy-load.php:101
+msgid "Settings Updated."
+msgstr ""
+
+#: views/settings.php:3 views/settings.php:27
+msgid "Settings"
+msgstr ""
+
+#: views/settings.php:31
+msgid "Load image"
+msgstr ""
+
+#: views/settings.php:44
+msgid "pixels before it reaches the enter the viewport"
+msgstr ""
+
+#: views/settings.php:51
+msgid "Lazy load on mobile"
+msgstr ""
+
+#: views/settings.php:53
+msgid "Lazy loaded images may have an increased delay on mobile devices"
+msgstr ""
+
+#: views/settings.php:62
+msgid "Save"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Image Lazy Load (Unveil.js)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpcube.co.uk/plugins/image-lazy-load"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Lazy load content images using the unveil.js jQuery plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Cube"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpcube.co.uk"
+msgstr ""
