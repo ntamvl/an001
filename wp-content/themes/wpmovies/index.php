@@ -74,7 +74,12 @@ include_once 'sidebar_left.php'; ?>
             } ?></span>
         </div>
         <div id="box_movies">
-            <?php query_posts(array( 'post_type' => 'episodios' ) );  ?>
+            <?php wp_reset_query(); ?>
+            <?php global $query_string;
+                $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                query_posts($query_string . '&post_type=episodios&orderby=modified&paged='.$paged);
+            ?>
+            <?php //query_posts(array( 'post_type' => 'episodios' ) );  ?>
             <?php
             if (have_posts()): ?>
             <?php
@@ -146,6 +151,7 @@ include_once 'sidebar_left.php'; ?>
             </div>
             <?php
             $activar = get_option('activar-is');
+            // $activar = false;
             if ($activar == "true") {
             }
             else {

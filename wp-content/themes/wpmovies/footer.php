@@ -3,7 +3,9 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 <script>
-<?php $activar = get_option('activar-is'); if ($activar== "true") { ?>
+<?php $activar = get_option('activar-is');
+// $activar = false;
+if ($activar == "true") { ?>
 var ias = $.ias({
     container: "#box_movies",
     item: ".movie",
@@ -11,9 +13,10 @@ var ias = $.ias({
     next: ".siguiente a"
 });
 /*ias.extension(new IASTriggerExtension({ offset: 0 })),*/
-ias.extension(new IASSpinnerExtension),
+ias.extension(new IASSpinnerExtension);
 /*ias.extension(new IASNoneLeftExtension),*/
 <?php } ?>
+
 $(document).ready(function() {
     $("#arriba").click(function() {
         return $("html, body").animate({
