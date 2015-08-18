@@ -122,8 +122,9 @@ include_once 'sidebar_left.php'; ?>
                     echo $values[0]; ?></div><?php
                     } ?>
                 </div>
-                <h2><?php
-                the_title(); ?></h2>
+                <span class="episode">Episode <?php echo get_field('episodio_serie'); ?></span>
+                <h2><?php the_title(); ?></h2>
+
                 <?php
                 if ($mostrar = $terms = strip_tags($terms = get_the_term_list($post->ID, '' . $year_estreno . ''))) { ?><span class="year"><?php
                 echo $mostrar; ?></span><?php
