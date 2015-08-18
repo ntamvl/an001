@@ -13,7 +13,7 @@ $cat = $cat[0];
 $cat = $cat->cat_ID;
 $post = get_the_ID();
 // $args = array('cat' => $cat, 'orderby' => 'rand', 'showposts' => 20, 'post__not_in' => array($post));
-$args = array('orderby' => 'rand', 'showposts' => 20, 'post__not_in' => array($post), 'post_type' => array('post'));
+$args = array('orderby' => 'rand', 'showposts' => 14, 'post__not_in' => array($post), 'post_type' => array('post'));
 $related = new WP_Query($args);
 if ($related->have_posts()) {
     echo '<div id="owl-demo2" class="owl-carousel owl-theme">';
