@@ -3544,3 +3544,8 @@ ul.veo_last li a {}
         width: 100%;
     }
 }
+
+.list-episode-box {
+    height: 240px;
+    overflow: auto;
+}

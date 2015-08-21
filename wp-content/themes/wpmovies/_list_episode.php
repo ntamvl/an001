@@ -15,20 +15,20 @@
     );
     $episode_query = new WP_Query($args);
 ?>
-<div class="table table-striped datos">
+<div class="table table-striped datos list-episode-box">
     <table class="table table-bordered">
-      <thead>
+      <!-- <thead>
         <tr>
           <th class="col-md-1 text-center">Ep [#]</th>
           <th>Episode</th>
         </tr>
-      </thead>
+      </thead> -->
       <tbody>
         <?php  $ep_index = 1;
         if( $episode_query->have_posts() ) {
         while ($episode_query->have_posts()) : $episode_query->the_post(); ?>
         <tr>
-          <th scope="row" class="text-center"><?php echo get_field('episodio_serie'); ?></th>
+          <!-- <th scope="row" class="text-center"><?php echo get_field('episodio_serie'); ?></th> -->
           <td>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
                 <?php the_title(); ?>
