@@ -3549,3 +3549,8 @@ ul.veo_last li a {}
     height: 240px;
     overflow: auto;
 }
+.more-episode-title {
+    color: #8c8c9c;
+    float: left;
+    font-size: 20px;
+}
