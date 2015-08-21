@@ -92,6 +92,7 @@ $nextid = $ids[$thisindex - 1];
 <!-- Related  movies -->
 <?php include_once 'includes/single/relacionados_ep.php'; ?>
 
+<h4>More episodes</h4>
 <?php include_once '_list_episode.php'; ?>
 
 <div class="datos hide">
