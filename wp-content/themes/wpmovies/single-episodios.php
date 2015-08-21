@@ -92,6 +92,8 @@ $nextid = $ids[$thisindex - 1];
 <!-- Related  movies -->
 <?php include_once 'includes/single/relacionados_ep.php'; ?>
 
+<?php include_once '_list_episode.php'; ?>
+
 <div class="datos hide">
     <div class="responsive">
         <div class="alerta"><b class="icon-screen-rotation"></b></div>
@@ -128,7 +130,7 @@ endif; ?>
 </div>
 <!-- sidebar -->
 <?php
-include_once 'sidebar_single_tv.php'; ?>
+include_once 'sidebar_single_tv_ads.php'; ?>
 <!-- footer -->
 <?php
 get_footer(); ?>
