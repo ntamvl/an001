@@ -740,7 +740,7 @@ a.agregar-movie:hover {
 }
 
 .sidebar_right .links {
-    width: 300px;
+    width: 100%;
     margin: 0 20px;
     margin-bottom: 20px;
     float: left
@@ -763,14 +763,14 @@ a.agregar-movie:hover {
 }
 
 .sidebar_right .links ul.lista {
-    max-height: 111px;
+    /*max-height: 111px;*/
     overflow: hidden;
     overflow-y: scroll
 }
 
 .sidebar_right .links ul.lista li {
     float: left;
-    width: 300px;
+    width: 100%;
     margin-bottom: 5px;
     padding-bottom: 5px;
     border-bottom: solid 1px #E5E5E5
@@ -795,10 +795,10 @@ a.agregar-movie:hover {
 .sidebar_right .links ul.lista li a {
     color: #59626B;
     float: left;
-    width: 158px;
-    height: 18px;
+    width: 90%;
+    /*height: 18px;*/
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     overflow: hidden;
     font-size: 13px
 }
@@ -3552,4 +3552,9 @@ ul.veo_last li a {}
 .more-episode-title {
     color: #8c8c9c;
     font-size: 20px;
+}
+
+.scroll-y {
+    overflow: auto;
+    max-height: 90%;
 }

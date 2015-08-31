@@ -5,19 +5,20 @@
   }
   else {
   _e('Lastest episodes', 'mundothemes');
-  } ?> <span class="icon-eye"></span></h3>
+  } ?>
+    </h3>
 
-  <ul class="scrolling lista">
+  <!-- <ul class="scrolling lista"> -->
+  <ul class="lista scrolling scroll-y">
     <?php
     $numerado = 1; {
     // query_posts('v_sortby=views&v_orderby=desc&showposts=20&ignore_sticky_posts=1&episode_status=ongoing');
     // query_posts('showposts=20&episode_status=ongoing');
-    query_posts('showposts=20&post_type=episodios');
+    query_posts('showposts=20&post_type=episodios&orderby=modified');
     while (have_posts()):
     the_post(); ?>
     <li>
-      <b><?php
-      echo $numerado; ?></b>
+      <!-- <b><?php echo $numerado; ?></b> -->
       <a href="<?php
         the_permalink() ?>"><?php
       the_title(); ?></a>

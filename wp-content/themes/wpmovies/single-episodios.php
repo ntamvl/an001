@@ -114,7 +114,7 @@ if (have_posts()): ?>
 <?php
         $active = get_option('activar-com-single');
         if ($active == "true") {
-            include_once 'includes/single/comentarios.php';
+            // include_once 'includes/single/comentarios.php';
         } ?>
 <?php
         drss_plus(); ?>

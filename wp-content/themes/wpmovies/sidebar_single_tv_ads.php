@@ -4,8 +4,7 @@
     <?php $ads = get_option('anuncio-300-250'); if (!empty($ads)) echo stripslashes(get_option('anuncio-300-250')); #imprimir anuncio ?>
   </div>
   <?php } else { echo "<br>"; }?>
-  <!-- <div class="links">
-  </div> -->
+
   <?php include_once 'includes/funciones/episode_lastest.php'; ?>
   <div class="footer">
     <div class="box">
