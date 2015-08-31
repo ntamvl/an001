@@ -121,7 +121,7 @@ include_once 'sidebar_left.php'; ?>
             <?php
                                     $active = get_option('activar-com-single');
                                     if ($active == "true") {
-                                    include_once 'includes/single/comentarios.php';
+                                    // include_once 'includes/single/comentarios.php';
                                     }
             ?>
             <!-- post -->
