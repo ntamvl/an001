@@ -3580,3 +3580,13 @@ ul.veo_last li a {}
 .movie-loading .countdown-text {
   text-align: center;
 }
+
+.hide {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+.unhide {
+    visibility: visible !important;
+    display: block !important;
+}

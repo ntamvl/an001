@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/icons.css"/>
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/custom.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/lazyloadxt/jquery.lazyloadxt.extra.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css">
   <!-- Optional theme -->

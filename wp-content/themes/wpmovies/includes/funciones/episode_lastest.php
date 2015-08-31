@@ -18,20 +18,9 @@
     while (have_posts()):
     the_post(); ?>
     <li>
-      <!-- <b><?php echo $numerado; ?></b> -->
-      <a href="<?php
-        the_permalink() ?>"><?php
-      the_title(); ?></a>
-      <span><?php
-        $values = get_post_custom_values("views");
-      echo $values[0]; ?></span>
-      <?php
-      if ($mostrar = $terms = strip_tags($terms = get_the_term_list($post->ID, '' . $year_estreno . ''))) { ?><i><?php
-      echo $mostrar; ?></i><?php
-      } ?>
+      <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
     </li>
-    <?php
-    $numerado++; ?>
+    <?php $numerado++; ?>
     <?php
     endwhile; ?>
     <?php
