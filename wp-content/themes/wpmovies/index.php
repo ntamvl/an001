@@ -34,7 +34,7 @@ include_once 'sidebar_left.php'; ?>
                     echo $tex;
                 }
                 else {
-                    _e('New Releases', 'mundothemes');
+                    _e('Popular Series', 'mundothemes');
             } ?>
             <?php
             }
