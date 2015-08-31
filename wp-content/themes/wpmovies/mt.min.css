@@ -3558,3 +3558,25 @@ ul.veo_last li a {}
     overflow: auto;
     max-height: 90%;
 }
+
+.video-player {
+    height: 401px !important;
+    width: 100%;
+}
+
+.movie-loading {
+  background-color: #000;
+  color: #fff;
+  margin-top: 0px;
+  top: 0;
+  position: relative;
+}
+
+.movie-loading .loading-text {
+  text-align: center;
+  padding-top: 25%;
+}
+
+.movie-loading .countdown-text {
+  text-align: center;
+}

@@ -5,7 +5,9 @@
   }
   else {
   _e('Ongoing', 'mundothemes');
-  } ?> <span class="icon-eye"></span></h3>
+  } ?>
+  <!-- <span class="icon-eye"></span> -->
+  </h3>
 
   <ul class="scrolling lista">
     <?php

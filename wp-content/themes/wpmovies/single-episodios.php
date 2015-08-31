@@ -37,11 +37,16 @@ if (have_posts()): ?>
             echo $fecha[0]; ?></i></p>
     <?php
         } ?>
-    <?php
-        the_content(); ?>
+
 </div>
-<?php
-        include_once 'includes/single/player_tv.php'; ?>
+
+<?php include_once 'includes/single/player_tv2.php'; ?>
+
+<div class="datos episodio">
+    <h2><?php the_title(); ?></h2>
+    <?php the_content(); ?>
+</div>
+
 <!-- Start to get next previous link by tag name -->
 <?php
         $post_id = $post->ID;
