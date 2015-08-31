@@ -3,20 +3,26 @@ if (function_exists("add_theme_support")) {
     add_theme_support("post-thumbnails");
     add_image_size('home', 120, 170, true);
 }
-add_filter('show_admin_bar', '__return_false'); // Admin bar deshabilitado
+add_filter('show_admin_bar', '__return_false');
+ // Admin bar deshabilitado
 // Habilitar Traduccion
 load_theme_textdomain('mundothemes', get_template_directory() . '/languages');
 $locale = get_locale();
 $locale_file = get_template_directory() . "/languages/$locale.php";
 if (is_readable($locale_file)) require_once ($locale_file);
+
 // Registrar Menu
 function register_my_menu() {
-    register_nav_menu('menu1', __('Menu home', 'mundothemes')); // Menu de la cabezera.
-    register_nav_menu('menusidebar', __('Menu sidebar left', 'mundothemes')); // Menu del Sidebar.
+    register_nav_menu('menu1', __('Menu home', 'mundothemes'));
+     // Menu de la cabezera.
+    register_nav_menu('menusidebar', __('Menu sidebar left', 'mundothemes'));
+     // Menu del Sidebar.
     //register_nav_menu('menu3',__( 'Menu Footer', 'mundothemes' )); # Menu del pie de pagina.
 
+
 }
-add_action('init', 'register_my_menu'); // Registrar menu al theme.
+add_action('init', 'register_my_menu');
+ // Registrar menu al theme.
 // Registro traxonomico clave.
 $escritor = get_option('escritor');
 $year_estreno = get_option('year');
@@ -136,7 +142,8 @@ function edd_sample_theme_deactivate_license() {
         if (!check_admin_referer('edd_sample_nonce', 'edd_sample_nonce')) return;
         $license = trim(get_option('edd_sample_theme_license_key'));
         $api_params = array('edd_action' => 'deactivate_license', 'license' => $license, 'item_name' => urlencode(EDD_SL_THEME_NAME)
-         // the name of our product in EDD
+
+        // the name of our product in EDD
         );
         $response = wp_remote_get(add_query_arg($api_params, EDD_SL_STORE_URL), array('timeout' => 15, 'sslverify' => false));
         if (is_wp_error($response)) return false;
@@ -145,6 +152,7 @@ function edd_sample_theme_deactivate_license() {
     }
 }
 add_action('admin_init', 'edd_sample_theme_deactivate_license');
+
 // Registrar incluciones.
 include_once 'includes/framework/options-init.php';
 include_once 'includes/funciones/taxonomias.php';
@@ -185,11 +193,31 @@ function cg_content($more_link_text = '(more...)', $stripteaser = 0, $more_file 
 function tvshows_taxonomy() {
     register_taxonomy('tvshows_categories', array('tvshows',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => get_option('tvshows-category')),));
 }
-add_action('init', 'tvshows_taxonomy', 0);
+// add_action('init', 'tvshows_taxonomy', 0);
+
+function episode_status_taxonomy() {
+    $labels = array(
+      'name'              => _x( 'Status', 'Status general name' ),
+      'singular_name'     => _x( 'Status', 'Status singular name' ),
+      'search_items'      => __( 'Search status' ),
+      'all_items'         => __( 'All Status' ),
+      'parent_item'       => __( 'Parent Status' ),
+      'parent_item_colon' => __( 'Parent Status:' ),
+      'edit_item'         => __( 'Edit Status' ),
+      'update_item'       => __( 'Update Status' ),
+      'add_new_item'      => __( 'Add New Status' ),
+      'new_item_name'     => __( 'New Status Name' ),
+      'menu_name'         => __( 'Status' ),
+    );
+    register_taxonomy('episode_status', array('episodios',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => 'episode-status'), 'labels' => $labels, ));
+}
+add_action('init', 'episode_status_taxonomy', 0);
+
 function theme_prefix_rewrite_flush2() {
     flush_rewrite_rules();
 }
 add_action('after_switch_theme', 'theme_prefix_rewrite_flush2');
+
 // Registrar TVShows Post_type
 function tvshows() {
     $labels = array('name' => _x('TVShows', 'Post Type General Name', 'mundothemes'), 'singular_name' => _x('TVShows', 'Post Type Singular Name', 'mundothemes'), 'menu_name' => __('TVShows', 'mundothemes'), 'add_new_item' => __('Add TVShow', 'mundothemes'),);
@@ -199,27 +227,30 @@ function tvshows() {
 }
 
 // Hook into the 'init' action
-add_action('init', 'tvshows', 0);
+// add_action('init', 'tvshows', 0);
+
 // Registrar TVShows Post_type
 function episodios() {
     $labels = array('name' => _x('Episodes', 'Post Type General Name', 'mundothemes'), 'singular_name' => _x('Episodes', 'Post Type Singular Name', 'mundothemes'), 'menu_name' => __('Episodes', 'mundothemes'), 'add_new_item' => __('Add Episode', 'mundothemes'),);
     $rewrite = array('slug' => get_option('episode'), 'with_front' => true, 'pages' => true, 'feeds' => true,);
-    $args = array('label' => __('episodes', 'mundothemes'), 'description' => __('Post Type Description', 'mundothemes'), 'labels' => $labels, 'supports' => array('title', 'editor', 'thumbnail', 'comments', 'custom-fields', 'tags'), 'taxonomies' => array('post_tag'), 'hierarchical' => false, 'public' => true, 'show_ui' => true, 'show_in_menu' => true, 'show_in_nav_menus' => true, 'show_in_admin_bar' => true, 'menu_position' => 5, 'menu_icon' => 'dashicons-controls-play', 'can_export' => true, 'has_archive' => true, 'exclude_from_search' => false, 'publicly_queryable' => true, 'rewrite' => $rewrite, 'capability_type' => 'page',);
+    $args = array('label' => __('episodes', 'mundothemes'), 'description' => __('Post Type Description', 'mundothemes'), 'labels' => $labels, 'supports' => array('title', 'editor', 'thumbnail', 'comments', 'custom-fields', 'tags'), 'taxonomies' => array('post_tag', 'episode_status'), 'hierarchical' => false, 'public' => true, 'show_ui' => true, 'show_in_menu' => true, 'show_in_nav_menus' => true, 'show_in_admin_bar' => true, 'menu_position' => 5, 'menu_icon' => 'dashicons-controls-play', 'can_export' => true, 'has_archive' => true, 'exclude_from_search' => false, 'publicly_queryable' => true, 'rewrite' => $rewrite, 'capability_type' => 'page',);
     register_post_type('episodios', $args);
 }
 
 // Hook into the 'init' action
 add_action('init', 'episodios', 0);
+
 //## Noticias
 // Registrar taxonomia
 function news_taxonomy() {
-    register_taxonomy('news_categories', array('news',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => get_option('news-category')), ));
+    register_taxonomy('news_categories', array('news',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => get_option('news-category')),));
 }
 add_action('init', 'news_taxonomy', 0);
 function theme_prefix_rewrite_flush() {
     flush_rewrite_rules();
 }
 add_action('after_switch_theme', 'theme_prefix_rewrite_flush');
+
 // Registrar Noticias Post_type
 function noticias() {
     $labels = array('name' => _x('News', 'Post Type General Name', 'mundothemes'), 'singular_name' => _x('News', 'Post Type Singular Name', 'mundothemes'), 'menu_name' => __('News', 'mundothemes'), 'add_new_item' => __('Add News', 'mundothemes'),);
@@ -230,6 +261,7 @@ function noticias() {
 
 // Hook into the 'init' action
 add_action('init', 'noticias', 0);
+
 // Hook Labels
 function change_post_menu_label() {
     global $menu;
@@ -287,6 +319,7 @@ function wpshed_meta_box_save($post_id) {
     if (isset($_POST['cover_url'])) update_post_meta($post_id, 'cover_url', esc_attr($_POST['cover_url']));
 }
 add_action('save_post', 'wpshed_meta_box_save');
+
 // Totales
 function total_peliculas() {
     $s = '';
@@ -353,12 +386,12 @@ add_action('admin_init', function () {
 
 function filter_search($query) {
     if ($query->is_search) {
-  $query->set('post_type', array('post', 'episodios'));
+        $query->set('post_type', array('post', 'episodios'));
     };
     return $query;
 };
-add_filter('pre_get_posts', 'filter_search');
+// add_filter('pre_get_posts', 'filter_search');
 
 // http://167.160.168.77:84/
-update_option('siteurl','http://www.cartoon2watch.com');
-update_option('home','http://www.cartoon2watch.com');
+update_option('siteurl', 'http://www.cartoon2watch.com');
+update_option('home', 'http://www.cartoon2watch.com');

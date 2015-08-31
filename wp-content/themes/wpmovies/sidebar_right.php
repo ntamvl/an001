@@ -9,7 +9,8 @@
 
 
 <?php #include_once 'includes/funciones/mas_votados.php'; # top mas votados ?>
-<?php include_once 'includes/funciones/mas_vistos.php'; # top mas vistos ?>
+<?php #include_once 'includes/funciones/mas_vistos.php'; # top mas vistos ?>
+<?php include_once 'includes/funciones/episode_ongoing.php'; ?>
 
 <!-- <div class="links">
 <h3><?php if($tex = get_option('text-48')) { echo $tex; } else { _e('Release Year','mundothemes'); } ?> <span class="icon-sort"></span></h3>

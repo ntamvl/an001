@@ -15,6 +15,8 @@
     );
     $episode_query = new WP_Query($args);
 ?>
+<?php  $ep_index = 1;
+if( $episode_query->have_posts() ) { ?>
 <div class="table table-striped datos list-episode-box">
     <table class="table table-bordered">
       <!-- <thead>
@@ -24,8 +26,7 @@
         </tr>
       </thead> -->
       <tbody>
-        <?php  $ep_index = 1;
-        if( $episode_query->have_posts() ) {
+        <?php
         while ($episode_query->have_posts()) : $episode_query->the_post(); ?>
         <tr>
           <!-- <th scope="row" class="text-center"><?php echo get_field('episodio_serie'); ?></th> -->
@@ -35,8 +36,9 @@
             </a>
           </td>
         </tr>
-        <?php $ep_index++; endwhile; } ?>
+        <?php $ep_index++; endwhile; ?>
       </tbody>
     </table>
-    <?php wp_reset_query(); ?>
 </div>
+
+<?php } wp_reset_query(); ?>
