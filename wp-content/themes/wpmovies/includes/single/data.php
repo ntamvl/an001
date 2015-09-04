@@ -101,10 +101,8 @@ _e('votes', 'mundothemes'); ?></i>
 </div>
 </div>
 
-<div class="xmll"><p class="xcsd"><?php
-echo get_the_term_list($post->ID, '' . $director . '', '<b class="icon-bullhorn"></b> &nbsp;', ', ', ''); ?></p></div>
-<div class="xmll"><p class="xcsd"><?php
-echo get_the_term_list($post->ID, '' . $actor . '', '<b class="icon-star"></b> &nbsp;', ', ', ''); ?> </p></div>
+<div class="xmll"><p class="xcsd"><?php // echo get_the_term_list($post->ID, '' . $director . '', '<b class="icon-bullhorn"></b> &nbsp;', ', ', ''); ?></p></div>
+<div class="xmll"><p class="xcsd"><?php // echo get_the_term_list($post->ID, '' . $actor . '', '<b class="icon-star"></b> &nbsp;', ', ', ''); ?> </p></div>
 <?php
 if ($values = get_post_custom_values("Released")) { ?><div class="xmll"><p class="xcsd"><b class="icon-check"></b> <?php
     echo $values[0]; ?></p></div><?php

@@ -209,9 +209,27 @@ function episode_status_taxonomy() {
       'new_item_name'     => __( 'New Status Name' ),
       'menu_name'         => __( 'Status' ),
     );
-    register_taxonomy('episode_status', array('episodios',), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => 'episode-status'), 'labels' => $labels, ));
+    register_taxonomy('episode_status', array('episodios'), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => 'episode-status'), 'labels' => $labels, ));
 }
 add_action('init', 'episode_status_taxonomy', 0);
+
+function movie_filter_taxonomy() {
+    $labels = array(
+      'name'              => _x( 'Filter', 'Filter general name' ),
+      'singular_name'     => _x( 'Filter', 'Filter singular name' ),
+      'search_items'      => __( 'Search filter' ),
+      'all_items'         => __( 'All Filters' ),
+      'parent_item'       => __( 'Parent Filter' ),
+      'parent_item_colon' => __( 'Parent Filter:' ),
+      'edit_item'         => __( 'Edit Filter' ),
+      'update_item'       => __( 'Update Filter' ),
+      'add_new_item'      => __( 'Add New Filter' ),
+      'new_item_name'     => __( 'New Filter Name' ),
+      'menu_name'         => __( 'Filter' ),
+    );
+    register_taxonomy('movie_filter', array('post'), array('show_admin_column' => true, 'hierarchical' => true, 'rewrite' => array('slug' => 'filter'), 'labels' => $labels, ));
+}
+// add_action('init', 'movie_filter_taxonomy', 0);
 
 function theme_prefix_rewrite_flush2() {
     flush_rewrite_rules();

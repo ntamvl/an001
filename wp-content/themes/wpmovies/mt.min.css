@@ -740,8 +740,8 @@ a.agregar-movie:hover {
 }
 
 .sidebar_right .links {
-    width: 100%;
-    margin: 0 20px;
+    width: 97%;
+    margin: 0 10px 20px 20px;
     margin-bottom: 20px;
     float: left
 }
@@ -3589,4 +3589,32 @@ ul.veo_last li a {}
 .unhide {
     visibility: visible !important;
     display: block !important;
+}
+
+.list-ongoing {
+    clear: both;
+    overflow: auto;
+    width: 96%;
+    max-height: 440px;
+}
+
+.list-ongoing li {
+    line-height: 1.8em;
+    border-bottom: 1px solid #ccc;
+    white-space: normal;
+}
+
+.list-ongoing li a {
+    white-space: normal;
+}
+
+::-webkit-scrollbar {
+   -webkit-appearance: none;
+   width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 4px;
+   background-color: rgba(0,0,0,.5);
+   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
